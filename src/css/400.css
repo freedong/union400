@@ -1,0 +1,375 @@
+@charset "utf-8";
+
+/*轮播图样式*/
+.banner_slide{
+    height: 350px;
+    overflow: hidden;
+}
+.slide li{
+    height: 350px;
+}
+
+
+
+
+/* <!--爆款套餐推荐-->*/
+
+.f_hot ul li{
+    width: 380px;
+    height: 380px;
+    border: 1px solid #ece7e8;
+    float: left;
+}
+.f_hot ul{
+    margin-top: 30px;
+}
+
+.f_hot h3{
+    font-size: 26px;
+    color: #333333;
+    text-align: center;
+    margin-top: 50px;
+}
+.f_hot h5{
+    font-size: 36px;
+    color: #fe8900;
+    padding: 30px 0;
+    text-align: center;
+    font-weight: 600;
+}
+.f_hot h5 span{
+    font-size: 26.25px;
+}
+
+.f_hot div p{
+    color: #888888;
+    font-size: 16px;
+    padding-left: 100px;
+}
+
+.f_hot div p i{
+    color: #fe8900;
+    padding-right: 3px;
+    font-style: normal;
+}
+
+.f_hot ul li a{
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    background-color: #ed1b24;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 90px;
+    color: #ffffff;
+    font-size: 16px;
+}
+.f_hot ul li a i{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    background: url(../images/gouwuche.png) 0px 8px no-repeat;
+    /*background-position: 0px 8px;*/
+}
+
+
+/*优音热销套餐*/
+.f_package{
+    background-color: #f8f5f1;
+}
+
+.f_package h3{
+    font-size: 26px;
+    color: #333333;
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 40px;
+}
+
+.f_package .ul1 .li1{
+    width: 380px;
+    height: 450px;
+    border: 1px solid #ece7e8;
+    float: left;
+    margin-top: 30px;
+    background-color: #ffffff;
+}
+
+.f_package .ul1 .li1 .mflq{
+    background: url(../images/f_pjuxing.png) no-repeat;
+    width: 250px;
+    height: 91px;
+    margin-top: 11px;
+    margin-left: 68px;
+}
+.f_package .ul1 .li1 .mflq .mflq_a{
+    display: inline-block;
+    width: 135px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    margin-left: 58px;
+    margin-top: 54px;
+    color: #ff4b5a;
+    font-size: 16px;
+    border-radius: 0;
+    background: #f6ff00;
+    background: linear-gradient(135deg, transparent 5px, #f6ff00 0);
+}
+
+
+.mlr27{
+    margin-left: 27px;
+    margin-right: 27px;
+}
+.f_package .ul1 .li1 h5{
+    font-size: 20px;
+    color: #ffbe5a;
+    text-align: center;
+    margin-top: 20px;
+}
+.f_package .ul1 .li1 p{
+    font-size: 18px;
+    color: #888888;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.f_package .ul1 .li1 div{
+    background-color: #ffbe5a;
+    height: 77px;
+    line-height: 77px;
+    text-align: center;
+}
+
+.f_package .ul1 .li1 div span{
+    color: #ffffff;
+}
+
+.f_package .ul1 .li1 h6{
+    font-size: 16px;
+    color: #666666;
+    text-align: center;
+    margin-top: 20px;
+}
+.f_package .ul1 .li1 .ul2{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.f_package .ul1 .li1 .ul2 li{
+    font-size: 16px;
+    color: #666666;
+    float: left;
+    padding-right: 10px;
+}
+.f_package .ul1 .li1 .ul2 li i{
+    font-style: normal;
+    color: #ffbe5a;
+    padding-right: 5px;
+}
+
+.f_package .ul1 .li1 .ul3{
+    padding: 0 60px;
+    margin-top: 10px;
+}
+
+.f_package .ul1 .li1 .ul3 li{
+    font-size: 16px;
+    color: #666666;
+    float: left;
+    padding-left: 15px;
+}
+.f_package .ul1 .li1 a{
+    font-size: 14px;
+    color: #666666;
+    display: inline-block;
+    width: 140px;
+    height: 35px;
+    background-color: #dcdcdc;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.f_package .ul1 .li1 .sec1{
+    height: 86px;
+    background-color: #ff4b5a;
+    margin-top: -10px;
+}
+
+.f_package .ul1 .li1 .sec1 p{
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.f_package .ul1 .li1 .sec2{
+    padding-left: 20px;
+}
+
+.f_package .ul1 .li1 .sec2 label{
+    color: #ffbe5a;
+    font-size: 20px;
+}
+
+.f_package .ul1 .li1 .sec2 input{
+    border: none;
+    background-color: #f8f5f1;
+    width: 215px;
+    height: 35px;
+    margin-top: 20px;
+}
+
+.f_package .ul1 .li1 .sec2 input:focus{
+    background-color: #ffffff;
+    border: 1px solid #ffbe5a;
+    width: 213px;
+    height: 33px;
+}
+
+/*.f_package .ul1 .li1 .sec2 input:hover{
+    background-color: #ffffff;
+    border: 1px solid #ffbe5a;
+    width: 213px;
+    height: 33px;
+}*/
+
+/*
+.f_package .ul1 .li1 .sec2 input#comment:hover{
+    background-color: #ffffff;
+    border: 1px solid #ffbe5a;
+    width: 138px;
+}
+*/
+
+
+/*海量号码任性选*/
+.f_number{
+
+}
+
+.f_number h3{
+    color: #333333;
+    font-size: 26px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.f_number p{
+    font-size: 16px;
+    color: #666666;
+    text-align: center;
+    margin: 30px 0px;
+}
+
+
+.f_number .tablist ul li{
+    font-size: 18px;
+    color: #666666;
+    float: left;
+    width: 200px;
+    height: 46px;
+    background-color: #f1f1f1;
+    line-height: 46px;
+    text-align: center;
+   /* border-bottom: 1px solid #ffbe5a;*/
+}
+.f_number .tabcon ul{
+    border: 1px solid #ffbe5a;
+}
+.f_number .tabcon ul li{
+    width: 297px;
+    height: 59px;
+    border: 1px solid #f1f1f1;
+    line-height: 59px;
+    text-align: center;
+    float: left;
+    font-size: 20px;
+    color: #888888;
+}
+
+.f_number .tijiao{
+    height: 60px;
+    background-color: #ffbe5a;
+}
+
+
+
+
+/*优音400电话独有功能*/
+
+.f_phone{
+    background-color: #f8f5f1;
+}
+
+.f_phone h3{
+    font-size: 26px;
+    color: #333333;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.f_phone ul{
+    padding: 30px 0px 40px 0px;
+}
+.f_phone ul li{
+    width: 238px;
+    height: 368px;
+    background-color: #ffbe5a;
+    float: left;
+    border-right: 1px solid #ffffff;
+    border-radius: 3px;
+
+}
+.f_phone ul li h5{
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.f_phone ul li img{
+    margin: 66px 0px 45px 80px;
+}
+
+hr{
+    width: 20px;
+    height: 3px;
+    color: white;
+    background-color: white;
+    border: none;
+    margin-left: 111px;
+    margin-bottom: 15px;
+}
+
+.f_phone ul li.f_pli{
+    border: 1px solid #ff4b5a;
+    background-color: #f8f5f1;
+    height: 366px;
+}
+.f_phone ul li.f_pli div.f_pdiv1{
+    height: 72px;
+    background-color: #ff4b5a;
+}
+.f_phone ul li.f_pli div.f_pdiv1 p{
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 22px;
+    text-align: center;
+}
+
+.f_phone ul li.f_pli div.f_pdiv2 p{
+    font-size: 16px;
+    color: #666666;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+
+
+
+
