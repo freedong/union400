@@ -368,6 +368,20 @@ hr{
     padding-top: 20px;
 }
 
+.f_phone ul li a{
+    display: inline-block;
+    background-color: #ff4b5a;
+    width: 180px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 3px;
+    color: #fffefe;
+    font-size: 16px;
+    margin-left: 30px;
+    margin-top: 28px;
+}
+
 
 
 
