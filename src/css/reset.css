@@ -745,3 +745,66 @@ p{
 	margin-top: 7px;
 }
 
+
+
+table
+{
+	border-collapse:collapse;
+	background-color: #ffffff;
+	margin-left: 18px;
+}
+
+table,th, td
+{
+	border: 1px solid #e9e9e9;
+	text-align: center;
+}
+th, td{
+	width: 138px;
+	height: 34px;
+}
+th{
+	font-size: 16px;
+	color: #ffbe5a;
+	font-weight: 600;
+}
+
+td{
+	font-size: 14px;
+	color: #666666;
+}
+
+
+/*不规则菱形*/
+.bor1{
+	border-top: 1px solid #ffbe5a;
+	width: 251px;
+	text-align: center;
+	position: relative;
+	margin: 20px auto;
+}
+
+.bg1{
+	background-color: #ffffff;
+	position: absolute;
+	top: -8px;
+	left: 86px;
+	width: 53px;
+	height: 16px;
+	padding-left: 26px;
+}
+.diamond{
+	width: 0;
+	height: 0;
+	border-bottom: 8px solid #ffbe5a;
+	border-left: 14px solid transparent;
+	border-right: 14px solid transparent;
+}
+.diamond1 {
+	width: 0;
+	height: 0;
+	border-top: 8px solid #ffbe5a;
+	border-left: 14px solid transparent;
+	border-right: 14px solid transparent;
+}
+
