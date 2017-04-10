@@ -45,6 +45,8 @@
     color: #888888;
     font-size: 16px;
     padding-left: 100px;
+    font-weight: bold;
+    line-height: 30px;
 }
 
 .f_hot div p i{
@@ -96,6 +98,47 @@
     float: left;
     margin-top: 30px;
     background-color: #ffffff;
+}
+
+
+
+.f_package .ul1 .li1:hover{
+    cursor: pointer;
+    background-color: #ffbe5a;
+}
+.f_package .ul1 .li1:hover div{
+    background-color: #ffffff;
+}
+.f_package .ul1 .li1:hover h5{
+    color: #ffffff;
+    font-weight: bold;
+}
+.f_package .ul1 .li1:hover p,.f_package .ul1 .li1:hover h6,.f_package .ul1 .li1:hover .ul2 li{
+    color: #666666;
+}
+.f_package .ul1 .li1:hover div span{
+    color: #ffbe5a;
+    font-weight: 600;
+}
+.f_package .ul1 .li1:hover .ul2 li i{
+    color: #fe8c06;
+}
+
+.f_package .ul1 .li1:hover a:first-of-type{
+    background-color: #76e3ff;
+    box-shadow: 2px 2px 2px #ba6515;
+    color: #ffffff;
+}
+.f_package .ul1 .li1:hover a:last-of-type{
+    background-color: #fe8c06;
+    box-shadow: 2px 2px 2px #ba6515;
+    color: #ffffff;
+}
+.f_package .ul1 .li1:hover section.mflq a.mflq_a{
+    background: #f6ff00;
+    background: linear-gradient(135deg, transparent 5px, #f6ff00 0);
+    box-shadow: none;
+    color: #ff4b5a;
 }
 
 .f_package .ul1 .li1 .mflq{
@@ -231,20 +274,7 @@
     height: 33px;
 }
 
-/*.f_package .ul1 .li1 .sec2 input:hover{
-    background-color: #ffffff;
-    border: 1px solid #ffbe5a;
-    width: 213px;
-    height: 33px;
-}*/
 
-/*
-.f_package .ul1 .li1 .sec2 input#comment:hover{
-    background-color: #ffffff;
-    border: 1px solid #ffbe5a;
-    width: 138px;
-}
-*/
 
 
 /*海量号码任性选*/
@@ -278,6 +308,27 @@
     text-align: center;
    /* border-bottom: 1px solid #ffbe5a;*/
 }
+
+
+
+.f_number .tablist ul li.cur a{
+    height: 0;
+    width: 160px;
+    display: inline-block;
+    /*background-color: #ffbe5a;*/
+    border-bottom: 46px solid #ffbe5a;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+}
+
+.cur1{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
 .f_number .tabcon ul{
     border: 1px solid #ffbe5a;
 }
@@ -290,7 +341,35 @@
     float: left;
     font-size: 20px;
     color: #888888;
+    position: relative;
 }
+
+
+.f_number .tabcon ul li section.tab_imm{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 297px;
+    height: 59px;
+    border: 1px solid #f1f1f1;
+    line-height: 59px;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.f_number .tabcon ul li:hover section.tab_sec{
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+}
+.f_number .tabcon ul li:hover section.tab_imm{
+    cursor: pointer;
+    visibility: visible;
+    opacity: 1;
+    background-color: darkred;
+}
+
 
 .f_number .tijiao{
     height: 60px;

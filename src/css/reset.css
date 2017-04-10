@@ -774,6 +774,13 @@ td{
 	color: #666666;
 }
 
+.cur1{
+	display: none;
+}
+.show{
+	display: block;
+}
+
 
 /*不规则菱形*/
 .bor1{
@@ -807,4 +814,18 @@ td{
 	border-left: 14px solid transparent;
 	border-right: 14px solid transparent;
 }
+
+
+/*返回顶部*/
+.dn{display: none;}
+.go-top{position: fixed;bottom: 80px;right: 40px;width: 70px;z-index: 999;}
+.go-top a{
+	transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+}
+.go-top a{display: block;width: 70px;height: 70px;margin-bottom: 10px;background: url(../images/back.png) 2px -2px no-repeat;}
+.go-top .go:hover{background: url(../images/back.png) 2px -80px no-repeat;}
+
 

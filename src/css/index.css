@@ -109,8 +109,76 @@
 .solution ul li{
     width: 232px;
     height: 370px;
-    background-color: #ffbe5a;
+    /*background-color: #ffbe5a;*/
     float: left;
+    position: relative;
+}
+.solution ul li div img{
+    transition: all 0.5s ease;
+    -webkit-transition:  all 0.5s ease;
+    -o-transition:  all 0.5s ease;
+    -moz-transition:  all 0.5s ease;
+}
+.solution ul li div.effect-bubba{
+    overflow: hidden;
+}
+
+.solution ul li:hover div img{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+}
+
+
+div.effect-bubba div.figcaption::before,
+div.effect-bubba div.figcaption::after {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    bottom: 240px;
+    left: 30px;
+    content: '';
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+}
+
+div.effect-bubba div.figcaption::before {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-transform: scale(0,1);
+    transform: scale(0,1);
+}
+
+div.effect-bubba div.figcaption::after {
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+    -webkit-transform: scale(1,0);
+    transform: scale(1,0);
+}
+
+.solution ul li:hover div.figcaption::before,
+.solution ul li:hover div.figcaption::after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+
+.solution ul li:hover{
+    cursor: pointer;
+    background-color: #ffbe5a;
+}
+
+.solution ul li:hover p,.solution ul li:hover h3{
+    color: #ffffff;
+}
+.solution ul li:hover a{
+    background-color: #ff9e09;
+    color: #ffffff;
+    box-shadow: 2px 2px 2px #ba6515;
 }
 
 .solution ul li p{
@@ -162,7 +230,26 @@
     height: 140px;
     float: left;
     margin-top: 20px;
-    background-color: #3c763d;
+    /*background-color: #3c763d;*/
+}
+
+.product ul li:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 10px #dadada;
+}
+
+.product ul li:hover h3.p_h3{
+    color: #333333;
+}
+.product ul li:hover p{
+    color: #666666;
+}
+.p1{
+    background: url(../images/p1.png) no-repeat;
+}
+.product ul li:hover .p1{
+    background: url(../images/p1_orange.png) no-repeat;
 }
 .product ul li p{
     font-size: 14px;
@@ -209,7 +296,21 @@
     width: 387px;
     height: 150px;
     float: left;
+   /* background-color: #ffbe5a;*/
+}
+
+.services ul.ul1 li:hover{
+    cursor: pointer;
     background-color: #ffbe5a;
+}
+.services ul.ul1 li .ss_div img{
+    transition: all 0.5s;
+}
+.services ul.ul1 li:hover .ss_div img{
+    transform: scale(1.2);
+}
+.services ul.ul1 li:hover .ss_div1 h3,.services ul.ul1 li:hover .ss_div1 p{
+    color: #ffffff;
 }
 .services ul.ul1 li div{
     float: left;
@@ -217,6 +318,7 @@
 .services ul.ul1 li div.ss_div{
     width: 160px;
     height: 150px;
+    overflow: hidden;
 }
 
 .services ul.ul1 li div.ss_div1{
@@ -243,7 +345,7 @@
     height: 145px;
     line-height: 145px;
     text-align: center;
-    background-color: #24c5ed;
+   /* background-color: #24c5ed;*/
 }
 
 .services ul.ul2 .ul2_div{
@@ -256,6 +358,12 @@
     border-radius: 50%;
     background: #fff2de url(../images/service_tuoyuan1.png) center no-repeat;
     margin-left: 80px;
+}
+
+.services ul.ul2 .ul2_div:hover{
+    cursor: pointer;
+    color: #ffffff;
+    background: #ffbe5a /*url(../images/service_tuoyuan1_1.png) center no-repeat*/;
 }
 .services ul.ul2 li p{
     font-size: 15.73px;
@@ -275,8 +383,16 @@
     width: 382px;
     height: 180px;
     float: left;
-    background-color: #37bd7c;
+    /*background-color: #37bd7c;*/
     border: 1px solid #cdcdcd;
+}
+
+.leaders ul li:hover{
+    cursor: pointer;
+    background-color: #ffbe5a;
+}
+.leaders ul li:hover p{
+    color: #ffffff;
 }
 .leaders ul li img{
     padding: 13px 154px;
@@ -519,6 +635,8 @@
     box-shadow: 0px 1px 1px #424344;
     margin: 5px 0px;
 }
+
+
 
 
 

@@ -5,6 +5,7 @@
     <title></title>
     <link type="text/css" rel="stylesheet" href="css/reset.css" />
     <link type="text/css" rel="stylesheet" href="css/call.css" />
+    <script type="text/javascript" src="js/jquery.min.js"></script>
 </head>
 <body>
 <!--头部栏-->
@@ -21,7 +22,7 @@
             <li><a href="400.html">400热销套餐</a></li>
             <li><a href="call.html" class="active">呼叫中心</a></li>
             <li><a href="onephone.html">1010电话</a></li>
-            <li><a href="#">优音400电话</a></li>
+            <li><a href="unionfour.html">优音400电话</a></li>
             <li><a href="#">优音电话</a></li>
             <li><a href="#">优音总机</a></li>
             <li><a href="#">优音电话会议</a></li>
@@ -63,6 +64,7 @@
                         </ul>
                     </div>
                     <div class="tabcon floatLeft">
+                        <div class="cur1 show">
                         <ul class="clearFloat">
                             <li>400*-666-088</li>
                             <li>400*-666-088</li>
@@ -77,6 +79,23 @@
                             <li>400*-666-088</li>
                             <li>400*-666-088</li>
                         </ul>
+                            </div>
+                        <div class="cur1">
+                            <ul class="clearFloat">
+                                <li>500*-666-088</li>
+                                <li>400*-666-088</li>
+                                <li>400*-666-088</li>
+                                <li>400*-666-088</li>
+                                <li>400*-666-088</li>
+                                <li>400*-666-088</li>
+                                <li>400*-666-088</li>
+                                <li>400*-666-088</li>
+                                <li>400*-666-088</li>
+                                <li>400*-666-088</li>
+                                <li>400*-666-088</li>
+                                <li>400*-666-088</li>
+                            </ul>
+                        </div>
                     </div>
                     <div style="clear: both;"></div>
                 </div>
@@ -466,6 +485,41 @@
         </div>
     </div>
 </div>
+
+<div class="go-top dn" id="go-top">
+    <a href="javascript:;" class="go"></a>
+</div>
+
+
+<script type="">
+    $(function(){
+        $('.tablist li').mouseover(function(){
+            var liindex = $('.tablist li').index(this);
+            $(this).addClass('cur').siblings().removeClass('cur');
+            $('.tabcon div.cur1').eq(liindex).fadeIn(150).siblings('div.cur1').hide();
+        });
+    });
+</script>
+<script type="text/javascript">
+    $(function(){
+        $(window).on('scroll',function(){
+            var st = $(document).scrollTop();
+            if( st>0 ){
+                $('#go-top').fadeIn(function(){
+                    $(this).removeClass('dn');
+                });
+            }else{
+                $('#go-top').fadeOut(function(){
+                    $(this).addClass('dn');
+                });
+            }
+        });
+        $('#go-top .go').on('click',function(){
+            $('html,body').animate({'scrollTop':0},500);
+        });
+    });
+</script>
+
 
 </body>
 </html>

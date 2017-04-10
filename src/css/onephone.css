@@ -48,6 +48,32 @@
     color: #888888;
     font-size: 18px;
     font-weight: bold;
+    position: relative;
+}
+
+.one_j ul li .zf_1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    width: 237px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #ffffff;
+}
+.one_j ul li:hover .hm_1{
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+}
+.one_j ul li:hover .zf_1{
+    cursor: pointer;
+    visibility: visible;
+    opacity: 1;
+    background-color: darkred;
 }
 
 
@@ -139,7 +165,7 @@
 
 .one_t .one_zx .one_t_tj{
     width: 601px;
-    height: 380px;
+    height: 270px;
 }
 .one_t .one_zx .one_t_tj .bg2{
     position: relative;
@@ -217,8 +243,8 @@
 
 
 .lingxing{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     background-color: #ffbe5a;
     transform: rotate(45deg);
     -ms-transform: rotate(45deg);
@@ -237,22 +263,80 @@
     position: absolute;
 }
 .one_t .one_zx .one_lx .lx1{
-    top: 0px;
-    right: 10px;
+    top: 110px;
+    right: 55px;
 }
+.one_t .one_zx .one_lx .lx3 div{
+    background: url(../images/lingxing.png) -78px -163px no-repeat;
+    width: 70px;
+    height: 70px;
+    transform: rotate(-45deg);
+    margin-top: 35px;
+    margin-left: 10px;
+    position: relative;
+}
+
 .one_t .one_zx .one_lx .lx2{
     top: 0px;
-    right: 20px;
+    right: 165px;
+}
+.one_t .one_zx .one_lx .lx2 div{
+    background: url(../images/lingxing.png) -211px -50px no-repeat;
+    width: 70px;
+    height: 70px;
+    transform: rotate(-45deg);
+    margin-top: 20px;
+    margin-left: 25px;
+    position: relative;
 }
 .one_t .one_zx .one_lx .lx3{
-    top: 0px;
-    right: 30px;
+    top: 110px;
+    right: 275px;
+}
+.one_t .one_zx .one_lx .lx1 div{
+    background: url(../images/lingxing.png) -322px -110px no-repeat;
+    width: 70px;
+    height: 70px;
+    transform: rotate(-45deg);
+    margin-top: 15px;
+    margin-left: 25px;
+    position: relative;
 }
 .one_t .one_zx .one_lx .lx4{
     top: 0px;
-    right: 40px;
+    right: 385px;
 }
-
+.one_t .one_zx .one_lx .lx4 div{
+    background: url(../images/lingxing.png) 20px 20px no-repeat;
+    width: 70px;
+    height: 70px;
+    transform: rotate(-45deg);
+    margin-top: 15px;
+    margin-left: 10px;
+    position: relative;
+}
+.one_t .one_zx .one_lx div h6{
+    color: #ffffff;
+    font-size: 23.45px;
+    position: absolute;
+    width: 100px;
+}
+.one_t .one_zx .one_lx .lx4 div h6{
+    top: 75px;
+    left: -6px;
+}
+.one_t .one_zx .one_lx .lx3 div h6{
+    top: 65px;
+    left: 5px;
+}
+.one_t .one_zx .one_lx .lx2 div h6{
+    top: 65px;
+    left: -13px;
+}
+.one_t .one_zx .one_lx .lx1 div h6{
+    top: 68px;
+    left: -17px;
+}
 
 
 /*1010号码特色优势*/
@@ -270,6 +354,19 @@
     float: left;
     border: 1px solid #ffbe5a;
     border-radius: 2px;
+}
+.one_y .one_y_div ul.ul1 li{
+    transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+    -webkit-transition: all 0.7s ease;
+}
+.one_y .one_y_div ul.ul1 li:hover{
+    cursor: pointer;
+    transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
 }
 .one_y .one_y_div ul.ul1 li div{
     float: left;
@@ -455,9 +552,68 @@
 .one_k ul li{
     width: 386px;
     height: 322px;
-    background-color: #ffbe5a;
+   /* background-color: #ffbe5a;*/
+    background-color: #f8f8f8;
     float: left;
+    position: relative;
 }
+
+.one_k ul li:hover{
+     background-color: #ffbe5a;
+    cursor: pointer;
+}
+.one_k ul li:hover div h3,.one_k ul li:hover div p{
+    color: #ffffff;
+}
+.one_k ul li div{
+    width: 386px;
+    height: 160px;
+    overflow: hidden;
+}
+.one_k ul li div img{
+    transition: all 0.5s ease;
+}
+.one_k ul li:hover div img{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+}
+
+
+
+div.effect-bubba div.figcaption::before,
+div.effect-bubba div.figcaption::after {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    bottom: 190px;
+    left: 30px;
+    content: '';
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+}
+
+div.effect-bubba div.figcaption::before {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-transform: scale(0,1);
+    transform: scale(0,1);
+}
+
+div.effect-bubba div.figcaption::after {
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+    -webkit-transform: scale(1,0);
+    transform: scale(1,0);
+}
+
+.one_k ul li:hover div.figcaption::before,
+.one_k ul li:hover div.figcaption::after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
 
 .one_k ul li p{
     font-size: 14px;

@@ -11,6 +11,14 @@
 
 
 
+.cur1{
+    display: none;
+}
+.show{
+    display: block;
+}
+
+
 /*优音云客服*/
 .call_cl p.p_top{
     font-size: 16px;
@@ -52,6 +60,7 @@
 .call_cl .call_ff .tablist ul li.cur{
     background-color: #ffbe5a;
     color: #ffffff;
+    cursor: pointer;
 }
 
 .call_cl .call_ff .tabcon ul{

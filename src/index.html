@@ -7,6 +7,7 @@
     <!--css样式表-->
     <link type="text/css" rel="stylesheet" href="css/reset.css" />
     <link type="text/css" rel="stylesheet" href="css/index.css" />
+    <script type="text/javascript" src="js/jquery.min.js"></script>
 </head>
 <body>
 
@@ -24,7 +25,7 @@
             <li><a href="400.html">400热销套餐</a></li>
             <li><a href="call.html">呼叫中心</a></li>
             <li><a href="onephone.html">1010电话</a></li>
-            <li><a href="#">优音400电话</a></li>
+            <li><a href="unionfour.html">优音400电话</a></li>
             <li><a href="#">优音电话</a></li>
             <li><a href="#">优音总机</a></li>
             <li><a href="#">优音电话会议</a></li>
@@ -50,8 +51,9 @@
             <h5>5大产品系列，为企业提供真正稳定、便捷的企业通信服务，全面满足办公所需</h5>
             <ul class="clearFloat">
                 <li>
-                    <div>
+                    <div class="effect-bubba">
                         <img src="images/solution1.png" />
+                        <div class="figcaption"></div>
                     </div>
                     <div>
                         <h3 class="s_h3">优音热线</h3>
@@ -60,8 +62,9 @@
                     </div>
                 </li>
                 <li class="mlr10">
-                    <div>
+                    <div class="effect-bubba">
                         <img src="images/solution2.png" />
+                        <div class="figcaption"></div>
                     </div>
                     <div>
                         <h3 class="s_h3">优音电话</h3>
@@ -70,8 +73,9 @@
                     </div>
                 </li>
                 <li>
-                    <div>
+                    <div class="effect-bubba">
                         <img src="images/solution3.png" />
+                        <div class="figcaption"></div>
                     </div>
                     <div>
                         <h3 class="s_h3">优音云客服</h3>
@@ -80,8 +84,9 @@
                     </div>
                 </li>
                 <li class="mlr10">
-                    <div>
+                    <div class="effect-bubba">
                         <img src="images/solution4.png" />
+                        <div class="figcaption"></div>
                     </div>
                     <div>
                         <h3 class="s_h3">优音总机</h3>
@@ -90,8 +95,9 @@
                     </div>
                 </li>
                 <li>
-                    <div>
+                    <div class="effect-bubba">
                         <img src="images/solution5.png" />
+                        <div class="figcaption"></div>
                     </div>
                     <div>
                         <h3 class="s_h3">优音电话会议</h3>
@@ -108,8 +114,8 @@
             <h5>创新的技术，优异的产品，完备的服务，高效解决企业通信管理难题</h5>
             <ul class="clearFloat">
                 <li>
-                    <div class="p_div1">
-                        <img src="images/p1.png" />
+                    <div class="p_div1 p1">
+                        <!--<img src="images/p1.png" />-->
                     </div>
                     <div class="p_div2">
                         <h3 class="p_h3">丰富多样</h3>
@@ -136,7 +142,8 @@
                     <div class="p_div2">
                         <h3 class="p_h3">安全可靠</h3>
 
-                        <p>信通网赢极其重视产品及服务品质，公司以TL9000为目标，不断优化管理过程、提升产品质量和提高服务水平，其平均失效间隔时间、平均失效恢复时间、客户问题密度、问题及时解决率等关键指标均达到业界较高水平。</p>
+                        <p>
+                            信通网赢极其重视产品及服务品质，公司以TL9000为目标，不断优化管理过程、提升产品质量和提高服务水平，其平均失效间隔时间、平均失效恢复时间、客户问题密度、问题及时解决率等关键指标均达到业界较高水平。</p>
                     </div>
                     <div style="clear: both;"></div>
                 </li>
@@ -158,7 +165,8 @@
                     <div class="p_div2">
                         <h3 class="p_h3">扩展性强</h3>
 
-                        <p>优音系列产品完备、通用，可以独立使用，也可以多款产品或与第三方产品混搭使用。优音云平台还提供了业务扩展接口，方便与第三方业务系统进行集成，扩展企业的业务处理能力和服务能力。</p>
+                        <p>
+                            优音系列产品完备、通用，可以独立使用，也可以多款产品或与第三方产品混搭使用。优音云平台还提供了业务扩展接口，方便与第三方业务系统进行集成，扩展企业的业务处理能力和服务能力。</p>
                     </div>
                     <div style="clear: both;"></div>
                 </li>
@@ -392,6 +400,28 @@
     </div>
 </div>
 
+<div class="go-top dn" id="go-top">
+    <a href="javascript:;" class="go"></a>
+</div>
 
+<script type="text/javascript">
+    $(function(){
+        $(window).on('scroll',function(){
+            var st = $(document).scrollTop();
+            if( st>0 ){
+                $('#go-top').fadeIn(function(){
+                    $(this).removeClass('dn');
+                });
+            }else{
+                $('#go-top').fadeOut(function(){
+                    $(this).addClass('dn');
+                });
+            }
+        });
+        $('#go-top .go').on('click',function(){
+            $('html,body').animate({'scrollTop':0},500);
+        });
+    });
+</script>
 </body>
 </html>
