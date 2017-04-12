@@ -442,21 +442,22 @@
 .f_phone ul li{
     width: 238px;
     height: 368px;
+    line-height: 270px;
     background-color: #ffbe5a;
     float: left;
     border-right: 1px solid #ffffff;
     border-radius: 3px;
-
+    vertical-align: middle;
+    text-align: center;
 }
 .f_phone ul li h5{
     font-size: 24px;
     color: #ffffff;
     text-align: center;
+    margin-top: -95px;
 }
 
-.f_phone ul li img{
-    margin: 66px 0px 45px 80px;
-}
+
 
 .hr{
     width: 20px;
@@ -466,6 +467,7 @@
     border: none;
     margin-left: 111px;
     margin-bottom: 15px;
+    margin-top: -95px;
 }
 
 .f_phone ul li.f_pli{

@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+/*轮播图样式*/
+.banner_slide{
+    height: 350px;
+    overflow: hidden;
+}
+.slide li{
+    height: 350px;
+}
+
+
+

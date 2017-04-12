@@ -1,0 +1,561 @@
+@charset "utf-8";
+
+/*轮播图样式*/
+.banner_slide{
+    height: 350px;
+    overflow: hidden;
+}
+.slide li{
+    height: 350px;
+}
+
+
+.up p{
+    color: #666666;
+    font-size: 14px;
+    text-align: justify;
+    margin-top: 40px;
+}
+.up .up1 div{
+    padding-top: 50px;
+    padding-left: 80px;
+}
+.up .up1 p{
+    width: 160px;
+    color: #666666;
+    font-size: 14px;
+    text-align: justify;
+}
+.up .up1 a{
+    color: #ff4b5a;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 30px
+}
+.up .up1 a span{
+    color: #ff4b5a;
+    font-size: 20px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: -5px;
+}
+.up .up1{
+    width: 483px;
+    height: 349px;
+    background: url(../images/up1.png) no-repeat;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.up .up2{
+    width: 615px;
+    height: 349px;
+    position: relative;
+    margin-top: 40px;
+}
+.up .up2 img:nth-child(1){
+
+ }
+.up .up2 img:nth-child(2){
+    margin: 0px 20px;
+}
+.up .up2 img:nth-child(3){
+
+}
+.up .up2 img:nth-child(4){
+    margin-left: 20px;
+}
+
+.up .up2 div.div1{
+    position: absolute;
+    top: 115px;
+    left: 72px;
+}
+.up .up2 div.div1 img,.up .up2 img{
+    transition: all 0.5s ease-in-out;
+}
+
+.up .up2 div.div1 .img1:hover{
+    transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+}
+.up .up2 div.div1 .img2:hover{
+    transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+}
+.up .up2 div.div1 .img3:hover{
+    transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+}
+.up .up2 img:nth-child(1):hover{
+    transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+}
+.up .up2 img:nth-child(2):hover{
+    transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+}
+.up .up2 img:nth-child(3):hover{
+    transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+}
+.up .up2 img:nth-child(4):hover{
+    transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+}
+
+
+
+/*优音电话独特优势*/
+.up_dt{
+    background-color: #f3f3f3;
+}
+
+.up_dt h3{
+    font-size: 26px;
+    color: #333333;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.up_dt p{
+    font-size: 14px;
+    color: #666666;
+    text-align: justify;
+}
+
+.up_dt ul{
+    padding: 30px 0px 40px 0px;
+}
+.up_dt ul li{
+    width: 239px;
+    height: 246px;
+    line-height: 210px;
+    background-color: #ffbe5a;
+    float: left;
+    border-right: 1px solid #ffffff;
+    border-radius: 3px;
+    vertical-align: middle;
+    text-align: center;
+}
+.up_dt ul li h5{
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: -85px;
+}
+
+
+.hr{
+    width: 20px;
+    height: 3px;
+    color: white;
+    background-color: white;
+    border: none;
+    margin-left: 111px;
+    margin-bottom: 15px;
+    margin-top: -65px;
+}
+
+/*SIP电话*/
+.up_sip h3{
+    font-size: 20px;
+    color: #333333;
+    text-align: center;
+    margin-top: 40px;
+}
+.up_sip p{
+    font-size: 14px;
+    color: #666666;
+    text-align: justify;
+    margin-top: 40px;
+}
+
+.up_sip h5{
+    font-size: 18px;
+    color: #ffbe5a;
+    margin-bottom: 20px;
+}
+
+.up_sip .up_sip2{
+    width: 615px;
+    height: 349px;
+    margin-top: 20px;
+}
+.up_sip .well-item{
+    width: 121px;
+    height: 140px;
+    position: relative;
+    float: left;
+}
+.up_sip .well-item .correct{
+    position: absolute;
+}
+.up_sip .up_sip2 .well-item .correct {
+    top: 0px;
+    left: 0px;
+}
+
+
+.up_sip .up_sip2 .pb1{
+    top: 0px;
+    left: 0px;
+}
+.up_sip .up_sip2 .pb2{
+    top: 0px;
+    left: 0px;
+}
+.up_sip .up_sip2 .pb3{
+    top: 0px;
+    left: 0px;
+}
+
+.up_sip .up_sip2 .pb1{
+    top: -20px;
+    left: 70px;
+}
+.up_sip .up_sip2 .pb2{
+    top: -20px;
+    left: 90px;
+}
+.up_sip .up_sip2 .pb3{
+    top: -20px;
+    left: 110px;
+}
+
+.up_sip .up_sip1 .pb2{
+    top: -20px;
+    left: 70px;
+}
+.up_sip .up_sip1 .pb3{
+    top: -20px;
+    left: 90px;
+}
+
+
+
+/*3d翻转动画效果*/
+@-webkit-keyframes flipOutYtest {
+    from {
+        -webkit-transform: perspective(1400px);
+        transform: perspective(1400px);
+    }
+
+    40% {
+        -webkit-transform: perspective(1400px) rotate3d(0, 1, 0, 60deg);
+        transform: perspective(1400px) rotate3d(0, 1, 0, 60deg);
+        opacity: 1;
+    }
+
+    50% {
+        -webkit-transform: perspective(1400px) rotate3d(0, 1, 0, 90deg);
+        transform: perspective(1400px) rotate3d(0, 1, 0, 90deg);
+        opacity: 0;
+    }
+
+    to {
+        -webkit-transform: perspective(1400px) rotate3d(0, 1, 0, 180deg);
+        transform: perspective(1400px) rotate3d(0, 1, 0, 180deg);
+        opacity: 0;
+    }
+}
+
+.test{
+    -webkit-animation: flipOutYtest 0.75s linear;
+    animation: flipOutYtest 0.75s linear;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+
+@-webkit-keyframes flipInYtest {
+    from {
+        -webkit-transform: perspective(1400px) rotate3d(0, 1, 0, -180deg);
+        transform: perspective(1400px) rotate3d(0, 1, 0, -180deg);
+        opacity: 0;
+    }
+
+    50% {
+        -webkit-transform: perspective(1400px) rotate3d(0, 1, 0, -90deg);
+        transform: perspective(1400px) rotate3d(0, 1, 0, -90deg);
+        opacity: 0;
+    }
+
+    60% {
+        -webkit-transform: perspective(1400px) rotate3d(0, 1, 0, -60deg);
+        transform: perspective(1400px) rotate3d(0, 1, 0, -60deg);
+        opacity: 1;
+    }
+
+    to {
+        -webkit-transform: perspective(1400px);
+        transform: perspective(1400px);
+        opacity: 1;
+    }
+}
+
+.test2{
+    -webkit-animation: flipInYtest 0.75s linear;
+    animation: flipInYtest 0.75s linear;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+
+.up_sip .up_sip1{
+    width: 515px;
+    height: 349px;
+    position: relative;
+    margin-top: 20px;
+}
+
+
+
+
+.up_sip2_tj{
+    height: 60px;
+    background-color: #ffbe5a;
+}
+
+.up_sip2_tj p.p1{
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.up_sip2_tj .tj_div{
+    width: 185px;
+}
+
+.up_sip2_tj .tj_div1{
+    width: 1000px;
+    margin-top: 10px;
+}
+.up_sip2_tj .tj_div1 label{
+    color: #ffffff;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.up_sip2_tj .tj_div1 input{
+    width: 139px;
+    height: 32px;
+    background-color: #ffe5bd;
+    border: none;
+}
+.up_sip2_tj .tj_div1 input:focus{
+    background-color: #ffffff;
+}
+.up_sip2_tj .tj_div1 input#sbutton2{
+    width: 98px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #ff4b5a;
+    font-size: 18px;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-left: 25px;
+    padding-left: 0px;
+}
+
+
+/*优音APP*/
+.up_un{
+    background-color: #f3f3f3;
+}
+
+.up_un h3{
+    color: #333333;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 40px;
+ }
+.up_un p.p_top{
+    color: #666666;
+    font-size: 14px;
+    text-align: justify;
+    margin: 20px 0px;
+}
+
+
+.up_un .up_un1{
+    width: 580px;
+    height: 286px;
+}
+.up_un h5{
+    color: #ffbe59;
+    font-size: 18px;
+}
+
+.up_un .up_un1 .div1{
+    margin-left: 215px;
+    margin-top: -202px;
+}
+.up_un .up_un1 .div1 p{
+    font-size: 14px;
+    color: #666666;
+}
+.up_un .up_un1 .div1 p span{
+    color: #ffbe59;
+    padding-right: 5px;
+}
+.up_un .up_un1 .div1 span.sp1{
+    color: #ff4b5a;
+    margin-top: 30px;
+    display: inline-block;
+}
+.up_un .up_un2{
+    width: 594px;
+    height: 286px;
+}
+
+
+
+.up_un .up_un2 ul{
+    margin-top: 20px;
+    border: 1px solid #ffbe59;
+}
+.up_un .up_un2 ul li{
+    width: 148px;
+    height: 200px;
+    line-height: 45px;
+    text-align: center;
+    float: left;
+}
+.up_un .up_un2 ul li div.up_div1{
+    border-right: 1px dashed #ffbe59;
+    margin-top: 18px;
+    display: block;
+}
+.up_un .up_un2 ul li h6{
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+    font-weight: bold;
+}
+
+.up_un .up_un2 ul li p{
+    margin-top: -20px;
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+    padding: 0px 15px;
+}
+.up_un .up_un2 ul li div.up_div2{
+    height: 165px;
+    line-height: 90px;
+    border-right: 1px dashed #ffbe59;
+    margin-top: 16px;
+    display: none;
+}
+.up_un .up_un2 ul li:hover div.up_div2{
+    cursor: pointer;
+    display: block;
+}
+.up_un .up_un2 ul li:hover div.up_div1{
+    display: none;
+}
+
+
+
+/*PC软电话*/
+
+.up_pc h3{
+    font-size: 20px;
+    color: #333333;
+    text-align: center;
+    margin-top: 40px;
+}
+.up_pc p{
+    font-size: 14px;
+    color: #666666;
+    text-align: justify;
+    margin: 20px 0px;
+}
+
+
+/*产品对比*/
+.up_cp{
+    background-color: #f3f3f3;
+}
+.up_cp h3{
+    font-size: 26px;
+    color: #333333;
+    text-align: center;
+    padding: 40px 0px 30px;
+}
+.up_cp .up_cp1{
+    background-color: #ffbe59;
+    height: 360px;
+    position: relative;
+}
+.pb40{
+    padding-bottom: 40px;
+}
+.up_cp .up_cp1 a{
+    display: inline-block;
+    width: 168px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;
+    background-color: #ff4b5a;
+    margin-top: 318px;
+    margin-left: 983px;
+}
+
+
+
+
+
+
+table
+{
+    border-collapse:collapse;
+    background-color: #ffffff;
+    margin-left: 0px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1150px;
+    border: none;
+}
+
+table,th, td
+{
+    border: none;
+    text-align: center;
+}
+
+th{
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+td{
+    font-size: 14px;
+    color: #666666;
+    border: 1px solid #e9e9e9;
+}
+
+tr td:nth-child(1){
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+

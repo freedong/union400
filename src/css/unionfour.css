@@ -58,6 +58,9 @@
     color: #ffffff;
     border-radius: 20px;
 }
+.uf_td ul li a:hover{
+    background: #d3344e;
+}
 
 
 
@@ -292,8 +295,29 @@
     background-color: #f1f1f1;
     line-height: 46px;
     text-align: center;
+    position: relative;
     /* border-bottom: 1px solid #ffbe5a;*/
 }
+.uf_why1 .tablist ul li a span{
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    color: #ffffff;
+    width: 2px;
+    height: 30px;
+    display: inline-block;
+    background-color: #981e1e;
+}
+
+
+/*.uf_why1 .tablist ul li:before{
+    /!*position: absolute;
+    top: 0px;
+    left: 0px;*!/
+    width: 2px;
+    height: 5px;
+    background-color: #9b040d;
+}*/
 
 
 
@@ -418,7 +442,7 @@
 
 
 .uf_tx h3{
-    font-size: 26px;
+    font-size: 20px;
     color: #333333;
     text-align: center;
     padding-top: 40px;
@@ -428,7 +452,7 @@
     font-size: 14px;
     color: #666666;
     text-align: justify;
-    margin: 20px 0px;
+    margin: 40px 0px 20px;
 }
 
 
@@ -488,6 +512,7 @@
 .uf_tx .uf_tx1left{
     width: 435px;
     height: 210px;
+    margin: 40px 0px;
 }
 .uf_tx .uf_tx1left p{
     font-size: 14px;
@@ -499,7 +524,7 @@
     font-size: 14px;
     color: #ffbe59;
     margin-left: 375px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .uf_tx .uf_tx1right{
@@ -592,30 +617,30 @@
     font-weight: 600;
     margin-left: 10px;
 }
-.uf_ff ul li{
+.uf_ff ul.ul1 li{
     width: 400px;
     height: 150px;
     float: left;
     margin-top: 20px;
     /*border: 1px solid #9b040d;*/
 }
-.uf_ff ul li:hover{
+.uf_ff ul.ul1 li:hover{
     cursor: pointer;
     box-shadow: 2px 2px 10px #bebebe;
     background-color: #ffffff;
 }
-.uf_ff ul li p{
+.uf_ff ul.ul1 li p{
     font-size: 14px;
     color: #666666;
     text-align: justify;
     padding: 6px 10px 0px;
 }
 
-.uf_ff ul li div{
+.uf_ff ul.ul1 li div{
     float: left;
 }
 
-.uf_ff ul li a{
+.uf_ff ul.ul1 li a{
     display: inline-block;
     width: 143px;
     height: 30px;
@@ -649,4 +674,193 @@
     margin-right: 9px;
 }*/
 
+.uf_ff ul.ul2{
+    margin-top: 20px;
+}
+.uf_ff ul.ul2 li{
+    width: 152px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    border-right: 1px dashed #fdcda1;
+    float: left;
+    margin: 0px 9px;
+}
+.uf_ff ul.ul2 li p{
+    margin-top: -40px;
+    font-size: 14px;
+    color: #666666;
+}
 
+
+
+
+/*优音400电话接听终端更多样*/
+.uf_jt h3{
+    font-size: 20px;
+    color: #333333;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.uf_jt p.p_top{
+    font-size: 14px;
+    color: #666666;
+    text-align: justify;
+    margin-top: 40px;
+}
+
+.uf_jt img{
+    margin-left: 70px;
+}
+.uf_jt h5{
+    font-size: 16px;
+    color: #ffbf5c;
+    text-align: justify;
+}
+.uf_jt ul{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.uf_jt ul li{
+    width: 350px;
+    height: 150px;
+    float:left;
+}
+.uf_jt ul li h6{
+    font-size: 16px;
+    color: #666666;
+    font-weight: 600;
+}
+
+.uf_jt ul li p{
+    font-size: 14px;
+    color: #666666;
+    text-align: justify;
+}
+
+.uf_jt ul li a{
+    font-size: 14px;
+    color: #ff525c;
+    margin-left: 251px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.uf_jt ul li a span{
+    display: inline-block;
+    font-size: 20px;
+    margin-top: -5px;
+    vertical-align: middle;
+}
+
+
+.mlr75{
+    margin: 0 75px;
+}
+
+
+/*优音400电话扩展能力更强*/
+
+.uf_gq{
+    background-color: #f3f3f3;
+}
+
+.uf_gq h3{
+    font-size: 20px;
+    color: #333333;
+    text-align: center;
+    padding-top: 40px;
+}
+.uf_gq .uf_gq1{
+    width: 800px;
+    height: 322px;
+}
+.uf_gq .uf_gq1 img{
+    margin-top: 30px;
+}
+.uf_gq .uf_gq1 p{
+    font-size: 14px;
+    color: #333333;
+    text-align: justify;
+}
+.uf_gq .uf_gq1 p.p_p{
+    font-size: 14px;
+    color: #666666;
+    text-align: justify;
+    margin-top: -210px;
+    margin-left: 450px;
+}
+.uf_gq .uf_gq1 p.p_p span{
+    color: #ffbe59;
+    padding-right: 5px;
+}
+
+
+
+.uf_gq .uf_gq2{
+    width: 323px;
+    height: 322px;
+    background: url(../images/uf_gq2.png) no-repeat;
+}
+.uf_gq .uf_gq2 a{
+    display: inline-block;
+    background-color: #ff525c;
+    font-size: 14px;
+    color: #ffffff;
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 275px;
+    margin-left: 70px;
+}
+
+
+
+/*优音400电话专属服务*/
+.uf_zs h3{
+    font-size: 26px;
+    color: #333333;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.uf_zs ul{
+    padding: 20px 0px 20px 0px;
+}
+.uf_zs ul li{
+    width: 399px;
+    height: 251px;
+    float: left;
+    border-left: 1px dashed #ffbe5a;
+    border-radius: 3px;
+    text-align: center;
+
+}
+.uf_zs ul li h5{
+    font-size: 18px;
+    color: #ffbe5a;
+    text-align: center;
+    margin: 15px 0px;
+}
+.uf_zs ul li p{
+    height: 90px;
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+    padding: 0 45px;
+    margin-top: 20px;
+}
+.uf_zs ul li a{
+    display: inline-block;
+    width: 130px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #ff4b5a;
+    font-size: 14px;
+    color: #ffffff;
+    border-radius: 20px;
+}
