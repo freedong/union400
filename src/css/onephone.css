@@ -2,12 +2,12 @@
 
 
 /*轮播图样式*/
-.banner_slide{
-    height: 350px;
+.one_j_b .banner_slide{
+    height: 200px;
     overflow: hidden;
 }
-.slide li{
-    height: 350px;
+.one_j_b .slide li{
+    height: 200px;
 }
 
 

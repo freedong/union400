@@ -11,28 +11,31 @@
 <!--头部栏-->
 <div>
     <div class="top">
-        <div class="w1200 clearFloat top_height">
-            <div class="floatRight f14 text-ff">全国咨询电话:400-000-0011</div>
+        <div class="w1200 clearFloat">
+            <div class="floatRight f14 text-ff top_height">
+                <img src="images/top_phone.png" />
+                <span>咨询热线:400-000-0011</span>
+            </div>
         </div>
     </div>
     <div class="nav w1200">
         <a href="javascript:void(0);"><img src="images/xtwy.png" /></a>
         <ul class="clearFloat nav_ul">
             <li><a href="index.html">首页</a></li>
-            <li><a href="400.html">400热销套餐</a></li>
+            <li><a href="400.html">400热销套餐</a><img src="images/hot.png" /></li>
             <li><a href="call.html">呼叫中心</a></li>
-            <li><a href="onephone.html">1010电话</a></li>
-            <li><a href="unionfour.html" >优音400电话</a></li>
+            <li><a href="onephone.html">1010电话</a><img src="images/hot.png" class="img1" /></li>
+            <li><a href="unionfour.html" >优音400电话</a><img src="images/hot.png" /></li>
             <li><a href="unionphone.html">优音电话</a></li>
             <li><a href="unionzj.html" class="active">优音总机</a></li>
             <li><a href="unionmeet.html">优音电话会议</a></li>
         </ul>
         <a href="javascript:void(0);" class="floatRight nav_a">免费试用</a>
     </div>
-    <div class="banner">
+    <div class="banner un_zj_b">
         <div class="banner_slide">
             <ul class="slide">
-                <li style="background: url(images/banner.png) 50% 0 no-repeat;"></li>
+                <li style="background: url(images/un_zj_b.png) 50% 0 no-repeat;"></li>
             </ul>
         </div>
     </div>
@@ -277,7 +280,6 @@
 
 <script type="text/javascript">
     $(function () {
-        //从底部上升的遮罩效果开始
         $(".con").hover(function () {
             $(this).find(".txt").stop().animate({height: "206px"}, 200);
             $(this).find(".txt h3").stop().animate({paddingTop: "10px",marginTop:"-20px",marginLeft:"-52px"}, 200);
@@ -289,7 +291,6 @@
             $(this).find(".txt p").stop().animate({marginTop:"0px"}, 200);
             $(this).find("img").stop().animate({marginTop: "0px"}, 200);
         });
-        //从底部上升的遮罩效果结束
     });
 </script>
 </body>

@@ -526,6 +526,7 @@ color:#9b040d;
 .pb25{padding-bottom:25px}
 .pb30{padding-bottom:30px}
 .pb35{padding-bottom:35px}
+.pb40{padding-bottom:40px}
 .pb50{padding-bottom:50px}
 .pb100{padding-bottom:100px}
 .pl5{padding-left:5px}
@@ -689,10 +690,20 @@ p{
 	background-color: #6ea0c8;
 }
 .top_height{
-	height: 26px;
-	line-height: 26px;
+	height: 50px;
+	line-height: 50px;
 }
-
+div.top_height span{
+	color: #f4ea2a;
+	font-size: 22px;
+	display: block;
+	margin-top: -65px;
+	margin-left: 60px;
+	font-weight: bold;
+}
+div.top_height img{
+	margin-top: 5px;
+}
 /*导航栏样式*/
 .nav{
 	height: 60px;
@@ -708,6 +719,18 @@ p{
 	line-height: 40px;
 	text-align: center;
 	font-size: 16px;
+	position: relative;
+}
+.nav ul li img{
+	position: absolute;
+	top: -7px;
+	left: 62px;
+}
+
+.nav ul li img.img1{
+	position: absolute;
+	top: -7px;
+	left: 50px;
 }
 .nav ul li a{
 	display: block;
@@ -818,7 +841,7 @@ td{
 
 /*返回顶部*/
 .dn{display: none;}
-.go-top{position: fixed;bottom: 80px;right: 40px;width: 70px;z-index: 999;}
+.go-top{position: fixed;bottom: 80px;right: 20px;width: 70px;z-index: 999;}
 .go-top a{
 	transition: all 0.5s ease;
 	-o-transition: all 0.5s ease;
