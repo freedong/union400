@@ -33,6 +33,9 @@
     margin-top: 15px;
     margin-left: 30px
 }
+.up .up1 a:hover,.up .up1 a:hover span{
+    color: #ae4a52;
+}
 .up .up1 a span{
     color: #ff4b5a;
     font-size: 20px;
@@ -139,6 +142,8 @@
     border-radius: 3px;
     vertical-align: middle;
     text-align: center;
+    overflow: hidden;
+    position: relative;
 }
 .up_dt ul li h5 {
     font-size: 24px;
@@ -153,16 +158,56 @@
 }
 
 .up_dt ul li .sf{
-    z-index: 66;
+    position: absolute;
+    top: 248px;
+    left: 0;
+    width: 240px;
 }
 
 .up_dt ul li .sf p{
     font-size: 14px;
     color: #555555;
     text-align: justify;
-    padding: 0px 20px;
+    padding: 0px 36px;
     color: #ffffff;
 }
+
+
+.up_dt ul li:hover{
+    cursor: pointer;
+}
+.up_dt ul li .sf1,.up_dt ul li div.sf,.up_dt ul li:hover .sf1 h5,.up_dt ul li hr{
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+}
+
+.up_dt ul li:hover .sf1{
+    -webkit-transform: scale(0.7,0.7)/*translate3d(0,-80px,0)*/;
+    transform: scale(0.7,0.7)/*translate3d(0,-80px,0)*/;
+    margin-top: -20px;
+}
+.up_dt ul li div.sf{
+    /*-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;*/
+    -webkit-transform: translate3d(0,10px,0);
+    transform: translate3d(0,10px,0);
+}
+
+.up_dt ul li:hover div.sf{
+    -webkit-transform: translate3d(0,-100px,0);
+    transform: translate3d(0,-100px,0);
+}
+
+.up_dt ul li:hover hr{
+    opacity: 0;
+}
+.up_dt ul li:hover .sf1 h5{
+    margin-top:-115px;
+}
+
+
+
+
 
 
 .hr{
@@ -194,6 +239,7 @@
     font-size: 18px;
     color: #ffbe5a;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .up_sip .up_sip2{
@@ -280,8 +326,8 @@
 }
 
 .test{
-    -webkit-animation: flipOutYtest 0.75s linear;
-    animation: flipOutYtest 0.75s linear;
+    -webkit-animation: flipOutYtest 0.5s linear;
+    animation: flipOutYtest 0.5s linear;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
 }
@@ -314,8 +360,8 @@
 }
 
 .test2{
-    -webkit-animation: flipInYtest 0.75s linear;
-    animation: flipInYtest 0.75s linear;
+    -webkit-animation: flipInYtest 0.5s linear;
+    animation: flipInYtest 0.5s linear;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
 }
@@ -524,6 +570,10 @@
     background-color: #ff4b5a;
     margin-top: 318px;
     margin-left: 983px;
+}
+
+.up_cp .up_cp1 a:hover{
+    background-color: #d13d4a;
 }
 
 

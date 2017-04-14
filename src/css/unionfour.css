@@ -121,6 +121,14 @@
     color: #ff4b5a;
 }
 
+.uf_why2 .ul1 .li1 section.mflq a.mflq_a:hover{
+    background: #d0d803;
+    background: linear-gradient(135deg, transparent 5px, #d0d803 0);
+    box-shadow: none;
+    color: #ff4b5a;
+}
+
+
 .uf_why2 .ul1 .li1 .mflq{
     background: url(../images/f_pjuxing.png) no-repeat;
     width: 250px;
@@ -255,6 +263,24 @@
     height: 33px;
 }
 
+.uf_why2 .ul1 .li1 .sec2 input.comment:focus{
+    background-color: #ffffff;
+    border: 1px solid #ffbe5a;
+    height: 33px;
+}
+
+.uf_why2 .ul1 .li1 .sec2 input.sbutton{
+    width: 196px;
+    height: 30px;
+    background-color: #ff4b5a;
+    color: #ffffff;
+    font-size: 16px;
+    margin-left: 71px;
+}
+.uf_why2 .ul1 .li1 .sec2 input.sbutton:hover{
+    background-color: #db424f;
+}
+
 
 
 /*海量号码任性选*/
@@ -306,8 +332,9 @@
     width: 2px;
     height: 30px;
     display: inline-block;
-    background-color: #981e1e;
+    background-color: #ffffff;
 }
+
 
 
 /*.uf_why1 .tablist ul li:before{
@@ -462,12 +489,14 @@
     height: 150px;
     float: left;
     margin-top: 20px;
+    position: relative;
+    overflow: hidden;
     /*border: 1px solid #9b040d;*/
 }
 
 .uf_tx ul li:hover{
     cursor: pointer;
-    box-shadow: 2px 2px 10px #d0d0d0;
+    box-shadow: 2px 2px 10px #c7c7c7;
 }
 .uf_tx ul li p{
     font-size: 14px;
@@ -480,7 +509,7 @@
     float: left;
 }
 
-.uf_tx ul li a{
+/*.uf_tx ul li a{
     display: inline-block;
     width: 143px;
     height: 30px;
@@ -493,6 +522,35 @@
     color: #ffffff;
     margin-top: 102px;
     margin-left: 232px;
+}*/
+
+.uf_tx ul li section{
+    position: absolute;
+    top: 160px;
+    left: 170px;
+}
+
+.uf_tx ul li section a,.uf_tx ul li{
+    transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+.uf_tx ul li:hover section a{
+    transform: translate(0px,-50px);
+    -ms-transform: translate(0px,-50px);
+    -o-transform: translate(0px,-50px);
+    -webkit-transform: translate(0px,-50px);
+    -moz-transform: translate(0px,-50px);
+}
+
+.uf_tx ul li section a{
+    display: inline-block;
+    width: 234px;
+    color: #ffbe59;
+    font-size: 14px;
+    background: url(../images/jt.png) 140px 8px no-repeat;
 }
 
 
@@ -587,6 +645,10 @@
     top: 140px;
     left: 85px;
 }
+.uf_tx .uf_tx1right div.div3 a:hover{
+    background-color: #cec971;
+}
+
 
 
 
@@ -717,6 +779,7 @@
     font-size: 16px;
     color: #ffbf5c;
     text-align: justify;
+    font-weight: bold;
 }
 .uf_jt ul{
     margin-top: 20px;
@@ -815,6 +878,9 @@
     margin-top: 275px;
     margin-left: 70px;
 }
+.uf_gq .uf_gq2 a:hover{
+    background-color: #e24a52;
+}
 
 
 
@@ -828,10 +894,11 @@
 }
 
 .uf_zs ul{
+    border: 1px solid #ffbe5a;
     padding: 20px 0px 20px 0px;
 }
 .uf_zs ul li{
-    width: 399px;
+    width: 398px;
     height: 251px;
     float: left;
     border-left: 1px dashed #ffbe5a;
@@ -863,4 +930,8 @@
     font-size: 14px;
     color: #ffffff;
     border-radius: 20px;
+}
+
+.uf_zs ul li a:hover{
+    background-color: #e24a52;
 }

@@ -77,10 +77,40 @@
     font-size: 20px;
     color: #888888;
     font-weight: bold;
+    position: relative;
 }
+
+
+.call_cl .call_ff .tabcon ul li .zf_1{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    width: 237px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #fffd3c;
+    font-size: 18px;
+}
+.call_cl .call_ff .tabcon ul li:hover .hm_1{
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+}
+.call_cl .call_ff .tabcon ul li:hover .zf_1{
+    cursor: pointer;
+    visibility: visible;
+    opacity: 1;
+    background-color: #ff4b5a;
+}
+
 .call_cl .call_ff .call_tc ul li{
     width: 595px;
-    height: 280px;
+    height: 290px;
     background-color: #ffbe5a;
     float: left;
 }
@@ -111,7 +141,7 @@
     color: #ffffff;
     font-size: 16px;
     margin-left: 109px;
-    margin-top: 3px;
+    margin-top: 9px;
 }
 .call_cl .call_ff .call_tc ul li a span{
     color: #ffffff;
@@ -132,6 +162,27 @@
     text-align: justify;
     margin: 30px 0px;
 }
+
+
+
+.call_cl .call_ff .call_tc ul li table tr th,.call_cl .call_ff .call_tc ul li table tr td{
+    width: 135px;
+    height: 34px;
+}
+.call_cl .call_ff .call_tc ul li table{
+    margin-left: 25px;
+}
+
+.call_cl .call_ff .call_tc ul li.litable table tr th,.call_cl .call_ff .call_tc ul li.litable table tr td{
+    width: 180px;
+    height: 34px;
+}
+.call_cl .call_ff .call_tc ul li.litable table{
+    margin-left: 25px;
+}
+
+
+
 
 
 /*平台功能强大*/
@@ -358,7 +409,8 @@
     float: left;
     border-right: 1px solid #ffbe5a;
     border-radius: 3px;
-
+    position: relative;
+    overflow: hidden;
 }
 .call_pl ul li h5{
     font-size: 18px;
@@ -373,9 +425,41 @@
     padding: 0 24px;
 }
 
+.call_pl ul li div.pl_div p{
+    font-size: 14px;
+    color: #666666;
+    text-align: justify;
+    padding: 0px 27px;
+}
+.call_pl ul li div.pl_div p span{
+    color: #ffbe5a;
+    padding-right: 10px;
+}
+
 .call_pl ul li img{
     margin: 28px 104px 30px 104px;
 }
+
+.call_pl ul li div.pl_div{
+    position: absolute;
+    top: 300px;
+    left: 0px;
+    transition: all 0.5s;
+    -webkit-transform: translate3d(0,0px,0);
+    transform: translate3d(0,0px,0);
+}
+.call_pl ul li:hover div.pl_div1{
+    opacity: 0;
+}
+.call_pl ul li:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+}
+.call_pl ul li:hover div.pl_div{
+    -webkit-transform: translate3d(0,-150px,0);
+    transform: translate3d(0,-150px,0);
+}
+
 
 
 /*优音云客服的优势*/
@@ -440,6 +524,30 @@
     text-align: center;
     border: 1px solid #fdcda1;
     float: left;
+    position: relative;
+}
+
+.call_ad ul.f_ful1 li div.corr{
+    position: absolute;
+    top: 0px;
+    left: 70px;
+}
+
+.call_ad ul.f_ful1 li div.oppo{
+    background-color: #ffbe5a;
+    width: 223px;
+    height: 139px;
+}
+.call_ad ul.f_ful1 li div.oppo h6{
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+.call_ad ul.f_ful1 li div.oppo p{
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
 }
 
 
@@ -447,6 +555,75 @@
     margin-top: -40px;
     font-size: 16px;
     color: #ffbe5a;
+}
+
+
+/*3d翻转动画效果*/
+@-webkit-keyframes flipOutYtest {
+    from {
+        -webkit-transform: perspective(1400px);
+        transform: perspective(1400px);
+        opacity: 1;
+    }
+
+    40% {
+        -webkit-transform: perspective(1400px) rotate3d(0, 1, 0, 60deg);
+        transform: perspective(1400px) rotate3d(0, 1, 0, 60deg);
+        opacity: 1;
+    }
+
+    50% {
+        -webkit-transform: perspective(1400px) rotate3d(0, 1, 0, 90deg);
+        transform: perspective(1400px) rotate3d(0, 1, 0, 90deg);
+        opacity: 0;
+    }
+
+    to {
+        -webkit-transform: perspective(1400px) rotate3d(0, 1, 0, 180deg);
+        transform: perspective(1400px) rotate3d(0, 1, 0, 180deg);
+        opacity: 0;
+    }
+}
+
+.test{
+    -webkit-animation: flipOutYtest 0.5s linear;
+    animation: flipOutYtest 0.5s linear;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+
+@-webkit-keyframes flipInYtest {
+    from {
+        -webkit-transform: perspective(1400px) rotate3d(0, 1, 0, -180deg);
+        transform: perspective(1400px) rotate3d(0, 1, 0, -180deg);
+        opacity: 0;
+    }
+
+    50% {
+        -webkit-transform: perspective(1400px) rotate3d(0, 1, 0, -90deg);
+        transform: perspective(1400px) rotate3d(0, 1, 0, -90deg);
+        opacity: 0;
+    }
+
+    60% {
+        -webkit-transform: perspective(1400px) rotate3d(0, 1, 0, -60deg);
+        transform: perspective(1400px) rotate3d(0, 1, 0, -60deg);
+        opacity: 1;
+    }
+
+    to {
+        -webkit-transform: perspective(1400px);
+        transform: perspective(1400px);
+        opacity: 1;
+    }
+}
+
+.test2{
+    -webkit-animation: flipInYtest 0.5s linear;
+    animation: flipInYtest 0.5s linear;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
 }
 
 
@@ -518,12 +695,62 @@
     margin: 30px 0px 0px 20px;
 }
 
-.call_ser .p_div1{
+/*.call_ser .p_div1{
     width: 64px;
     height: 101px;
     margin-top: 39px;
     margin-left: 20px;
+}*/
+.call_ser .p_div1{
+    width: 95px;
+    height: 140px;
+    background: url(../images/ser1.png) no-repeat;
 }
+
+.call_ser .p_div1.p_div1_1{
+    background-position: -355px -75px;
+}
+.call_ser .p_div1.p_div1_2{
+    background-position: -770px -75px;
+}
+.call_ser .p_div1.p_div1_3{
+    background-position: -1150px -75px;
+}
+.call_ser .p_div1.p_div1_5{
+    background-position: -770px -230px;
+}
+.call_ser .p_div1.p_div1_6{
+    background-position: -1155px -230px;
+}
+
+
+.call_ser ul li:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 10px #d3d3d3;
+    background-color: #ffffff;
+}
+.call_ser ul li:hover .p_div1{
+    width: 95px;
+    height: 140px;
+    background: url(../images/ser1a.png) no-repeat;
+}
+
+.call_ser ul li:hover .p_div1.p_div1_1{
+    background-position: 24px 47px;
+}
+.call_ser ul li:hover .p_div1.p_div1_2{
+    background-position: -391px 47px;
+}
+.call_ser ul li:hover .p_div1.p_div1_3{
+    background-position: -771px 47px;
+}
+.call_ser ul li:hover .p_div1.p_div1_5{
+    background-position: -391px -108px;
+}
+.call_ser ul li:hover .p_div1.p_div1_6{
+    background-position: -773px -108px;
+}
+
 
 .mlr9{
     margin-left: 9px;

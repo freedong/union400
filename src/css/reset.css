@@ -774,7 +774,7 @@ table
 {
 	border-collapse:collapse;
 	background-color: #ffffff;
-	margin-left: 18px;
+	margin-left: 25px;
 }
 
 table,th, td
@@ -783,7 +783,7 @@ table,th, td
 	text-align: center;
 }
 th, td{
-	width: 138px;
+	width: 175px;
 	height: 34px;
 }
 th{

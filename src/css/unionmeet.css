@@ -34,7 +34,12 @@
     font-size: 18px;
     color: #ffbe5a;
     margin-left: 440px;
+    font-weight: bold;
 }
+.unmt .unmt1 a:hover{
+    color: #d19c4b;
+}
+
 
 
 
@@ -121,6 +126,10 @@
     border-radius: 3px;
     margin-left: 100px;
 }
+.unmt_hy ul li div.unmt_hy1 a:hover{
+    background-color: #ffbe5a;
+    color: #ffffff;
+}
 
 
 /*优音电话会议主要功能*/
@@ -135,16 +144,20 @@
 
 
 .unmt_gn ul li{
-    width: 240px;
-    height: 300px;
+    width: 238px;
+    height: 369px;
     float: left;
     text-align: center;
+    background-color: #ffbe5a;
+    border: 1px solid #ffffff;
+    position: relative;
+    overflow: hidden;
 }
 
-.unmt_gn ul li div{
+.unmt_gn ul li div.unmt_gn_div{
     text-align: center;
     width: 240px;
-    height: 100px;
+    height: 150px;
 }
 
 .unmt_gn ul li div.unmt_gn_div{
@@ -152,47 +165,28 @@
 }
 
 .unmt_gn ul li div.unmt_gn_div.unmt_gn_div1{
-    background-position: 80px 20px;
+    background-position: 80px 60px;
 }
 .unmt_gn ul li div.unmt_gn_div.unmt_gn_div2{
-    background-position: -160px 20px;
+    background-position: -160px 60px;
 }
 .unmt_gn ul li div.unmt_gn_div.unmt_gn_div3{
-    background-position: -398px 20px;
+    background-position: -398px 60px;
 }
 .unmt_gn ul li div.unmt_gn_div.unmt_gn_div4{
-    background-position: -637px 20px;
+    background-position: -637px 60px;
 }
 .unmt_gn ul li div.unmt_gn_div.unmt_gn_div5{
-    background-position: -880px 20px;
+    background-position: -880px 60px;
 }
 
 
-.unmt_gn ul li:nth-child(1) {
-    background-color: #ffd087;
-}
-
-.unmt_gn ul li:nth-child(2) {
-    background-color: #ffc771;
-}
-
-.unmt_gn ul li:nth-child(3) {
-    background-color: #ffbe5a;
-}
-
-.unmt_gn ul li:nth-child(4) {
-    background-color: #ffb441;
-}
-
-.unmt_gn ul li:nth-child(5) {
-    background-color: #ffac2e;
-}
 .unmt_gn ul li img{
    margin-top: 20px;
     margin-left: 83px;
 }
 .unmt_gn ul li h5{
-    font-size: 18px;
+    font-size: 24px;
     color: #ffffff;
     margin-top: 20px;
 }
@@ -215,10 +209,54 @@
     border-radius: 3px;
     border: 1px solid #ffffff;
 }
+
+.unmt_gn ul li:hover{
+    cursor: pointer;
+}
 .unmt_gn ul li a:hover{
-    background: #ff9e09;
-    box-shadow: 2px 2px 5px #ba883c;
     border: none;
+    background-color: #ff4b5a;
+}
+
+
+.unmt_gn ul li div.unmt_gn_vid{
+    width: 238px;
+    position: absolute;
+    top: 369px;
+    left: 0px;
+}
+.unmt_gn ul li div.unmt_gn_vid,.unmt_gn ul li h5,.unmt_gn ul li hr{
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+}
+
+.unmt_gn ul li div.unmt_gn_vid{
+    -webkit-transform: translate3d(0,0px,0);
+    transform: translate3d(0,0px,0);
+}
+
+.unmt_gn ul li:hover div.unmt_gn_vid{
+    -webkit-transform: translate3d(0,-150px,0);
+    transform: translate3d(0,-150px,0);
+}
+.unmt_gn ul li:hover h5{
+    margin-top: -30px;
+    font-size: 18px;
+}
+
+.unmt_gn ul li:hover hr{
+    opacity: 0;
+}
+
+.hr{
+    width: 20px;
+    height: 3px;
+    color: white;
+    background-color: white;
+    border: none;
+    margin-left: 111px;
+    margin-bottom: 15px;
+    margin-top: 40px;
 }
 
 .unmt_gn1{
@@ -255,6 +293,7 @@
     margin-top: 20px;
     margin-left: 37px;
 }
+
 
 .unmt_gn1 div.unmt_gn_div a:before {
     content: "";

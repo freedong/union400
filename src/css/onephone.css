@@ -52,6 +52,7 @@
 }
 
 .one_j ul li .zf_1{
+    display: inline-block;
     position: absolute;
     top: 0;
     left: 0;
@@ -62,7 +63,8 @@
     height: 60px;
     line-height: 60px;
     text-align: center;
-    color: #ffffff;
+    color: #fffd3c;
+    font-size: 18px;
 }
 .one_j ul li:hover .hm_1{
     cursor: pointer;
@@ -73,7 +75,7 @@
     cursor: pointer;
     visibility: visible;
     opacity: 1;
-    background-color: darkred;
+    background-color: #ff4b5a;
 }
 
 
@@ -110,6 +112,10 @@
     margin-left: 825px;
 }
 
+.one_j .j_div a:hover{
+    background-color: #dd424f;
+}
+
 
 
 /*1010号码套餐资费*/
@@ -130,12 +136,12 @@
     float: left;
 }
 .one_t .one_tc ul li:first-child{
-    width: 458px;
-    height: 241px;
+    width: 580px;
+    height: 251px;
 }
 .one_t .one_tc ul li:last-child{
-    width: 731px;
-    height: 241px;
+    width: 580px;
+    height: 251px;
 }
 
 
@@ -156,8 +162,11 @@
     background-color: #ff4b5a;
     color: #ffffff;
     font-size: 14px;
-    margin-left: 268px;
-    margin-top: 5px;
+    margin-left: 386px;
+    margin-top: 10px;
+}
+.one_t .one_tc ul li a:hover{
+    background-color: #db404d;
 }
 .one_t .one_zx{
     margin-top: 20px;
@@ -169,7 +178,7 @@
 }
 .one_t .one_zx .one_t_tj .bg2{
     position: relative;
-    width: 601px;
+    width: 580px;
     height: 270px;
     background: linear-gradient(60deg,#ffffff 225px,#ffbf5c 0);
     border: 1px solid #ffbf5c;
@@ -429,7 +438,7 @@
     margin-left: 56px;
 }
 
-.one_y a{
+.one_y a.a1{
     display: inline-block;
     color: #ffffff;
     font-size: 20px;
@@ -440,7 +449,30 @@
     border-radius: 25px;
     margin-top: 30px;
     margin-bottom: 40px;
+    background-color: #ffbe5a;
+    margin-left: 295px;
 }
+.one_y a.a2{
+    display: inline-block;
+    color: #ffffff;
+    font-size: 20px;
+    width: 280px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    background-color: #ff4b5a;
+    margin-left: 50px;
+}
+.one_y a.a1:hover{
+    background-color: #cc9848;
+}
+.one_y a.a2:hover{
+    background-color: #d8404c;
+}
+
 
 
 /*1010号码办理流程*/
@@ -570,12 +602,18 @@
     height: 160px;
     overflow: hidden;
 }
-.one_k ul li div img{
+.one_k ul li div img,.one_k ul li{
     transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
 }
 .one_k ul li:hover div img{
     transform: scale(1.2);
     -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
 }
 
 
