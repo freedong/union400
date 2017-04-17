@@ -713,10 +713,10 @@ div.top_height img{
 }
 /*导航栏样式*/
 .nav{
-	height: 60px;
+	height: 80px;
 }
 .nav ul{
-	margin-top: -52px;
+	margin-top: -50px;
 	margin-left: 249px;
 }
 .nav ul li{
@@ -772,7 +772,7 @@ div.top_height img{
 }
 
 .nav a img{
-	margin-top: 7px;
+	margin-top: 16px;
 	margin-left: -685px;
 }
 
@@ -788,11 +788,42 @@ div.top_height img{
 	height: 215px;
 }
 
+/*
 .cbla{
 	display: inline-block;
 	width: 140px;
 	height: 215px;
 	background: url(../images/cbl.png) no-repeat;
+}
+*/
+
+.cbl{
+	display: inline-block;
+	width: 140px;
+	height: 215px;
+	background: url(../images/cb_zx.png) no-repeat;
+}
+
+.cbl h3{
+	font-size: 18px;
+	color: #ffffff;
+	text-align: center;
+	margin-top: 2px;
+}
+.cbl a{
+	display: inline-block;
+	font-size: 16px;
+	color: #ffbe5a;
+	text-align: center;
+	margin-top: 131px;
+	margin-left: 45px;
+}
+.cbl .cblfoot{
+	margin-top: 5px;
+	margin-left: 10px;
+}
+.cbl .cblfoot span{
+	color: #ffffff;
 }
 
 /*

@@ -183,12 +183,12 @@
     background: linear-gradient(60deg,#ffffff 225px,#ffbf5c 0);
     border: 1px solid #ffbf5c;
 }
-.one_t .one_zx .one_t_tj .bg2 p{
+/*.one_t .one_zx .one_t_tj .bg2 p{
     color: #ff4b5a;
     font-size: 30px;
     margin-top: 25px;
     margin-left: 12px;
-}
+}*/
 
 
 .one_t .one_zx .one_t_tj .t_input{
@@ -280,6 +280,10 @@
     width: 70px;
     height: 70px;
     transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
     margin-top: 35px;
     margin-left: 10px;
     position: relative;
@@ -294,6 +298,10 @@
     width: 70px;
     height: 70px;
     transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
     margin-top: 20px;
     margin-left: 25px;
     position: relative;
@@ -307,6 +315,10 @@
     width: 70px;
     height: 70px;
     transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
     margin-top: 15px;
     margin-left: 25px;
     position: relative;
@@ -320,6 +332,10 @@
     width: 70px;
     height: 70px;
     transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
     margin-top: 15px;
     margin-left: 10px;
     position: relative;
@@ -369,6 +385,7 @@
     -moz-transition: all 0.7s ease;
     -o-transition: all 0.7s ease;
     -webkit-transition: all 0.7s ease;
+    -ms-transition:all 0.7s ease;
 }
 .one_y .one_y_div ul.ul1 li:hover{
     cursor: pointer;
@@ -376,6 +393,7 @@
     -o-transform: rotateY(360deg);
     -moz-transform: rotateY(360deg);
     -webkit-transform: rotateY(360deg);
+    -ms-transform:  rotateY(360deg);
 }
 .one_y .one_y_div ul.ul1 li div{
     float: left;
@@ -517,19 +535,19 @@
     margin-top: 30px;
 }
 
-.one_b_tijiao p.p1{
+/*.one_b_tijiao p.p1{
     color: #ffffff;
     font-size: 18px;
     margin-top: 20px;
     margin-left: 5px;
-}
+}*/
 
 .one_b_tijiao .tj_div{
     width: 185px;
 }
 
 .one_b_tijiao .tj_div1{
-    width: 1000px;
+    width: 990px;
     margin-top: 10px;
 }
 .one_b_tijiao .tj_div1 label{

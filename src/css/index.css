@@ -90,7 +90,7 @@
     position: relative;
     z-index: 1;
 }
-.slides li {
+.slide div.flexslider ul.slides li {
     height: 350px;
 }
 
@@ -149,11 +149,14 @@
     height: 60px;
     background: url(../images/jt.png) no-repeat;
 }*/
-
+.picScroll-left .hd{
+    position: relative;
+    width: 100%;
+}
 .picScroll-left .hd .prev{
     position: absolute;
     top: 90px;
-    left: 360px;
+    left: 20%;
     display: block;
     width: 33px;
     height: 59px;
@@ -169,7 +172,7 @@
 .picScroll-left .hd .next{
     position: absolute;
     top: 90px;
-    right: 390px;
+    right: 20%;
     display: block;
     width: 33px;
     height: 59px;
