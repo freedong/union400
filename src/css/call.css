@@ -186,14 +186,46 @@
 
 
 /*平台功能强大*/
+.picScroll-left .hd{
+    position: relative;
+}
+.picScroll-left .hd ul {
+    float: right;
+    overflow: hidden;
+    zoom: 1;
+    margin-top: 10px;
+    zoom: 1;
+    position: absolute;
+    top: 135px;
+    left: 570px;
+}
+
+.picScroll-left .hd ul li {
+    float: left;
+    width: 9px;
+    height: 9px;
+    overflow: hidden;
+    margin-right: 5px;
+    text-indent: -999px;
+    cursor: pointer;
+    background: url("../images/icoCircle.gif") 0 -9px no-repeat;
+}
+
+.picScroll-left .hd ul li.on {
+    background-position: 0 0;
+}
 
 
+.qd_div{
+    margin-bottom: 50px;
+}
 .qd_div ul.ul1 li{
     width: 394px;
     height: 120px;
     float: left;
     border: 1px solid #ffbe5a;
     border-radius: 2px;
+    margin: 0px 2px;
 }
 .qd_div ul.ul1 li div{
     float: left;
@@ -452,7 +484,6 @@
     opacity: 0;
 }
 .call_pl ul li:hover{
-    cursor: pointer;
     background-color: #ffffff;
 }
 .call_pl ul li:hover div.pl_div{
@@ -530,19 +561,61 @@
 .call_ad ul.f_ful1 li div.corr{
     position: absolute;
     top: 0px;
-    left: 70px;
+    left: 0px;
+    width: 223px;
+    height: 139px;
+    /*动画元素transform-style*/
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -webkit-transition: .8s ease-in-out ;
+    -moz-transition:  .8s ease-in-out ;
+    /*动画元素背后设置为hidden*/
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    z-index: 2;
 }
 
 .call_ad ul.f_ful1 li div.oppo{
-    background-color: #ffbe5a;
+    position: absolute;
+    top: 0px;
+    left: 0px;
     width: 223px;
     height: 139px;
+    /*动画元素transform-style*/
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -webkit-transition: .8s ease-in-out ;
+    -moz-transition:  .8s ease-in-out ;
+    /*动画元素背后设置为hidden*/
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    background: #ffbe5a;
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    z-index: 1;
 }
+
+.call_ad ul.f_ful1 li:hover div.oppo{
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+}
+
+.call_ad ul.f_ful1 li:hover div.corr{
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+}
+
+
+
 .call_ad ul.f_ful1 li div.oppo h6{
     font-size: 16px;
     color: #ffffff;
     text-align: center;
     font-weight: bold;
+    margin-top: -40px;
 }
 .call_ad ul.f_ful1 li div.oppo p{
     font-size: 14px;
@@ -555,75 +628,7 @@
     margin-top: -40px;
     font-size: 16px;
     color: #ffbe5a;
-}
-
-
-/*3d翻转动画效果*/
-@-webkit-keyframes flipOutYtest {
-    from {
-        -webkit-transform: perspective(1400px);
-        transform: perspective(1400px);
-        opacity: 1;
-    }
-
-    40% {
-        -webkit-transform: perspective(1400px) rotate3d(0, 1, 0, 60deg);
-        transform: perspective(1400px) rotate3d(0, 1, 0, 60deg);
-        opacity: 1;
-    }
-
-    50% {
-        -webkit-transform: perspective(1400px) rotate3d(0, 1, 0, 90deg);
-        transform: perspective(1400px) rotate3d(0, 1, 0, 90deg);
-        opacity: 0;
-    }
-
-    to {
-        -webkit-transform: perspective(1400px) rotate3d(0, 1, 0, 180deg);
-        transform: perspective(1400px) rotate3d(0, 1, 0, 180deg);
-        opacity: 0;
-    }
-}
-
-.test{
-    -webkit-animation: flipOutYtest 0.5s linear;
-    animation: flipOutYtest 0.5s linear;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-}
-
-
-@-webkit-keyframes flipInYtest {
-    from {
-        -webkit-transform: perspective(1400px) rotate3d(0, 1, 0, -180deg);
-        transform: perspective(1400px) rotate3d(0, 1, 0, -180deg);
-        opacity: 0;
-    }
-
-    50% {
-        -webkit-transform: perspective(1400px) rotate3d(0, 1, 0, -90deg);
-        transform: perspective(1400px) rotate3d(0, 1, 0, -90deg);
-        opacity: 0;
-    }
-
-    60% {
-        -webkit-transform: perspective(1400px) rotate3d(0, 1, 0, -60deg);
-        transform: perspective(1400px) rotate3d(0, 1, 0, -60deg);
-        opacity: 1;
-    }
-
-    to {
-        -webkit-transform: perspective(1400px);
-        transform: perspective(1400px);
-        opacity: 1;
-    }
-}
-
-.test2{
-    -webkit-animation: flipInYtest 0.5s linear;
-    animation: flipInYtest 0.5s linear;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
+    padding: 0px 10px;
 }
 
 
@@ -684,6 +689,10 @@
     margin-left: 232px;
 }
 
+.call_ser ul li a:hover{
+    background-color: #e47e07;
+}
+
 .bg_div{
     width: 392px;
     height: 140px;
@@ -725,7 +734,6 @@
 
 
 .call_ser ul li:hover{
-    cursor: pointer;
     box-shadow: 2px 2px 10px #d3d3d3;
     background-color: #ffffff;
 }
@@ -790,9 +798,9 @@
 }
 
 .call_kt ul.ul1 li div.ss_div1{
-    width: 138px;
+    width: 158px;
     height: 120px;
-    padding: 0 19px;
+    padding: 0 9px;
     background-color: #f3f3f3;
 }
 
@@ -801,5 +809,18 @@
     color: #333333;
     margin-top: 70px;
     margin-left: 10px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -moz-transition: all 0.5s;
 }
 
+.call_kt ul.ul1 li:hover div.ss_div1{
+    background-color: #ffffff;
+}
+
+.call_kt ul.ul1 li:hover h3{
+    margin-top: 50px;
+    color: #ffbe5a;
+    font-size: 18px;
+}

@@ -6,6 +6,7 @@
     <link type="text/css" rel="stylesheet" href="css/reset.css" />
     <link type="text/css" rel="stylesheet" href="css/call.css" />
     <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
 </head>
 <body>
 <!--头部栏-->
@@ -312,39 +313,94 @@
                     </div>
                 </div>
                 <p class="qd_p">优音云客服支持全渠道接入（微信/app/网页/语音/邮件），一站解决客户难题，大幅提升客服工作效率；云端模式按需购买，节省大笔搭建费用，大幅缩短上线周期，满足客户通信需求。除此之外，信通网赢接入线路优质，语音通话音质清晰/稳定，更支持跨国业务接入服务。</p>
-                <div class="qd_div">
-                     <ul class="clearFloat ul1">
+
+                <div class="picScroll-left">
+                    <div class="hd">
+                        <a class="next"></a>
+                        <ul></ul>
+                        <a class="prev"></a>
+                    </div>
+                    <div class="qd_div bd">
+                        <ul class="clearFloat ul1">
                             <li>
                                 <div class="ss_div">
-                                    <img src="images/qd_1.png" />
+                                    <img src="images/qd_1.png"/>
                                 </div>
                                 <div class="ss_div1">
                                     <h3>来电弹屏</h3>
+
                                     <p>来电或外呼时，弹屏显示客户详细信息及历史沟通记录，方便客服人员查询。</p>
                                 </div>
                                 <div style="clear: both;"></div>
                             </li>
-                            <li style="margin: 0px 6px;">
+                            <li>
                                 <div class="ss_div">
-                                    <img src="images/qd_2.png" />
+                                    <img src="images/qd_2.png"/>
                                 </div>
                                 <div class="ss_div1">
                                     <h3>在线咨询</h3>
+
                                     <p>客户可以通过网站、微信、APP等多种沟通方式与客户沟通，不受场地限制，实现移动办公，简单高效。</p>
                                 </div>
                                 <div style="clear: both;"></div>
                             </li>
                             <li>
                                 <div class="ss_div">
-                                    <img src="images/qd_3.png" />
+                                    <img src="images/qd_3.png"/>
                                 </div>
                                 <div class="ss_div1">
                                     <h3>客户管理</h3>
+
+                                    <p>记录保存客户姓名，电话，沟通记录等信息，有效跟进客户，清晰掌握客户跟进状况。</p>
+                                </div>
+                                <div style="clear: both;"></div>
+                            </li>
+                            <li>
+                                <div class="ss_div">
+                                    <img src="images/qd_3.png"/>
+                                </div>
+                                <div class="ss_div1">
+                                    <h3>客户管理</h3>
+
+                                    <p>记录保存客户姓名，电话，沟通记录等信息，有效跟进客户，清晰掌握客户跟进状况。</p>
+                                </div>
+                                <div style="clear: both;"></div>
+                            </li>
+                            <li>
+                                <div class="ss_div">
+                                    <img src="images/qd_3.png"/>
+                                </div>
+                                <div class="ss_div1">
+                                    <h3>客户管理</h3>
+
+                                    <p>记录保存客户姓名，电话，沟通记录等信息，有效跟进客户，清晰掌握客户跟进状况。</p>
+                                </div>
+                                <div style="clear: both;"></div>
+                            </li>
+                            <li>
+                                <div class="ss_div">
+                                    <img src="images/qd_3.png"/>
+                                </div>
+                                <div class="ss_div1">
+                                    <h3>客户管理</h3>
+
+                                    <p>记录保存客户姓名，电话，沟通记录等信息，有效跟进客户，清晰掌握客户跟进状况。</p>
+                                </div>
+                                <div style="clear: both;"></div>
+                            </li>
+                            <li>
+                                <div class="ss_div">
+                                    <img src="images/qd_3.png"/>
+                                </div>
+                                <div class="ss_div1">
+                                    <h3>客户管理</h3>
+
                                     <p>记录保存客户姓名，电话，沟通记录等信息，有效跟进客户，清晰掌握客户跟进状况。</p>
                                 </div>
                                 <div style="clear: both;"></div>
                             </li>
                         </ul>
+                    </div>
                 </div>
 
             </div>
@@ -596,7 +652,7 @@
                         </div>
                         <div style="clear: both;"></div>
                     </li>
-                    <li>
+                    <li style="box-shadow: none;">
                         <div class="bg_div">
                             <a href="javascript:void(0);">点击了解详情</a>
                         </div>
@@ -695,24 +751,18 @@
 </div>
 
 
-
-<script>
-    $(function(){
-        $(".call_ad ul.f_ful1 li").hover(function(){
-            $(this).find(".corr").children().removeClass();
-            $(this).find(".oppo").children().removeClass();
-            $(this).find(".corr").children().addClass("test");
-            $(this).find(".oppo").children().addClass('test2');
-        },function(){
-            $(this).find(".corr").children().removeClass();
-            $(this).find(".oppo").children().removeClass();
-            $(this).find(".corr").children().addClass("test2");
-            $(this).find(".oppo").children().addClass('test');
-        });
-
+<script type="text/javascript">
+    $(".picScroll-left").slide({
+        titCell: ".hd ul",
+        mainCell: ".bd ul",
+        autoPage: true,
+        effect: "left",
+        autoPlay: true,
+        vis: 3,
+        trigger: "click"
     });
 </script>
-<script type="">
+<script type="text/javascript">
     $(function(){
         $('.tablist li').mouseover(function(){
             var liindex = $('.tablist li').index(this);

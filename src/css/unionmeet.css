@@ -89,9 +89,9 @@
 .unmt_hy ul li div.unmt_hy2.unmt_hy2_3{
     background-position: -790px 45px;
 }
-.unmt_hy ul li:hover{
+/*.unmt_hy ul li:hover{
     cursor: pointer;
-}
+}*/
 .unmt_hy ul li:hover div.unmt_hy2.unmt_hy2_1{
     background: url(../images/unmt_hy_2.png) 20px 45px no-repeat;
 }
@@ -210,9 +210,9 @@
     border: 1px solid #ffffff;
 }
 
-.unmt_gn ul li:hover{
+/*.unmt_gn ul li:hover{
     cursor: pointer;
-}
+}*/
 .unmt_gn ul li a:hover{
     border: none;
     background-color: #ff4b5a;
@@ -336,10 +336,34 @@
     linear-gradient(-120deg, transparent 75%, #f3f3f3 75%);
 }
 
+.unmt_gn1 div.unmt_gn_div a:hover::before{
+    left: -5px;
+    background-color: #f3f3f3;
+    background-position: 100% 35%;
+    background-image: linear-gradient(-45deg, #d8a14b 25%, transparent 25%, transparent),
+    linear-gradient(-120deg, #d8a14b 25%, transparent 25%, transparent),
+    linear-gradient(-45deg, transparent 75%, #d8a14b 75%),
+    linear-gradient(-120deg, transparent 75%, #d8a14b 75%);
+}
+
+.unmt_gn1 div.unmt_gn_div a:hover::after{
+    right: -5px;
+    background-color: #d8a14b;
+    background-position: 100% 15%;
+    background-image: linear-gradient(-45deg, #f3f3f3 25%, transparent 25%, transparent),
+    linear-gradient(-120deg, #f3f3f3 25%, transparent 25%, transparent),
+    linear-gradient(-45deg, transparent 75%, #f3f3f3 75%),
+    linear-gradient(-120deg, transparent 75%, #f3f3f3 75%);
+}
+
+.unmt_gn1 div.unmt_gn_div a:hover{
+    background-color: #d8a14b;
+}
 
 
 
-/*优音电话会议特色优势*/
+
+    /*优音电话会议特色优势*/
 .unmt_ys h3{
     color: #333333;
     font-size: 26px;
@@ -408,7 +432,7 @@
 }
 
 .unmt_ys ul li:hover{
-    cursor: pointer;
+    /*cursor: pointer;*/
     background-color: #ffbe5a;
 }
 

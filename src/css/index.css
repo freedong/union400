@@ -95,6 +95,38 @@
     height: 350px;
 }
 
+
+.picScroll-left{
+    position: relative;
+}
+.picScroll-left .hd ul {
+    float: right;
+    overflow: hidden;
+    zoom: 1;
+    margin-top: 10px;
+    zoom: 1;
+    position: absolute;
+    top: 345px;
+    left: 50%;
+}
+
+.picScroll-left .hd ul li {
+    float: left;
+    width: 9px;
+    height: 9px;
+    overflow: hidden;
+    margin-right: 5px;
+    text-indent: -999px;
+    cursor: pointer;
+    background: url("../images/icoCircle.gif") 0 -9px no-repeat;
+}
+
+.picScroll-left .hd ul li.on {
+    background-position: 0 0;
+}
+
+
+/*
 .flex-control-nav {
     position: absolute;
     bottom: 10px;
@@ -149,6 +181,7 @@
     right: 40px;
     background: url(../images/next.png) center center no-repeat;
 }
+*/
 
 
 
@@ -180,8 +213,24 @@
     /*background-color: #ffbe5a;*/
     float: left;
     position: relative;
+    overflow: hidden;
 }
-.solution ul li div img{
+
+.solution ul li img.shizijia{
+    position: absolute;
+    top: -55px;
+    left: 92px;
+    -webkit-transform: translate3d(0,0px,0)/*translate3d(0,-80px,0)*/;
+    transform: translate3d(0,0px,0)/*translate3d(0,-80px,0)*/;
+}
+
+.solution ul li:hover img.shizijia{
+    -webkit-transform: translate3d(0,110px,0)/*translate3d(0,-80px,0)*/;
+    transform: translate3d(0,110px,0)/*translate3d(0,-80px,0)*/;
+    z-index: 6;
+}
+
+.solution ul li div img,.solution ul li img.shizijia,.solution ul li{
     transition: all 0.5s ease;
     -webkit-transition:  all 0.5s ease;
     -o-transition:  all 0.5s ease;
@@ -236,7 +285,6 @@ div.effect-bubba div.figcaption::after {
 
 
 .solution ul li:hover{
-    cursor: pointer;
     background-color: #ffbe5a;
 }
 
@@ -316,8 +364,38 @@ div.effect-bubba div.figcaption::after {
 .p1{
     background: url(../images/p1.png) no-repeat;
 }
+.p2{
+    background: url(../images/p2.png) no-repeat;
+}
+.p3{
+    background: url(../images/p3.png) no-repeat;
+}
+.p4{
+    background: url(../images/p4.png) no-repeat;
+}
+.p5{
+    background: url(../images/p5.png) no-repeat;
+}
+.p6{
+    background: url(../images/p6.png) no-repeat;
+}
 .product ul li:hover .p1{
     background: url(../images/p1_orange.png) no-repeat;
+}
+.product ul li:hover .p2{
+    background: url(../images/p2a.png) no-repeat;
+}
+.product ul li:hover .p3{
+    background: url(../images/p3a.png) no-repeat;
+}
+.product ul li:hover .p4{
+    background: url(../images/p4a.png) no-repeat;
+}
+.product ul li:hover .p5{
+    background: url(../images/p5a.png) no-repeat;
+}
+.product ul li:hover .p6{
+    background: url(../images/p6a.png) no-repeat;
 }
 .product ul li p{
     font-size: 14px;
@@ -336,7 +414,7 @@ div.effect-bubba div.figcaption::after {
 }
 
 .product .p_div1{
-    width: 64px;
+    width: 68px;
     height: 101px;
     margin-top: 45px;
     margin-left: 20px;
@@ -431,7 +509,7 @@ div.effect-bubba div.figcaption::after {
 .services ul.ul2 .ul2_div:hover{
     cursor: pointer;
     color: #ffffff;
-    background: #ffbe5a /*url(../images/service_tuoyuan1_1.png) center no-repeat*/;
+    background: #ffbe5a url(../images/service_tuoyuan1_1.png) center no-repeat;
 }
 .services ul.ul2 li p{
     font-size: 15.73px;
@@ -455,6 +533,40 @@ div.effect-bubba div.figcaption::after {
     border: 1px solid #cdcdcd;
 }
 
+.leaders ul li div.leaders1{
+    width: 380px;
+    height: 100px;
+    background: url("../images/leaders1.png") 150px 15px no-repeat;
+}
+.leaders ul li div.leaders2{
+    width: 380px;
+    height: 100px;
+    background: url("../images/leaders2.png") 150px 15px no-repeat;
+}
+.leaders ul li div.leaders3{
+    width: 380px;
+    height: 100px;
+    background: url("../images/leaders3.png") 150px 15px no-repeat;
+}
+
+
+.leaders ul li:hover div.leaders1{
+    width: 380px;
+    height: 100px;
+    background: url("../images/leaders1a.png") 150px 15px no-repeat;
+}
+.leaders ul li:hover div.leaders2{
+    width: 380px;
+    height: 100px;
+    background: url("../images/leaders2a.png") 150px 15px no-repeat;
+}
+.leaders ul li:hover div.leaders3{
+    width: 380px;
+    height: 100px;
+    background: url("../images/leaders3a.png") 150px 15px no-repeat;
+}
+
+
 .leaders ul li:hover{
     cursor: pointer;
     background-color: #ffbe5a;
@@ -462,9 +574,9 @@ div.effect-bubba div.figcaption::after {
 .leaders ul li:hover p{
     color: #ffffff;
 }
-.leaders ul li img{
+/*.leaders ul li img{
     padding: 13px 154px;
-}
+}*/
 .leaders ul li p{
     font-size: 16px;
     color: #666666;

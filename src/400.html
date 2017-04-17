@@ -6,6 +6,7 @@
     <link type="text/css" rel="stylesheet" href="css/reset.css" />
     <link type="text/css" rel="stylesheet" href="css/400.css" />
     <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
 </head>
 <body>
 <!--头部栏-->
@@ -32,8 +33,13 @@
         </ul>
         <a href="javascript:void(0);" class="floatRight nav_a">免费试用</a>
     </div>
-    <div class="banner">
-        <div class="banner_slide">
+    <div class="banner picScroll-left">
+        <div class="hd">
+            <a class="next"></a>
+            <ul></ul>
+            <a class="prev"></a>
+        </div>
+        <div class="banner_slide bd">
             <ul class="slide">
                 <li style="background: url(images/banner1.png) 50% 0 no-repeat;"></li>
                 <li style="background: url(images/banner2.png) 50% 0 no-repeat;"></li>
@@ -228,11 +234,11 @@
                             <input type="text" id=phone name="phone" value=""/><br/>
 
                             <label for="comment" style="padding-left: 20px;">验证码：</label>
-                            <input type="text" id=comment name="comment" value="" style="width: 140px;"/>
-                            <img src="images/yanzhengma.png" style="display: inline;vertical-align: middle;" />
+                            <input type="text" id=comment name="comment"  class="comment" value="" style="width: 140px;"/>
+                            <img src="images/yanzhengma.png" style="display: block;vertical-align: middle;margin-left: 265px;margin-top: -34px;" />
                             <br/>
 
-                            <input type="submit" id="sbutton" value="立即定制" style="width: 196px;height: 30px;background-color: #ff4b5a;color: #ffffff;font-size: 16px;margin-left: 71px;"/>
+                            <input type="submit" id="sbutton" class="sbutton" value="立即定制"/>
                             <br/>
 
                             <p style="color: #ff4b5a;font-size: 14px;padding: 10px 24px 0px 24px;">咨询客服获得所有（18款）套餐详情，或拨打电话400-000-0011咨询套餐详情</p>
@@ -249,11 +255,11 @@
             <div class="tablist">
                 <ul class="clearFloat">
                     <li class="cur"><a href="/">带6的400号码</a></li>
-                    <li><a href="/">带8的400号码<em>|</em></a></li>
-                    <li><a href="/">好记的400号码</a></li>
-                    <li><a href="/">行业特色的400号码</a></li>
-                    <li><a href="/">便宜的400号码</a></li>
-                    <li><a href="/">性价比的400号码</a></li>
+                    <li><a href="/">带8的400号码<span></span></a></li>
+                    <li><a href="/">好记的400号码<span></span></a></li>
+                    <li><a href="/">行业特色的400号码<span></span></a></li>
+                    <li><a href="/">便宜的400号码<span></span></a></li>
+                    <li><a href="/">性价比的400号码<span></span></a></li>
                 </ul>
             </div>
             <div class="tabcon">
@@ -261,103 +267,383 @@
                     <ul class="clearFloat">
                         <li>
                             <section class="tab_sec">400*-289-026</section>
-                            <section class="tab_imm">400*-289-026<span>获得此号码</span></section>
+                            <section class="tab_imm">400*-289-026<a href="javascript:void(0);">获得此号码</a>
+                            </section>
                         </li>
                         <li>
                             <section class="tab_sec">400*-956-925</section>
-                            <section class="tab_imm">400*-289-026<span>获得此号码</span></section>
+                            <section class="tab_imm">400*-956-925<a href="javascript:void(0);">获得此号码</a>
+                            </section>
                         </li>
                         <li>
                             <section class="tab_sec">400*-244-026</section>
-                            <section class="tab_imm">400*-289-026<span>获得此号码</span></section>
+                            <section class="tab_imm">400*-244-026<a href="javascript:void(0);">获得此号码</a>
+                            </section>
                         </li>
                         <li>
                             <section class="tab_sec">400*-255-086</section>
-                            <section class="tab_imm">400*-289-026<span>获得此号码</span></section>
+                            <section class="tab_imm">400*-255-086<a href="javascript:void(0);">获得此号码</a>
+                            </section>
                         </li>
                         <li>
                             <section class="tab_sec">400*-986-010</section>
-                            <section class="tab_imm">400*-289-026<span>获得此号码</span></section>
+                            <section class="tab_imm">400*-986-010<a href="javascript:void(0);">获得此号码</a>
+                            </section>
                         </li>
                         <li>
                             <section class="tab_sec">400*-666-078</section>
-                            <section class="tab_imm">400*-289-026<span>获得此号码</span></section>
+                            <section class="tab_imm">400*-666-078<a href="javascript:void(0);">获得此号码</a>
+                            </section>
                         </li>
                         <li>
                             <section class="tab_sec">400*-226-081</section>
-                            <section class="tab_imm">400*-289-026<span>获得此号码</span></section>
+                            <section class="tab_imm">400*-226-081<a href="javascript:void(0);">获得此号码</a>
+                            </section>
                         </li>
                         <li>
                             <section class="tab_sec">400*-666-022</section>
-                            <section class="tab_imm">400*-289-026<span>获得此号码</span></section>
+                            <section class="tab_imm">400*-666-022<a href="javascript:void(0);">获得此号码</a>
+                            </section>
                         </li>
                         <li>
                             <section class="tab_sec">400*-696-088</section>
-                            <section class="tab_imm">400*-289-026<span>获得此号码</span></section>
+                            <section class="tab_imm">400*-696-088<a href="javascript:void(0);">获得此号码</a>
+                            </section>
                         </li>
                         <li>
                             <section class="tab_sec">400*-532-256</section>
-                            <section class="tab_imm">400*-289-026<span>获得此号码</span></section>
+                            <section class="tab_imm">400*-532-256<a href="javascript:void(0);">获得此号码</a>
+                            </section>
                         </li>
                         <li>
                             <section class="tab_sec">400*-016-001</section>
-                            <section class="tab_imm">400*-289-026<span>获得此号码</span></section>
+                            <section class="tab_imm">400*-016-001<a href="javascript:void(0);">获得此号码</a>
+                            </section>
                         </li>
                         <li>
                             <section class="tab_sec">400*-226-252</section>
-                            <section class="tab_imm">400*-289-026<span>获得此号码</span></section>
+                            <section class="tab_imm">400*-226-252<a href="javascript:void(0);">获得此号码</a>
+                            </section>
                         </li>
                     </ul>
                     </div>
                 <div class="cur1">
                     <ul class="clearFloat">
                         <li>
-                            <section class="tab_sec">500*-289-026</section>
-                            <section></section>
+                            <section class="tab_sec">400*-289-026</section>
+                            <section class="tab_imm">400*-289-026<a href="javascript:void(0);">获得此号码</a>
+                            </section>
                         </li>
                         <li>
                             <section class="tab_sec">400*-956-925</section>
-                            <section></section>
+                            <section class="tab_imm">400*-956-925<a href="javascript:void(0);">获得此号码</a>
+                            </section>
                         </li>
                         <li>
                             <section class="tab_sec">400*-244-026</section>
-                            <section></section>
+                            <section class="tab_imm">400*-244-026<a href="javascript:void(0);">获得此号码</a>
+                            </section>
                         </li>
                         <li>
                             <section class="tab_sec">400*-255-086</section>
-                            <section></section>
+                            <section class="tab_imm">400*-255-086<a href="javascript:void(0);">获得此号码</a>
+                            </section>
                         </li>
                         <li>
                             <section class="tab_sec">400*-986-010</section>
-                            <section></section>
+                            <section class="tab_imm">400*-986-010<a href="javascript:void(0);">获得此号码</a>
+                            </section>
                         </li>
                         <li>
                             <section class="tab_sec">400*-666-078</section>
-                            <section></section>
+                            <section class="tab_imm">400*-666-078<a href="javascript:void(0);">获得此号码</a>
+                            </section>
                         </li>
                         <li>
                             <section class="tab_sec">400*-226-081</section>
-                            <section></section>
+                            <section class="tab_imm">400*-226-081<a href="javascript:void(0);">获得此号码</a>
+                            </section>
                         </li>
                         <li>
                             <section class="tab_sec">400*-666-022</section>
-                            <section></section>
+                            <section class="tab_imm">400*-666-022<a href="javascript:void(0);">获得此号码</a>
+                            </section>
                         </li>
                         <li>
                             <section class="tab_sec">400*-696-088</section>
-                            <section></section>
+                            <section class="tab_imm">400*-696-088<a href="javascript:void(0);">获得此号码</a>
+                            </section>
                         </li>
                         <li>
                             <section class="tab_sec">400*-532-256</section>
-                            <section></section>
+                            <section class="tab_imm">400*-532-256<a href="javascript:void(0);">获得此号码</a>
+                            </section>
                         </li>
                         <li>
                             <section class="tab_sec">400*-016-001</section>
-                            <section></section>
+                            <section class="tab_imm">400*-016-001<a href="javascript:void(0);">获得此号码</a>
+                            </section>
                         </li>
                         <li>
                             <section class="tab_sec">400*-226-252</section>
-                            <section></section>
+                            <section class="tab_imm">400*-226-252<a href="javascript:void(0);">获得此号码</a>
+                            </section>
+                        </li>
+                    </ul>
+                </div>
+                <div class="cur1">
+                    <ul class="clearFloat">
+                        <li>
+                            <section class="tab_sec">400*-289-026</section>
+                            <section class="tab_imm">400*-289-026<a href="javascript:void(0);">获得此号码</a>
+                            </section>
+                        </li>
+                        <li>
+                            <section class="tab_sec">400*-956-925</section>
+                            <section class="tab_imm">400*-956-925<a href="javascript:void(0);">获得此号码</a>
+                            </section>
+                        </li>
+                        <li>
+                            <section class="tab_sec">400*-244-026</section>
+                            <section class="tab_imm">400*-244-026<a href="javascript:void(0);">获得此号码</a>
+                            </section>
+                        </li>
+                        <li>
+                            <section class="tab_sec">400*-255-086</section>
+                            <section class="tab_imm">400*-255-086<a href="javascript:void(0);">获得此号码</a>
+                            </section>
+                        </li>
+                        <li>
+                            <section class="tab_sec">400*-986-010</section>
+                            <section class="tab_imm">400*-986-010<a href="javascript:void(0);">获得此号码</a>
+                            </section>
+                        </li>
+                        <li>
+                            <section class="tab_sec">400*-666-078</section>
+                            <section class="tab_imm">400*-666-078<a href="javascript:void(0);">获得此号码</a>
+                            </section>
+                        </li>
+                        <li>
+                            <section class="tab_sec">400*-226-081</section>
+                            <section class="tab_imm">400*-226-081<a href="javascript:void(0);">获得此号码</a>
+                            </section>
+                        </li>
+                        <li>
+                            <section class="tab_sec">400*-666-022</section>
+                            <section class="tab_imm">400*-666-022<a href="javascript:void(0);">获得此号码</a>
+                            </section>
+                        </li>
+                        <li>
+                            <section class="tab_sec">400*-696-088</section>
+                            <section class="tab_imm">400*-696-088<a href="javascript:void(0);">获得此号码</a>
+                            </section>
+                        </li>
+                        <li>
+                            <section class="tab_sec">400*-532-256</section>
+                            <section class="tab_imm">400*-532-256<a href="javascript:void(0);">获得此号码</a>
+                            </section>
+                        </li>
+                        <li>
+                            <section class="tab_sec">400*-016-001</section>
+                            <section class="tab_imm">400*-016-001<a href="javascript:void(0);">获得此号码</a>
+                            </section>
+                        </li>
+                        <li>
+                            <section class="tab_sec">400*-226-252</section>
+                            <section class="tab_imm">400*-226-252<a href="javascript:void(0);">获得此号码</a>
+                            </section>
+                        </li>
+                    </ul>
+                </div>
+                <div class="cur1">
+                    <ul class="clearFloat">
+                        <li>
+                            <section class="tab_sec">400*-289-026</section>
+                            <section class="tab_imm">400*-289-026<a href="javascript:void(0);">获得此号码</a>
+                            </section>
+                        </li>
+                        <li>
+                            <section class="tab_sec">400*-956-925</section>
+                            <section class="tab_imm">400*-956-925<a href="javascript:void(0);">获得此号码</a>
+                            </section>
+                        </li>
+                        <li>
+                            <section class="tab_sec">400*-244-026</section>
+                            <section class="tab_imm">400*-244-026<a href="javascript:void(0);">获得此号码</a>
+                            </section>
+                        </li>
+                        <li>
+                            <section class="tab_sec">400*-255-086</section>
+                            <section class="tab_imm">400*-255-086<a href="javascript:void(0);">获得此号码</a>
+                            </section>
+                        </li>
+                        <li>
+                            <section class="tab_sec">400*-986-010</section>
+                            <section class="tab_imm">400*-986-010<a href="javascript:void(0);">获得此号码</a>
+                            </section>
+                        </li>
+                        <li>
+                            <section class="tab_sec">400*-666-078</section>
+                            <section class="tab_imm">400*-666-078<a href="javascript:void(0);">获得此号码</a>
+                            </section>
+                        </li>
+                        <li>
+                            <section class="tab_sec">400*-226-081</section>
+                            <section class="tab_imm">400*-226-081<a href="javascript:void(0);">获得此号码</a>
+                            </section>
+                        </li>
+                        <li>
+                            <section class="tab_sec">400*-666-022</section>
+                            <section class="tab_imm">400*-666-022<a href="javascript:void(0);">获得此号码</a>
+                            </section>
+                        </li>
+                        <li>
+                            <section class="tab_sec">400*-696-088</section>
+                            <section class="tab_imm">400*-696-088<a href="javascript:void(0);">获得此号码</a>
+                            </section>
+                        </li>
+                        <li>
+                            <section class="tab_sec">400*-532-256</section>
+                            <section class="tab_imm">400*-532-256<a href="javascript:void(0);">获得此号码</a>
+                            </section>
+                        </li>
+                        <li>
+                            <section class="tab_sec">400*-016-001</section>
+                            <section class="tab_imm">400*-016-001<a href="javascript:void(0);">获得此号码</a>
+                            </section>
+                        </li>
+                        <li>
+                            <section class="tab_sec">400*-226-252</section>
+                            <section class="tab_imm">400*-226-252<a href="javascript:void(0);">获得此号码</a>
+                            </section>
+                        </li>
+                    </ul>
+                </div>
+                <div class="cur1">
+                    <ul class="clearFloat">
+                        <li>
+                            <section class="tab_sec">400*-289-026</section>
+                            <section class="tab_imm">400*-289-026<a href="javascript:void(0);">获得此号码</a>
+                            </section>
+                        </li>
+                        <li>
+                            <section class="tab_sec">400*-956-925</section>
+                            <section class="tab_imm">400*-956-925<a href="javascript:void(0);">获得此号码</a>
+                            </section>
+                        </li>
+                        <li>
+                            <section class="tab_sec">400*-244-026</section>
+                            <section class="tab_imm">400*-244-026<a href="javascript:void(0);">获得此号码</a>
+                            </section>
+                        </li>
+                        <li>
+                            <section class="tab_sec">400*-255-086</section>
+                            <section class="tab_imm">400*-255-086<a href="javascript:void(0);">获得此号码</a>
+                            </section>
+                        </li>
+                        <li>
+                            <section class="tab_sec">400*-986-010</section>
+                            <section class="tab_imm">400*-986-010<a href="javascript:void(0);">获得此号码</a>
+                            </section>
+                        </li>
+                        <li>
+                            <section class="tab_sec">400*-666-078</section>
+                            <section class="tab_imm">400*-666-078<a href="javascript:void(0);">获得此号码</a>
+                            </section>
+                        </li>
+                        <li>
+                            <section class="tab_sec">400*-226-081</section>
+                            <section class="tab_imm">400*-226-081<a href="javascript:void(0);">获得此号码</a>
+                            </section>
+                        </li>
+                        <li>
+                            <section class="tab_sec">400*-666-022</section>
+                            <section class="tab_imm">400*-666-022<a href="javascript:void(0);">获得此号码</a>
+                            </section>
+                        </li>
+                        <li>
+                            <section class="tab_sec">400*-696-088</section>
+                            <section class="tab_imm">400*-696-088<a href="javascript:void(0);">获得此号码</a>
+                            </section>
+                        </li>
+                        <li>
+                            <section class="tab_sec">400*-532-256</section>
+                            <section class="tab_imm">400*-532-256<a href="javascript:void(0);">获得此号码</a>
+                            </section>
+                        </li>
+                        <li>
+                            <section class="tab_sec">400*-016-001</section>
+                            <section class="tab_imm">400*-016-001<a href="javascript:void(0);">获得此号码</a>
+                            </section>
+                        </li>
+                        <li>
+                            <section class="tab_sec">400*-226-252</section>
+                            <section class="tab_imm">400*-226-252<a href="javascript:void(0);">获得此号码</a>
+                            </section>
+                        </li>
+                    </ul>
+                </div>
+                <div class="cur1">
+                    <ul class="clearFloat">
+                        <li>
+                            <section class="tab_sec">400*-289-026</section>
+                            <section class="tab_imm">400*-289-026<a href="javascript:void(0);">获得此号码</a>
+                            </section>
+                        </li>
+                        <li>
+                            <section class="tab_sec">400*-956-925</section>
+                            <section class="tab_imm">400*-956-925<a href="javascript:void(0);">获得此号码</a>
+                            </section>
+                        </li>
+                        <li>
+                            <section class="tab_sec">400*-244-026</section>
+                            <section class="tab_imm">400*-244-026<a href="javascript:void(0);">获得此号码</a>
+                            </section>
+                        </li>
+                        <li>
+                            <section class="tab_sec">400*-255-086</section>
+                            <section class="tab_imm">400*-255-086<a href="javascript:void(0);">获得此号码</a>
+                            </section>
+                        </li>
+                        <li>
+                            <section class="tab_sec">400*-986-010</section>
+                            <section class="tab_imm">400*-986-010<a href="javascript:void(0);">获得此号码</a>
+                            </section>
+                        </li>
+                        <li>
+                            <section class="tab_sec">400*-666-078</section>
+                            <section class="tab_imm">400*-666-078<a href="javascript:void(0);">获得此号码</a>
+                            </section>
+                        </li>
+                        <li>
+                            <section class="tab_sec">400*-226-081</section>
+                            <section class="tab_imm">400*-226-081<a href="javascript:void(0);">获得此号码</a>
+                            </section>
+                        </li>
+                        <li>
+                            <section class="tab_sec">400*-666-022</section>
+                            <section class="tab_imm">400*-666-022<a href="javascript:void(0);">获得此号码</a>
+                            </section>
+                        </li>
+                        <li>
+                            <section class="tab_sec">400*-696-088</section>
+                            <section class="tab_imm">400*-696-088<a href="javascript:void(0);">获得此号码</a>
+                            </section>
+                        </li>
+                        <li>
+                            <section class="tab_sec">400*-532-256</section>
+                            <section class="tab_imm">400*-532-256<a href="javascript:void(0);">获得此号码</a>
+                            </section>
+                        </li>
+                        <li>
+                            <section class="tab_sec">400*-016-001</section>
+                            <section class="tab_imm">400*-016-001<a href="javascript:void(0);">获得此号码</a>
+                            </section>
+                        </li>
+                        <li>
+                            <section class="tab_sec">400*-226-252</section>
+                            <section class="tab_imm">400*-226-252<a href="javascript:void(0);">获得此号码</a>
+                            </section>
                         </li>
                     </ul>
                 </div>
@@ -389,24 +675,67 @@
                 <h3>优音400电话独有功能</h3>
                 <ul class="clearFloat">
                     <li>
-                        <img src="images/f_p1.png" />
-                        <hr class="hr" />
-                        <h5>虚拟总机</h5>
+                        <div class="sf1">
+                            <img src="images/f_p1.png" />
+                            <hr class="hr" />
+                            <h5>虚拟总机</h5>
+                        </div>
+                        <div class="sf">
+                            <p>功能:<br />
+                                企业总机以全球企业热线号码或本地电话号码为接入号码，采用自动总机或人工总机方式，提供录音查询、通话查询等管理功能。<br />
+                                优势:<br />
+                                ● 提供统一热线号码，增强品牌效应<br />
+                                ● 统一管理，有效获取有价值的通话录音和记录<br />
+                                ● 无需布线，配置后即刻生效</p>
+                        </div>
+
                     </li>
                     <li>
-                        <img src="images/f_p2.png" />
-                        <hr class="hr" />
-                        <h5>Web400</h5>
+                        <div class="sf1">
+                            <img src="images/f_p2.png" />
+                            <hr class="hr" />
+                            <h5>Web400</h5>
+                        </div>
+
+                        <div class="sf">
+                            <p>功能:<br />
+                                企业通过400对客户发起呼叫，客户方完全免费。企业获取意向客户的利器！<br />
+                                优势:<br />
+                                ● 体现网站正规化，专业化。<br />
+                                ● 用户体验度提高，认可度提升。<br />
+                                ● 提高网站转化率。</p>
+                        </div>
+
                     </li>
                     <li>
+                        <div class="sf1">
                         <img src="images/f_p3.png" />
                         <hr class="hr" />
                         <h5>企业会议</h5>
+                            </div>
+                        <div class="sf">
+                            <p>功能:<br />
+                                企业参会人员拨打400号码并根据提示音输入密码进入会议室，当超过1人进入会议室后可开始通话。<br />
+                                优势:<br />
+                                ● 为企业提供随时随地会议沟通，提高办公效率。<br />
+                                ● 让企业员工交流变得无地域限制。<br />
+                                ● 充分利用400电话费用。</p>
+                        </div>
                     </li>
                     <li>
+                        <div class="sf1">
                         <img src="images/f_p4.png" />
                         <hr class="hr" />
                         <h5>来电记忆</h5>
+                            </div>
+                        <div class="sf">
+                            <p>功能:<br />
+                                客户拨打企业方400电话，按照“呼叫顺序”的设定的规则来分配接听客服人员。<br />
+                                优势:<br />
+                                ● 降低企业和客户的时间成本。<br />
+                                ● 提高企业服务质量。<br />
+                                ● 提升企业品牌形象。</p>
+                        </div>
                     </li>
                     <li class="f_pli">
                         <div class="f_pdiv1">
@@ -434,76 +763,168 @@
             </div>
             <ul class="clearFloat f_ful1 floatRight">
                 <li>
-                    <img src="images/q1.png" />
-                    <p>绑定手机</p>
+                    <div class="sf1 sf1_div">
+                        <!--<img src="images/q1.png" />-->
+                        <p>绑定手机</p>
+                    </div>
+                    <div class="sf">
+                        <p>可转接手机、固话，数量没有限制。(而传统的只能绑定固话)</p>
+                    </div>
+
                 </li>
                 <li>
-                    <img src="images/q2.png" />
+
+                    <div class="sf1 sf1_div1">
+                    <!--<img src="images/q2.png" />-->
                     <p>群发短信</p>
+                        </div>
+                    <div class="sf">
+                        <p>提供自主管理平台，通过自主管理平台向客户发送短信。</p>
+                    </div>
                 </li>
                 <li>
-                    <img src="images/q3.png" />
+                    <div class="sf1 sf1_div2">
+                    <!--<img src="images/q3.png" />-->
                     <p>自服务门户</p>
+                        </div>
+                    <div class="sf">
+                        <p>可提供400电话自主管理平台，查阅客户400电话跟踪通话和短信数据。</p>
+                    </div>
                 </li>
                 <li>
-                    <img src="images/q4.png" />
+                    <div class="sf1 sf1_div3">
+                    <!--<img src="images/q4.png" />-->
                     <p>挂机短信</p>
+                        </div>
+                    <div class="sf">
+                        <p>通话结束后，系统自动发送一段设置好的短信发到用户手机上(固话忽略)。 短信内容可由企业自行在后台编辑设置。</p>
+                    </div>
                 </li>
                 <li>
-                    <img src="images/q5.png" />
+                    <div class="sf1 sf1_div4">
+                    <!--<img src="images/q5.png" />-->
                     <p>漏话短信</p>
+                        </div>
+                    <div class="sf">
+                        <p>通话结束后，系统会自动发送一段设置好的短信发到客户的来电手机上(固话忽略)。</p>
+                    </div>
                 </li>
                 <li>
-                    <img src="images/q6.png" />
+                    <div class="sf1 sf1_div5">
+                   <!-- <img src="images/q6.png" />-->
                     <p>满意度调查</p>
+                        </div>
+                    <div class="sf">
+                        <p>提示：请对我们的服务进行评价 非常满意、满意、一般。通过此功能可以分析每个转接电话的评价数据。</p>
+                    </div>
                 </li>
                 <li>
-                    <img src="images/q7.png" />
+                    <div class="sf1 sf1_div6">
+                    <!--<img src="images/q7.png" />-->
                     <p>企业彩铃</p>
+                        </div>
+                    <div class="sf">
+                        <p>可根据企业要求定制欢迎语音<!--(欢迎致电XXX公司，电话转接中请稍后。。。。)-->，必备功能，彰显正规!</p>
+                    </div>
                 </li>
                 <li>
-                    <img src="images/q8.png" />
+                    <div class="sf1 sf1_div7">
+                    <!--<img src="images/q8.png" />-->
                     <p>语音信箱</p>
+                        </div>
+                    <div class="sf">
+                        <p>遇目的码忙线或无应答时，系统可提示用户留言或继续等待。亦可设置留言导航按键,方便及时回复客户电话。</p>
+                    </div>
                 </li>
                 <li>
-                    <img src="images/q9.png" />
+                    <div class="sf1 sf1_div8">
+                    <!--<img src="images/q9.png" />-->
                     <p>分支统计</p>
+                        </div>
+                    <div class="sf">
+                        <p>可针对按键(分支)进行单独统计，或随时自助查询和导出，有利于企业对业务进行监控和统计数据分析。</p>
+                    </div>
                 </li>
                 <li>
-                    <img src="images/q10.png" />
+                    <div class="sf1 sf1_div9">
+                    <!--<img src="images/q10.png" />-->
                     <p>分区统计</p>
+                        </div>
+                    <div class="sf">
+                        <p>根据主叫方区域(区号)，将客户来电转接至不同目的码。</p>
+                    </div>
                 </li>
                 <li>
-                    <img src="images/q11.png" />
+                    <div class="sf1 sf1_div10">
+                    <!--<img src="images/q11.png" />-->
                     <p>分时转接</p>
+                        </div>
+                    <div class="sf">
+                        <p>根据不同时段(如上下班时间，节假日等)，接入不同的目的码。</p>
+                    </div>
                 </li>
                 <li>
-                    <img src="images/q12.png" />
+                    <div class="sf1 sf1_div11">
+                    <!--<img src="images/q12.png" />-->
                     <p>呼叫黑名单</p>
+                        </div>
+                    <div class="sf">
+                        <p>接到恶意骚扰电话 ，可以把恶意号码列入到黑名单中，并不能再次呼入400电话。方便管理省时省力加省钱。</p>
+                    </div>
                 </li>
                 <li>
-                    <img src="images/q13.png" />
+                    <div class="sf1 sf1_div12">
+                    <!--<img src="images/q13.png" />-->
                     <p>通话录音</p>
+                        </div>
+                    <div class="sf">
+                        <p>当400号码接通IVR系统时，即开始录音。通过录音把握最前端的客户需求。</p>
+                    </div>
                 </li>
                 <li>
-                    <img src="images/q14.png" />
+                    <div class="sf1 sf1_div13">
+                    <!--<img src="images/q14.png" />-->
                     <p>虚拟总机</p>
+                        </div>
+                    <div class="sf">
+                        <p>以全球企业热线号码或本地电话号码为接入号码，采用自动总机或人工总机方式，提供录音查询、通话查询等管理功能。</p>
+                    </div>
                 </li>
                 <li>
-                    <img src="images/q15.png" />
+                    <div class="sf1 sf1_div14">
+                    <!--<img src="images/q15.png" />-->
                     <p>WEB400</p>
+                        </div>
+                    <div class="sf">
+                        <p>网站上部署在线呼叫窗口，客户访问网站时，将电话提交到网站，企业通过400对客户发起呼叫!</p>
+                    </div>
                 </li>
                 <li>
-                    <img src="images/q16.png" />
+                    <div class="sf1 sf1_div15">
+                    <!--<img src="images/q16.png" />-->
                     <p>优音APP</p>
+                        </div>
+                    <div class="sf">
+                        <p>优音APP是为企业量身打造的高品质移动办公应用。</p>
+                    </div>
                 </li>
                 <li>
-                    <img src="images/q17.png" />
+                    <div class="sf1 sf1_div16">
+                    <!--<img src="images/q17.png" />-->
                     <p>来电记忆</p>
+                        </div>
+                    <div class="sf">
+                        <p>可根据企业要求定制欢迎语音<!--(欢迎致电XXX公司，电话转接中请稍后。。。。)-->，必备功能，彰显正规!</p>
+                    </div>
                 </li>
                 <li>
-                    <img src="images/q18.png" />
+                    <div class="sf1 sf1_div17">
+                   <!-- <img src="images/q18.png" />-->
                     <p>通话录音</p>
+                        </div>
+                    <div class="sf">
+                        <p>参会人员拨打400号码根据提示音进入会议室，超过1人进入会议室后可开始通话，随时随地进行会议沟通。</p>
+                    </div>
                 </li>
             </ul>
             <div style="clear: both;"></div>
@@ -626,13 +1047,23 @@
 </div>
 
 
-
-<script type="">
+<script type="text/javascript">
+    $(".picScroll-left").slide({
+        titCell: ".hd ul",
+        mainCell: ".bd ul",
+        autoPage: true,
+        effect: "left",
+        autoPlay: true,
+        vis: 1,
+        trigger: "click"
+    });
+</script>
+<script type="text/javascript">
     $(function(){
         $('.tablist li').mouseover(function(){
             var liindex = $('.tablist li').index(this);
             $(this).addClass('cur').siblings().removeClass('cur');
-            $('.tabcon div.cur1').eq(liindex).fadeIn(150).siblings('div.cur1').hide();
+            $('.tabcon div.cur1').eq(liindex).fadeIn(1).siblings('div.cur1').hide();
         });
     });
 </script>

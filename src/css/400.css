@@ -8,7 +8,34 @@
 .slide li{
     height: 350px;
 }
+.picScroll-left{
+    position: relative;
+}
+.picScroll-left .hd ul {
+    float: right;
+    overflow: hidden;
+    zoom: 1;
+    margin-top: 10px;
+    zoom: 1;
+    position: absolute;
+    top: 345px;
+    left: 50%;
+}
 
+.picScroll-left .hd ul li {
+    float: left;
+    width: 9px;
+    height: 9px;
+    overflow: hidden;
+    margin-right: 5px;
+    text-indent: -999px;
+    cursor: pointer;
+    background: url("../images/icoCircle.gif") 0 -9px no-repeat;
+}
+
+.picScroll-left .hd ul li.on {
+    background-position: 0 0;
+}
 
 
 
@@ -67,6 +94,10 @@
     color: #ffffff;
     font-size: 16px;
 }
+
+.f_hot ul li a:hover{
+    background-color: #bb151c;
+}
 .f_hot ul li a i{
     display: inline-block;
     width: 40px;
@@ -103,7 +134,6 @@
 
 
 .f_package .ul1 .li1:hover{
-    cursor: pointer;
     background-color: #ffbe5a;
 }
 .f_package .ul1 .li1:hover div{
@@ -137,6 +167,13 @@
 .f_package .ul1 .li1:hover section.mflq a.mflq_a{
     background: #f6ff00;
     background: linear-gradient(135deg, transparent 5px, #f6ff00 0);
+    box-shadow: none;
+    color: #ff4b5a;
+}
+
+.f_package .ul1 .li1 section.mflq a.mflq_a:hover{
+    background: #d0d803;
+    background: linear-gradient(135deg, transparent 5px, #d0d803 0);
     box-shadow: none;
     color: #ff4b5a;
 }
@@ -274,7 +311,27 @@
     height: 33px;
 }
 
+.f_package .ul1 .li1 .sec2 input.comment:focus{
+    background-color: #ffffff;
+    border: 1px solid #ffbe5a;
+    height: 33px;
+}
+.f_package .ul1 .li1 .sec2 input.sbutton{
+    width: 196px;
+    height: 30px;
+    background-color: #ff4b5a;
+    color: #ffffff;
+    font-size: 16px;
+    margin-left: 71px;
+}
+.f_package .ul1 .li1 .sec2 input.sbutton:hover{
+    background-color: #db424f;
+    cursor: pointer;
+}
 
+.f_package .ul1 .li1 .sec2 input.sbutton:focus{
+    border: none;
+}
 
 
 /*海量号码任性选*/
@@ -306,7 +363,19 @@
     background-color: #f1f1f1;
     line-height: 46px;
     text-align: center;
+    position: relative;
    /* border-bottom: 1px solid #ffbe5a;*/
+}
+
+.f_number .tablist ul li a span{
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    color: #ffffff;
+    width: 2px;
+    height: 30px;
+    display: inline-block;
+    background-color: #ffffff;
 }
 
 
@@ -315,6 +384,7 @@
     height: 0;
     width: 160px;
     display: inline-block;
+    color: #ffffff;
     /*background-color: #ffbe5a;*/
     border-bottom: 46px solid #ffbe5a;
     border-left: 20px solid transparent;
@@ -356,18 +426,23 @@
     text-align: center;
     visibility: hidden;
     opacity: 0;
+    background-color: #ff4b5a;
+    color: #ffffff;
+}
+
+
+.f_number .tabcon ul li section.tab_imm a{
+    color: #f6ff00;
+    padding-left: 15px;
 }
 
 .f_number .tabcon ul li:hover section.tab_sec{
-    cursor: pointer;
     visibility: hidden;
     opacity: 0;
 }
 .f_number .tabcon ul li:hover section.tab_imm{
-    cursor: pointer;
     visibility: visible;
     opacity: 1;
-    background-color: darkred;
 }
 
 
@@ -449,6 +524,58 @@
     border-radius: 3px;
     vertical-align: middle;
     text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+.f_phone ul li .sf1{
+    height: 368px;
+}
+
+.f_phone ul li .sf{
+    position: absolute;
+    top: 368px;
+    left: 0;
+    width: 238px;
+}
+
+.f_phone ul li .sf p{
+    font-size: 14px;
+    color: #555555;
+    text-align: justify;
+    padding: 0px 5px;
+    color: #ffffff;
+}
+
+.f_phone ul li .sf1,.f_phone ul li div.sf,.f_phone ul li .sf1 h5,.f_phone ul li hr{
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+}
+
+.f_phone ul li:hover .sf1{
+    -webkit-transform: scale(0.7,0.7)/*translate3d(0,-80px,0)*/;
+    transform: scale(0.7,0.7)/*translate3d(0,-80px,0)*/;
+    margin-top: -20px;
+}
+.f_phone ul li div.sf{
+    /*-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;*/
+    -webkit-transform: translate3d(0,10px,0);
+    transform: translate3d(0,10px,0);
+}
+
+.f_phone ul li:hover div.sf{
+    -webkit-transform: translate3d(0,-240px,0);
+    transform: translate3d(0,-240px,0);
+}
+
+.f_phone ul li:hover hr{
+    opacity: 0;
+}
+.f_phone ul li:hover .sf1{
+    margin-top: -70px;
+}
+.f_phone ul li:hover .sf1 h5{
+    margin-top:-155px;
 }
 .f_phone ul li h5{
     font-size: 24px;
@@ -494,7 +621,7 @@
 }
 
 .f_phone ul li a{
-    display: inline-block;
+    display: block;
     background-color: #ff4b5a;
     width: 180px;
     height: 30px;
@@ -505,6 +632,10 @@
     font-size: 16px;
     margin-left: 30px;
     margin-top: 28px;
+}
+
+.f_phone ul li a:hover{
+    background-color: #bb3843;
 }
 
 
@@ -547,11 +678,176 @@
     text-align: center;
     border: 1px solid #f3ebeb;
     float: left;
+    position: relative;
+    overflow: hidden;
 }
 
-.f_fun ul.f_ful1 li p{
-    margin-top: -65px;
+.f_fun ul.f_ful1 li div.sf1 p{
+    padding-top: 130px;
 }
+
+.f_fun ul.f_ful1 li .sf1.sf1_div{
+     background: url("../images/q1.png") 50px 64px no-repeat;
+ }
+.f_fun ul.f_ful1 li .sf1.sf1_div1{
+    background: url("../images/q2.png") 50px 64px no-repeat;
+}
+.f_fun ul.f_ful1 li .sf1.sf1_div2{
+    background: url("../images/q3.png") 50px 64px no-repeat;
+}
+.f_fun ul.f_ful1 li .sf1.sf1_div3{
+    background: url("../images/q4.png") 50px 64px no-repeat;
+}
+.f_fun ul.f_ful1 li .sf1.sf1_div4{
+    background: url("../images/q5.png") 50px 64px no-repeat;
+}
+.f_fun ul.f_ful1 li .sf1.sf1_div5{
+    background: url("../images/q6.png") 50px 64px no-repeat;
+}
+.f_fun ul.f_ful1 li .sf1.sf1_div6{
+    background: url("../images/q7.png") 50px 64px no-repeat;
+}
+.f_fun ul.f_ful1 li .sf1.sf1_div7{
+    background: url("../images/q8.png") 50px 64px no-repeat;
+}
+.f_fun ul.f_ful1 li .sf1.sf1_div8{
+    background: url("../images/q9.png") 50px 64px no-repeat;
+}
+.f_fun ul.f_ful1 li .sf1.sf1_div9{
+    background: url("../images/q10.png") 50px 64px no-repeat;
+}
+.f_fun ul.f_ful1 li .sf1.sf1_div10{
+    background: url("../images/q11.png") 50px 64px no-repeat;
+}
+.f_fun ul.f_ful1 li .sf1.sf1_div11{
+    background: url("../images/q12.png") 50px 64px no-repeat;
+}
+.f_fun ul.f_ful1 li .sf1.sf1_div12{
+    background: url("../images/q13.png") 50px 64px no-repeat;
+}
+.f_fun ul.f_ful1 li .sf1.sf1_div13{
+    background: url("../images/q14.png") 50px 64px no-repeat;
+}
+.f_fun ul.f_ful1 li .sf1.sf1_div14{
+    background: url("../images/q15.png") 50px 64px no-repeat;
+}
+.f_fun ul.f_ful1 li .sf1.sf1_div15{
+    background: url("../images/q16.png") 50px 64px no-repeat;
+}
+.f_fun ul.f_ful1 li .sf1.sf1_div16{
+    background: url("../images/q17.png") 50px 64px no-repeat;
+}
+.f_fun ul.f_ful1 li .sf1.sf1_div17{
+    background: url("../images/q18.png") 50px 64px no-repeat;
+}
+
+
+
+
+.f_fun ul.f_ful1 li:hover .sf1.sf1_div{
+    background: url("../images/q1a.png") 50px 64px no-repeat;
+}
+.f_fun ul.f_ful1 li:hover .sf1.sf1_div1{
+    background: url("../images/q2a.png") 50px 64px no-repeat;
+}
+.f_fun ul.f_ful1 li:hover .sf1.sf1_div2{
+    background: url("../images/q3a.png") 50px 64px no-repeat;
+}
+.f_fun ul.f_ful1 li:hover .sf1.sf1_div3{
+    background: url("../images/q4a.png") 50px 64px no-repeat;
+}
+.f_fun ul.f_ful1 li:hover .sf1.sf1_div4{
+    background: url("../images/q5a.png") 50px 64px no-repeat;
+}
+.f_fun ul.f_ful1 li:hover .sf1.sf1_div5{
+    background: url("../images/q6a.png") 50px 64px no-repeat;
+}
+.f_fun ul.f_ful1 li:hover .sf1.sf1_div6{
+    background: url("../images/q7a.png") 50px 64px no-repeat;
+}
+.f_fun ul.f_ful1 li:hover .sf1.sf1_div7{
+    background: url("../images/q8a.png") 50px 64px no-repeat;
+}
+.f_fun ul.f_ful1 li:hover .sf1.sf1_div8{
+    background: url("../images/q9a.png") 50px 64px no-repeat;
+}
+.f_fun ul.f_ful1 li:hover .sf1.sf1_div9{
+    background: url("../images/q10a.png") 50px 64px no-repeat;
+}
+.f_fun ul.f_ful1 li:hover .sf1.sf1_div10{
+    background: url("../images/q11a.png") 50px 64px no-repeat;
+}
+.f_fun ul.f_ful1 li:hover .sf1.sf1_div11{
+    background: url("../images/q12a.png") 50px 64px no-repeat;
+}
+.f_fun ul.f_ful1 li:hover .sf1.sf1_div12{
+    background: url("../images/q13a.png") 50px 64px no-repeat;
+}
+.f_fun ul.f_ful1 li:hover .sf1.sf1_div13{
+    background: url("../images/q14a.png") 50px 64px no-repeat;
+}
+.f_fun ul.f_ful1 li:hover .sf1.sf1_div14{
+    background: url("../images/q15a.png") 50px 64px no-repeat;
+}
+.f_fun ul.f_ful1 li:hover .sf1.sf1_div15{
+    background: url("../images/q16a.png") 50px 64px no-repeat;
+}
+.f_fun ul.f_ful1 li:hover .sf1.sf1_div16{
+    background: url("../images/q17a.png") 50px 64px no-repeat;
+}
+.f_fun ul.f_ful1 li:hover .sf1.sf1_div17{
+    background: url("../images/q18a.png") 50px 64px no-repeat;
+}
+
+
+
+.f_fun ul.f_ful1 li .sf1{
+    height: 198px;
+}
+
+.f_fun ul.f_ful1 li .sf{
+    position: absolute;
+    top: 198px;
+    left: 0;
+    width: 137px;
+}
+
+.f_fun ul.f_ful1 li div.sf p{
+    font-size: 14px;
+    color: #555555;
+    text-align: justify;
+    padding: 0px 5px;
+    color: #ffffff;
+}
+
+.f_fun ul.f_ful1 li .sf1,.f_fun ul.f_ful1 li div.sf{
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+}
+.f_fun ul.f_ful1 li:hover .sf1 p{
+    opacity: 0;
+}
+
+.f_fun ul.f_ful1 li:hover .sf1{
+    -webkit-transform: translate3d(0,-55px,0)/*translate3d(0,-80px,0)*/;
+    transform: translate3d(0,-55px,0)/*translate3d(0,-80px,0)*/;
+}
+.f_fun ul.f_ful1 li div.sf{
+    /*-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;*/
+    -webkit-transform: translate3d(0,10px,0);
+    transform: translate3d(0,10px,0);
+}
+.f_fun ul.f_ful1 li:hover{
+    background-color: #ffbe5a;
+}
+.f_fun ul.f_ful1 li:hover div.sf{
+    width: 137px;
+    height: 198px;
+    -webkit-transform: translate3d(0,-140px,0);
+    transform: translate3d(0,-140px,0);
+}
+
 
 
 /*400电话办理开通流程*/
