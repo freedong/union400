@@ -6,6 +6,7 @@
     <link type="text/css" rel="stylesheet" href="css/reset.css" />
     <link type="text/css" rel="stylesheet" href="css/onephone.css" />
     <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
 </head>
 <body>
 <!--头部栏-->
@@ -575,11 +576,15 @@
         </div>
         <!--提交申请-->
         <div class="one_s">
-            <div class="w1200">
+            <div class="w1200 txtMarquee-top">
                 <ul class="clearFloat">
-                    <li style="margin-right: 22px;">
-                        <p>大部分用了1010的客户，电话量有所上升，相比原来有所增加。</p>
-                        <p>国内很多企业是依赖电话来做生意的，多数企业有自己的号码，但消费者常常记不住那么多号码，而1010号码一次就能记住，消费者找他们就会变得相当便捷。</p>
+                    <li style="margin-right: 22px;" class="bd">
+                        <div>
+                            <p>大部分用了1010的客户，电话量有所上升，相比原来有所增加。</p>
+
+                            <p>国内很多企业是依赖电话来做生意的，多数企业有自己的号码，但消费者常常记不住那么多号码，而1010号码一次就能记住，消费者找他们就会变得相当便捷。</p>
+
+                        </div>
                     </li>
                     <li>
                         <div class="one_s_bg">
@@ -650,6 +655,17 @@
         </div>
     </div>
 </div>
+
+
+<script type="text/javascript">
+    $(".txtMarquee-top").slide({
+        mainCell: ".bd div",
+        autoPlay: true,
+        effect: "topMarquee",
+        vis: 2,
+        interTime: 50
+    });
+</script>
 
 <script type="text/javascript">
     $(function(){

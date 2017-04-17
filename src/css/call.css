@@ -65,6 +65,7 @@
 
 .call_cl .call_ff .tabcon ul{
     width: 956px;
+    margin-left: 2px;
 }
 
 .call_cl .call_ff .tabcon ul li{
@@ -506,7 +507,19 @@
     -o-transform: translate3d(0,0px,0);
 }
 .call_pl ul li:hover div.pl_div1{
-    opacity: 0;
+   /* opacity: 0;*/
+    display: none;
+}
+.call_pl ul li div.pl_div1{
+    /*opacity: 1;*/
+    display: block;
+}
+.call_pl ul li div.pl_div1{
+    transition: all 0.1s;
+    -o-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+    -ms-transition: all 0.1s;
 }
 .call_pl ul li:hover{
     background-color: #ffffff;
