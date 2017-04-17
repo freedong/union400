@@ -77,35 +77,60 @@
 }
 .up .up2 div.div1 img,.up .up2 img{
     transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
 }
 
 .up .up2 div.div1 .img1:hover{
     transform: rotateY(360deg);
     -webkit-transform: rotateY(360deg);
+    -o-transform:  rotateY(360deg);
+    -moz-transform:  rotateY(360deg);
+    -ms-transform:  rotateY(360deg);
 }
 .up .up2 div.div1 .img2:hover{
     transform: rotateY(360deg);
     -webkit-transform: rotateY(360deg);
+    -o-transform:  rotateY(360deg);
+    -moz-transform:  rotateY(360deg);
+    -ms-transform:  rotateY(360deg);
 }
 .up .up2 div.div1 .img3:hover{
     transform: rotateY(360deg);
     -webkit-transform: rotateY(360deg);
+    -o-transform:  rotateY(360deg);
+    -moz-transform:  rotateY(360deg);
+    -ms-transform:  rotateY(360deg);
 }
 .up .up2 img:nth-child(1):hover{
     transform: rotateY(360deg);
     -webkit-transform: rotateY(360deg);
+    -o-transform:  rotateY(360deg);
+    -moz-transform:  rotateY(360deg);
+    -ms-transform:  rotateY(360deg);
 }
 .up .up2 img:nth-child(2):hover{
     transform: rotateY(360deg);
     -webkit-transform: rotateY(360deg);
+    -o-transform:  rotateY(360deg);
+    -moz-transform:  rotateY(360deg);
+    -ms-transform:  rotateY(360deg);
 }
 .up .up2 img:nth-child(3):hover{
     transform: rotateY(360deg);
     -webkit-transform: rotateY(360deg);
+    -o-transform:  rotateY(360deg);
+    -moz-transform:  rotateY(360deg);
+    -ms-transform:  rotateY(360deg);
 }
 .up .up2 img:nth-child(4):hover{
     transform: rotateY(360deg);
     -webkit-transform: rotateY(360deg);
+    -o-transform:  rotateY(360deg);
+    -moz-transform:  rotateY(360deg);
+    -ms-transform:  rotateY(360deg);
 }
 
 

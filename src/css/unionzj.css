@@ -139,6 +139,7 @@
     -moz-transition: all 0.5s;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
 }
 .unzj_zy ul li .cp{
     width: 225px;

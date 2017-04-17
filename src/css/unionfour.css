@@ -438,13 +438,13 @@
 }
 
 .uf_why1 .tijiao .tj_div1{
-    width: 1000px;
+    width: 960px;
     margin-top: 10px;
 }
 .uf_why1 .tijiao .tj_div1 label{
     color: #ffffff;
     font-size: 20px;
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
 .uf_why1 .tijiao .tj_div1 input{
