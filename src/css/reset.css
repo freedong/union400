@@ -655,6 +655,7 @@ p{
 	width: 140px;
 	float: left;
 	margin-top: 28px;
+	/*margin-left: 35px;*/
 }
 
 .footer .weixin h3{
@@ -781,7 +782,7 @@ div.top_height img{
 /*侧边栏*/
 .cebianlan{
 	position: fixed;
-	top: 320px;
+	top: 200px;
 	right: 10px;
 	z-index: 30;
 	width: 140px;
@@ -913,7 +914,7 @@ td{
 
 /*返回顶部*/
 .dn{display: none;}
-.go-top{position: fixed;bottom: 80px;right: 20px;width: 70px;z-index: 999;}
+.go-top{position: fixed;bottom: 40px;right: 20px;width: 70px;z-index: 999;}
 .go-top a{
 	transition: all 0.5s ease;
 	-o-transition: all 0.5s ease;

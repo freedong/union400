@@ -523,6 +523,9 @@
 .one_b ul{
     padding: 30px 0px 40px 0px;
 }
+
+
+
 .one_b ul li{
     width: 299px;
     height: 180px;
@@ -531,6 +534,106 @@
     text-align: center;
     background-color: #ffffff;
 }
+
+.one_b ul li p{
+    height: 55px;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+    padding: 0px 15px;
+}
+
+.one_b ul li div.up_div2{
+    height: 156px;
+    line-height: 40px;
+    border-right: 1px dashed #ffbe59;
+    margin-top: 11px;
+    display: none;
+}
+
+.one_b ul li div.up_div2 h6{
+    color: #666666;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+.one_b ul li:hover div.up_div2{
+    /*cursor: pointer;*/
+    display: block;
+}
+.one_b ul li:hover div.up_div1{
+    display: none;
+}
+
+
+
+.one_b ul li div.up_div2 a{
+    display: inline-block;
+    width: 168px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background-color: #ffbe5a;
+    color: #ffffff;
+    font-size: 16px;
+    margin-left: 12px;
+    margin-top: 9px;
+    border-radius: 20px;
+}
+.one_b ul li div.up_div2 a span{
+    color: #ffffff;
+    font-size: 16px;
+    font-style: normal;
+}
+
+
+/*圆圈和三角形*/
+.one_b ul li div.up_div2 a .ani_i{
+    border-radius: 10px;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.one_b ul li div.up_div2 a .ani_o{
+    display: inline-block;
+    width: 0px;
+    height: 0px;
+    border-width: 7px 7px 7px 11px;
+    border-style: solid;
+    border-color: transparent transparent transparent #ffbe5a;
+    margin-left: 6px;
+    vertical-align: middle;
+    margin-top: -3px;
+}
+
+.one_b ul li div.up_div2 a .ani_i1{
+    border-radius: 9px;
+    background-color: white;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.one_b ul li div.up_div2 a .ani_o1{
+    display: inline-block;
+    width: 0px;
+    height: 0px;
+    border-width: 6px 6px 6px 10px;
+    border-style: solid;
+    border-color: transparent transparent transparent #ffbe5a;
+    margin-left: 5px;
+    vertical-align: middle;
+    margin-top: -3px;
+}
+
+
 
 .one_b ul li div{
     border-right: 1px dashed #ffbe5a;

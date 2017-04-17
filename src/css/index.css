@@ -103,6 +103,12 @@
 .picScroll-left{
     position: relative;
 }
+
+/*.picScroll-left .hd{
+    position: relative;
+    width: 1200px;
+}*/
+
 .picScroll-left .hd ul {
     float: right;
     overflow: hidden;
@@ -149,10 +155,7 @@
     height: 60px;
     background: url(../images/jt.png) no-repeat;
 }*/
-.picScroll-left .hd{
-    position: relative;
-    width: 100%;
-}
+
 .picScroll-left .hd .prev{
     position: absolute;
     top: 90px;
