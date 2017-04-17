@@ -47,7 +47,7 @@ var gulp = require('gulp'),
     pngquant = require('imagemin-pngquant');
 
 gulp.task('test', function () {
-    gulp.src('src/img/*.{png,jpg,gif,ico}')
+    gulp.src('src/images/*.{png,jpg,gif,ico}')
         .pipe(imagemin({
             progressive: true,
             svgoPlugins: [{removeViewBox: false}],//不要移除svg的viewbox属性

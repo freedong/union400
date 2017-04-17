@@ -182,7 +182,22 @@
     height: 270px;
     background: linear-gradient(60deg,#ffffff 225px,#ffbf5c 0);
     border: 1px solid #ffbf5c;
+    /* 如果浏览器不支持渐变，使用图像作为背景 */
+    /*background: url(gradient.jpg);*/
+    /* Webkit: Safari 4-5, Chrome 1-9 */
+    /*background: -webkit-gradient(60deg,#ffffff 225px,#ffbf5c 0);*/
+    /* Webkit: Safari 5.1+, Chrome 10+ */
+    background: -webkit-linear-gradient(30deg,#ffffff 225px,#ffbf5c 0);
+    /* Firefox 3.6+ */
+    background: -moz-linear-gradient(30deg,#ffffff 225px,#ffbf5c 0);
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(30deg,#ffffff 225px,#ffbf5c 0);
+    /* IE 10 */
+    background: -ms-linear-gradient(30deg,#ffffff 225px,#ffbf5c 0);
+    /* IE < 10 */
+    /* 注意：这一行必须写在最后 */
 }
+
 /*.one_t .one_zx .one_t_tj .bg2 p{
     color: #ff4b5a;
     font-size: 30px;
@@ -711,7 +726,24 @@ div.effect-bubba div.figcaption::after {
     position: relative;
     width: 589px;
     height: 159px;
-    background: linear-gradient(118deg,transparent 390px,#ffbf5c 0);
+    background: linear-gradient(330deg,transparent 390px,#ffbf5c 0);
+
+    /* 如果浏览器不支持渐变，使用图像作为背景 */
+    /*background: url(gradient.jpg);*/
+    /* Webkit: Safari 4-5, Chrome 1-9 */
+    /*background: -webkit-gradient(60deg,#ffffff 225px,#ffbf5c 0);*/
+    /* Webkit: Safari 5.1+, Chrome 10+ */
+    background: -webkit-linear-gradient(330deg,transparent 390px,#ffbf5c 0);
+    /* Firefox 3.6+ */
+    background: -moz-linear-gradient(330deg,transparent 390px,#ffbf5c 0);
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(330deg,transparent 390px,#ffbf5c 0);
+    /* IE 10 */
+    background: -ms-linear-gradient(330deg,transparent 390px,#ffbf5c 0);
+    /* IE < 10 */
+    /* 注意：这一行必须写在最后 */
+
+
 }
 
 .one_s ul li .one_s_bg label{
