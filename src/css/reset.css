@@ -687,18 +687,25 @@ p{
 /*头部栏样式区*/
 
 .top{
-	background-color: #6ea0c8;
+	/*background-color: #6ea0c8;*/
+	background: url("../images/top.png") 50% 0 no-repeat;
 }
 .top_height{
 	height: 50px;
 	line-height: 50px;
 }
-div.top_height span{
-	color: #f4ea2a;
+div.top_height div.floatRight span{
+	color: #ffffff;
 	font-size: 22px;
 	display: block;
 	margin-top: -65px;
 	margin-left: 60px;
+	font-weight: bold;
+}
+
+div.top_height div.floatLeft span{
+	color: #ffffff;
+	font-size: 30px;
 	font-weight: bold;
 }
 div.top_height img{
@@ -766,8 +773,42 @@ div.top_height img{
 
 .nav a img{
 	margin-top: 7px;
+	margin-left: -685px;
 }
 
+
+
+/*侧边栏*/
+.cebianlan{
+	position: fixed;
+	top: 320px;
+	right: 10px;
+	z-index: 30;
+	width: 140px;
+	height: 215px;
+}
+
+.cbla{
+	display: inline-block;
+	width: 140px;
+	height: 215px;
+	background: url(../images/cbl.png) no-repeat;
+}
+
+/*
+.cbl{
+	width: 140px;
+	height: 215px;
+	background-color: #ffbe5a;
+	border-radius: 5px;
+	border: 1px solid #ffbe5a;
+}
+
+.cbl h3{
+	font-size: 18px;
+	color: #ffffff;
+}
+*/
 
 
 table

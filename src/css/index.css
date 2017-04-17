@@ -92,7 +92,11 @@
 }
 .slides li {
     height: 350px;
-    height: 350px;
+}
+
+
+.bd ul.slides li{
+    height: 276px;
 }
 
 
@@ -123,6 +127,59 @@
 
 .picScroll-left .hd ul li.on {
     background-position: 0 0;
+}
+
+
+
+
+
+.picScroll-left:hover .hd .prev{
+    background: url(../images/zuojt_1a.png) no-repeat;
+    z-index: 20;
+}
+.picScroll-left:hover .hd .next{
+    background: url(../images/youjt_1a.png) no-repeat;
+    z-index: 20;
+}
+/*.picScroll-left div.hd a.prev{
+    position: absolute;
+    top: 65px;
+    left: 0px;
+    width: 60px;
+    height: 60px;
+    background: url(../images/jt.png) no-repeat;
+}*/
+
+.picScroll-left .hd .prev{
+    position: absolute;
+    top: 90px;
+    left: 360px;
+    display: block;
+    width: 33px;
+    height: 59px;
+    /*float: right;*/
+    /* margin-right: 5px;
+     margin-top: 10px;*/
+    overflow: hidden;
+    cursor: pointer;
+    background: url("../images/zuojt_1.png") no-repeat;
+    z-index: 20;
+}
+
+.picScroll-left .hd .next{
+    position: absolute;
+    top: 90px;
+    right: 390px;
+    display: block;
+    width: 33px;
+    height: 59px;
+    /*float: right;*/
+    /*margin-right: 5px;
+    margin-top: 10px;*/
+    overflow: hidden;
+    cursor: pointer;
+    background: url("../images/youjt_1.png") no-repeat;
+    z-index: 20;
 }
 
 
@@ -643,70 +700,71 @@ div.effect-bubba div.figcaption::after {
     background: url(../images/c1.png) 16px 40px no-repeat;
 }
 .cus_2{
-    background: url(../images/c2_2.png) 45px 41px no-repeat;
+    background: url(../images/c2.png) 45px 41px no-repeat;
 }
 .cus_3{
-    background: url(../images/c3_3.png) 35px 32px no-repeat;
+    background: url(../images/c3.png) 35px 32px no-repeat;
 }
 .cus_4{
-    background: url(../images/c4_4.png) 16px 55px no-repeat;
+    background: url(../images/c4.png) 16px 55px no-repeat;
 }
 .cus_5{
-    background: url(../images/c5_5.png) 3px 13px no-repeat;
+    background: url(../images/c5.png) 3px 13px no-repeat;
 }
 .cus_6{
-    background: url(../images/c6_6.png) 16px 65px no-repeat;
+    background: url(../images/c6.png) 16px 65px no-repeat;
 }
 .cus_7{
-    background: url(../images/c7_7.png) 16px 58px no-repeat;
+    background: url(../images/c7.png) 16px 58px no-repeat;
 }
 .cus_8{
-    background: url(../images/c8_8.png) 18px 24px no-repeat;
+    background: url(../images/c8.png) 18px 24px no-repeat;
 }
 .cus_9{
-    background: url(../images/c9_9.png) 3px 38px no-repeat;
+    background: url(../images/c9.png) 3px 38px no-repeat;
 }
 .cus_10{
-    background: url(../images/c10_10.png) 6px 13px no-repeat;
+    background: url(../images/c10.png) 6px 13px no-repeat;
 }
 .cus_11{
-    background: url(../images/c11_11.png) 5px 65px no-repeat;
+    background: url(../images/c11.png) 5px 65px no-repeat;
 }
 .cus_12{
-    background: url(../images/c12_12.png) 17px 35px no-repeat;
+    background: url(../images/c12.png) 17px 35px no-repeat;
 }
 .cus_13{
-    background: url(../images/c13_13.png) 70px 24px no-repeat;
+    background: url(../images/c13.png) 70px 24px no-repeat;
 }
 .cus_14{
-    background: url(../images/c14_14.png) 54px 50px no-repeat;
+    background: url(../images/c14.png) 54px 50px no-repeat;
 }
 .cus_15{
-    background: url(../images/c15_15.png) 50px 25px no-repeat;
+    background: url(../images/c15.png) 50px 25px no-repeat;
 }
 .cus_16{
-    background: url(../images/c16_16.png) 25px 20px no-repeat;
+    background: url(../images/c16.png) 25px 20px no-repeat;
 }
 .cus_17{
-    background: url(../images/c17_17.png) 46px 28px no-repeat;
+    background: url(../images/c17.png) 46px 28px no-repeat;
 }
 .cus_18{
-    background: url(../images/c18_18.png) 6px 26px no-repeat;
+    background: url(../images/c18.png) 6px 26px no-repeat;
 }
 .cus_19{
-    background: url(../images/c19_19.png) 7px 0px no-repeat;
+    background: url(../images/c19.png) 7px 0px no-repeat;
 }
 .cus_20{
-    background: url(../images/c20_20.png) 20px 60px no-repeat;
+    background: url(../images/c20.png) 20px 60px no-repeat;
 }
 
 
 
-.customer ul li:hover{
+/*.customer ul li:hover{
     cursor: pointer;
-}
+}*/
 
 
+/*
 .customer ul li:hover .cus_1{
     background: url(../images/c1.png) 16px 40px no-repeat;
 }
@@ -768,6 +826,7 @@ div.effect-bubba div.figcaption::after {
 .customer ul li:hover .cus_20{
     background: url(../images/c20.png) 20px 60px no-repeat;
 }
+*/
 
 /*.cus_1,.cus_2,.cus_3,.cus_4,.cus_5,.cus_6,.cus_7,.cus_8,.cus_9,.cus_10,.cus_11,.cus_12,.cus_13,.cus_14,.cus_15,.cus_16,.cus_17,.cus_18,.cus_19,.cus_20{
     transition: all 0.1s ease-in;
