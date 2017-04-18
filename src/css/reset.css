@@ -780,14 +780,7 @@ div.top_height img{
 
 
 /*侧边栏*/
-.cebianlan{
-	position: fixed;
-	top: 200px;
-	right: 10px;
-	z-index: 30;
-	width: 140px;
-	height: 215px;
-}
+
 
 /*
 .cbla{
@@ -798,34 +791,101 @@ div.top_height img{
 }
 */
 
-.cbl{
-	display: inline-block;
-	width: 140px;
-	height: 215px;
-	background: url(../images/cb_zx.png) no-repeat;
+
+@media all and (width:1366px){
+	/*html,body{-webkit-text-size-adjust:none;}*/
+	.cebianlan{
+		position: fixed;
+		top: 150px;
+		right: -55px;
+		z-index: 30;
+		width: 140px;
+		height: 215px;
+	}
+	.cbl{
+		display: inline-block;
+		width: 80px;
+		height: 122px;
+		background: url(../images/cb_zx1366.png) no-repeat;
+	}
+
+	.cbl h3{
+		font-size: 12px;
+		color: #ffffff;
+		text-align: center;
+		margin-top: -4px;
+	}
+	.cbl a{
+		display: inline-block;
+		font-size: 10px;
+		color: #ffbe5a;
+		text-align: center;
+		margin-top: 64px;
+		margin-left: 16px;
+	}
+	.cbl .cblfoot img{
+		display: none;
+	}
+	.cbl .cblfoot{
+		margin-top: 5px;
+		margin-left: 10px;
+	}
+	.cbl .cblfoot span{
+		/*-webkit-text-size-adjust:none;*/
+		/*font-size: 8px;*/
+		color: #ffffff;
+		margin-top: -12px;
+		margin-left: -20px;
+		display: block;
+		-webkit-transform: scale(0.7);
+		width: 113px;
+	}
 }
 
-.cbl h3{
-	font-size: 18px;
-	color: #ffffff;
-	text-align: center;
-	margin-top: 2px;
+
+@media all and (width:1920px){
+	.cebianlan{
+		position: fixed;
+		top: 200px;
+		right: 10px;
+		z-index: 30;
+		width: 140px;
+		height: 215px;
+	}
+	.cbl{
+		display: inline-block;
+		width: 140px;
+		height: 215px;
+		background: url(../images/cb_zx.png) no-repeat;
+	}
+
+	.cbl h3{
+		font-size: 18px;
+		color: #ffffff;
+		text-align: center;
+		margin-top: 2px;
+	}
+	.cbl a{
+		display: inline-block;
+		font-size: 16px;
+		color: #ffbe5a;
+		text-align: center;
+		margin-top: 131px;
+		margin-left: 45px;
+	}
+	.cbl .cblfoot{
+		margin-top: 5px;
+		margin-left: 10px;
+	}
+	.cbl .cblfoot span{
+		color: #ffffff;
+		margin-top: -30px;
+		margin-left: 30px;
+		display: block;
+	}
 }
-.cbl a{
-	display: inline-block;
-	font-size: 16px;
-	color: #ffbe5a;
-	text-align: center;
-	margin-top: 131px;
-	margin-left: 45px;
-}
-.cbl .cblfoot{
-	margin-top: 5px;
-	margin-left: 10px;
-}
-.cbl .cblfoot span{
-	color: #ffffff;
-}
+
+
 
 /*
 .cbl{

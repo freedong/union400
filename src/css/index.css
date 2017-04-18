@@ -139,7 +139,7 @@
 
 .picScroll-left .hd{
     position: relative;
-    width: 1200px;
+   /* width: 1200px;*/
 }
 
 .picScroll-left:hover .hd .prev{
@@ -162,7 +162,7 @@
 .picScroll-left .hd .prev{
     position: absolute;
     top: 90px;
-    left: 2%;
+    left: 10%;
     display: block;
     width: 33px;
     height: 59px;
@@ -178,7 +178,7 @@
 .picScroll-left .hd .next{
     position: absolute;
     top: 90px;
-    right: -7%;
+    right: 10%;
     display: block;
     width: 33px;
     height: 59px;

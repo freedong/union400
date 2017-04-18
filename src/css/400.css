@@ -823,6 +823,9 @@
 .f_fun ul.f_ful1 li .sf1,.f_fun ul.f_ful1 li div.sf{
     -webkit-transition: all 0.35s;
     transition: all 0.35s;
+    -o-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    -ms-transition:all 0.35s;
 }
 .f_fun ul.f_ful1 li:hover .sf1 p{
     opacity: 0;
@@ -831,12 +834,18 @@
 .f_fun ul.f_ful1 li:hover .sf1{
     -webkit-transform: translate3d(0,-55px,0)/*translate3d(0,-80px,0)*/;
     transform: translate3d(0,-55px,0)/*translate3d(0,-80px,0)*/;
+    -ms-transform: translate3d(0,-55px,0);
+    -moz-transform: translate3d(0,-55px,0);
+    -o-transform: translate3d(0,-55px,0);
 }
 .f_fun ul.f_ful1 li div.sf{
     /*-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
     transition: opacity 0.35s, transform 0.35s;*/
     -webkit-transform: translate3d(0,10px,0);
     transform: translate3d(0,10px,0);
+    -ms-transform: translate3d(0,10px,0);
+    -moz-transform: translate3d(0,10px,0);
+    -o-transform: translate3d(0,10px,0);
 }
 .f_fun ul.f_ful1 li:hover{
     background-color: #ffbe5a;
@@ -846,6 +855,9 @@
     height: 198px;
     -webkit-transform: translate3d(0,-140px,0);
     transform: translate3d(0,-140px,0);
+    -ms-transform: translate3d(0,-140px,0);
+    -moz-transform: translate3d(0,-140px,0);
+    -o-transform: translate3d(0,-140px,0);
 }
 
 
