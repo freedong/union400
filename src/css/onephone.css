@@ -534,6 +534,7 @@
     vertical-align: middle;
     text-align: center;
     background-color: #ffffff;
+    position: relative;
 }
 
 .one_b ul li p{
@@ -551,6 +552,17 @@
     border-right: 1px dashed #ffbe59;
     margin-top: 11px;
     display: none;
+    /*opacity: 0;*/
+}
+
+.one_b ul li div.up_div1{
+    width: 298px;
+    height: 150px;
+    /*opacity: 1;*/
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
 
 .one_b ul li div.up_div2 h6{
@@ -562,9 +574,18 @@
 .one_b ul li:hover div.up_div2{
     /*cursor: pointer;*/
     display: block;
+    /*opacity: 1;*/
 }
 .one_b ul li:hover div.up_div1{
     display: none;
+    /*opacity: 0;*/
+}
+.one_b ul li div.up_div2,.one_b ul li div.up_div1{
+    transition: all 0.35s;
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    -ms-transition:all 0.35s;
+    -o-transition: all 0.35s;
 }
 
 

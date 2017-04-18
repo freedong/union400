@@ -292,25 +292,44 @@
     cursor: pointer;
 }*/
 .up_dt ul li .sf1,.up_dt ul li div.sf,.up_dt ul li .sf1 h5,.up_dt ul li hr{
-    -webkit-transition: all 0.35s;
     transition: all 0.35s;
+    -o-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    -ms-transition: all 0.35s;
+    -webkit-transition: all 0.35s;
 }
 
 .up_dt ul li:hover .sf1{
-    -webkit-transform: scale(0.7,0.7)/*translate3d(0,-80px,0)*/;
-    transform: scale(0.7,0.7)/*translate3d(0,-80px,0)*/;
+    transform: scale(0.7,0.7);
+    -webkit-transform: scale(0.7,0.7);
+    -o-transform:  scale(0.7,0.7);
+    -moz-transform: scale(0.7,0.7);
+    -ms-transform:  scale(0.7,0.7);
+   /* -webkit-transform: scale(0.7,0.7)/!*translate3d(0,-80px,0)*!/;
+    transform: scale(0.7,0.7)/!*translate3d(0,-80px,0)*!/;*/
     margin-top: -20px;
 }
 .up_dt ul li div.sf{
     /*-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
     transition: opacity 0.35s, transform 0.35s;*/
-    -webkit-transform: translate3d(0,10px,0);
+    /*-webkit-transform: translate3d(0,10px,0);
+    transform: translate3d(0,10px,0);*/
+
     transform: translate3d(0,10px,0);
+    -webkit-transform: translate3d(0,10px,0);
+    -o-transform:  translate3d(0,10px,0);
+    -moz-transform: translate3d(0,10px,0);
+    -ms-transform:  translate3d(0,10px,0);
 }
 
 .up_dt ul li:hover div.sf{
-    -webkit-transform: translate3d(0,-100px,0);
+    /*-webkit-transform: translate3d(0,-100px,0);
+    transform: translate3d(0,-100px,0);*/
     transform: translate3d(0,-100px,0);
+    -webkit-transform: translate3d(0,-100px,0);
+    -o-transform:  translate3d(0,-100px,0);
+    -moz-transform: translate3d(0,-100px,0);
+    -ms-transform:  translate3d(0,-100px,0);
 }
 
 .up_dt ul li:hover hr{
@@ -474,8 +493,12 @@
     /*动画元素背后设置为hidden*/
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
+
+
     -webkit-transform: rotateY(180deg);
     -moz-transform: rotateY(180deg);
+
+
     z-index: 1;
 }
 
@@ -495,28 +518,28 @@
     transform:  rotateY(-180deg);
 }
 
-.up_sip .up_sip1 ul li:nth-child(4):hover div.corr{
+.up_sip .up_sip1 ul li:nth-child(4):hover a.corr{
     -webkit-transform: rotateY(0deg);
     -moz-transform: rotateY(0deg);
     -ms-transform: rotateY(0deg);
     -o-transform:  rotateY(0deg);
     transform:  rotateY(0deg);
 }
-.up_sip .up_sip1 ul li:nth-child(5):hover div.corr{
+.up_sip .up_sip1 ul li:nth-child(5):hover a.corr{
     -webkit-transform: rotateY(0deg);
     -moz-transform: rotateY(0deg);
     -ms-transform: rotateY(0deg);
     -o-transform:  rotateY(0deg);
     transform:  rotateY(0deg);
 }
-.up_sip .up_sip1 ul li:nth-child(4):hover div.oppo{
+.up_sip .up_sip1 ul li:nth-child(4):hover a.oppo{
     -webkit-transform: rotateY(0deg);
     -moz-transform: rotateY(0deg);
     -ms-transform: rotateY(0deg);
     -o-transform:  rotateY(0deg);
     transform:  rotateY(0deg);
 }
-.up_sip .up_sip1 ul li:nth-child(5):hover div.oppo{
+.up_sip .up_sip1 ul li:nth-child(5):hover a.oppo{
     -webkit-transform: rotateY(0deg);
     -moz-transform: rotateY(0deg);
     -ms-transform: rotateY(0deg);
@@ -524,6 +547,87 @@
     transform:  rotateY(0deg);
 }
 
+.up_sip .up_sip1 ul li:nth-child(4) a.corr{
+    display: block;
+    width: 120px;
+    height: 138px;
+    background: url("../images/lx_h.png") no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+.up_sip .up_sip1 ul li:nth-child(4) a.corr img,.up_sip .up_sip1 ul li:nth-child(5) a.corr img{
+    position: absolute;
+    top: -40px;
+    left: 40px;
+    transition: all 0.35s;
+    -o-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    -webkit-transition: all 0.35s;
+    -ms-transition: all 0.35s;
+}
+.up_sip .up_sip1 ul li:nth-child(4):hover a.corr img,.up_sip .up_sip1 ul li:nth-child(5):hover a.corr img{
+    top: 25px;
+}
+.up_sip .up_sip1 ul li:nth-child(4):hover a.corr h6,.up_sip .up_sip1 ul li:nth-child(5):hover a.corr h6{
+    padding-top: 70px;
+}
+.up_sip .up_sip1 ul li:nth-child(4) a.corr h6,.up_sip .up_sip1 ul li:nth-child(5) a.corr h6{
+    font-size: 14px;
+    color: #ffffff;
+    padding: 45px 32px;
+    transition: all 0.35s;
+    -o-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    -webkit-transition: all 0.35s;
+    -ms-transition: all 0.35s;
+}
+
+
+.up_sip .up_sip1 ul li:nth-child(5) a.corr{
+    display: block;
+    width: 120px;
+    height: 138px;
+    background: url("../images/lx_red.png") no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+/*菱形绘制*/
+/*
+.hexagon {
+    width: 100px;
+    height: 55px;
+    background: #fc5e5e;
+    position: relative;
+    margin: 10px auto;
+}
+
+.hexagon:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: -25px;
+    left: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 25px solid #fc5e5e;
+}
+
+.hexagon:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 25px solid #fc5e5e;
+}
+*/
 
 /*
 /!*3d翻转动画效果*!/
