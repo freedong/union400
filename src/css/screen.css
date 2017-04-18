@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+
+/*index*/
+
+
+/*导航栏*/
+.w1200{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+/*公共样式 头部栏*/
+.top{
+    margin-top: -25px;
+}
+div.top_height div.floatLeft span{
+    font-size: 14px;
+}
+div.top_height div.floatRight span{
+    font-size: 14px;
+}
+div.top_height img{
+    width: 15%;
+}
+.nav a img{
+    width: 13%;
+    margin-left: 0px;
+}
+
+.nav ul li{
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    width: 85px;
+}
+.nav ul{
+    margin-left: 180px;
+}
+.nav_a{
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+}
+
+
+
+
+
+/**/
+
+.solution ul li{
+    width: 195px;
+    height: 310px;
+}
+
+.mlr10 {
+    margin: 0 6px;
+}
+
+
+
+
+/**/
+.product ul li{
+    width: 493px;
+    height: 117px;
+}
+
+.mf18{
+    margin-left: 14px;
+}
+.product .p_div2{
+    width: 365px;
+    height: 77px;
+}
+
+/**/
+.services ul.ul1 li{
+    width: 320px;
+    height: 126px;
+}
+.services ul.ul1 li div.ss_div {
+    width: 134px;
+    height: 126px;
+}
+.services ul.ul1 li div.ss_div1{
+    padding: 0px;
+}
+.services ul.ul2 li{
+    height: 126px;
+    width: 240px;
+    margin: 30px 5px 0px;
+}
+
+
+
+.leaders ul li{
+    width: 322px;
+    height: 150px;
+}

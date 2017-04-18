@@ -377,6 +377,8 @@ color:#9b040d;
 	width: 1200px;
 	margin: 0 auto;
 }
+
+
 .w980{
 	width: 980px;
 	margin: 0 auto;
@@ -709,6 +711,11 @@ div.top_height div.floatLeft span{
 	font-size: 30px;
 	font-weight: bold;
 }
+
+div.top_height div.floatLeft .span1{
+	margin: 0px 50px;
+}
+
 div.top_height img{
 	margin-top: 5px;
 }
@@ -789,10 +796,16 @@ div.top_height img{
 	background: url(../images/cbl.png) no-repeat;
 }
 */
+.mf18{
+	margin-left: 18px;
+}
 
-
-@media all and (width:1366px){
+@media screen and (max-width:1440px){
+	/*html,body{
+		zoom: 80%;
+	}*/
 	/*html,body{-webkit-text-size-adjust:none;}*/
+
 	.cebianlan{
 		position: fixed;
 		top: 150px;
@@ -842,7 +855,7 @@ div.top_height img{
 }
 
 
-@media all and (width:1920px){
+@media screen and (max-width:1920px){
 	.cebianlan{
 		position: fixed;
 		top: 200px;
@@ -884,6 +897,46 @@ div.top_height img{
 	}
 }
 
+
+/*.cebianlan{
+	position: fixed;
+	top: 200px;
+	right: 10px;
+	z-index: 30;
+	width: 140px;
+	height: 215px;
+}
+.cbl{
+	display: inline-block;
+	width: 140px;
+	height: 215px;
+	background: url(../images/cb_zx.png) no-repeat;
+}
+
+.cbl h3{
+	font-size: 18px;
+	color: #ffffff;
+	text-align: center;
+	margin-top: 2px;
+}
+.cbl a{
+	display: inline-block;
+	font-size: 16px;
+	color: #ffbe5a;
+	text-align: center;
+	margin-top: 131px;
+	margin-left: 45px;
+}
+.cbl .cblfoot{
+	margin-top: 5px;
+	margin-left: 10px;
+}
+.cbl .cblfoot span{
+	color: #ffffff;
+	margin-top: -30px;
+	margin-left: 30px;
+	display: block;
+}*/
 
 
 /*
