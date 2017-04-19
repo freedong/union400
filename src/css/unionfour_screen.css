@@ -13,7 +13,7 @@
 /*优音400电话特点--*/
 
 .uf_td h3{
-    font-size: 26px;
+    font-size: 22px;
     color: #333333;
     text-align: center;
     padding-top: 40px;
@@ -25,7 +25,7 @@
     border: 1px solid #ffbe5a;
 }
 .uf_td ul li{
-    width: 237px;
+    width: 198px;
     height: 251px;
     float: left;
     border-right: 1px dashed #ffbe5a;
@@ -41,7 +41,7 @@
 }
 .uf_td ul li p{
     height: 90px;
-    font-size: 14px;
+    font-size: 12px;
     color: #666666;
     text-align: center;
     padding: 0 20px;
@@ -292,21 +292,21 @@
 
 .uf_why1 h3{
     color: #333333;
-    font-size: 26px;
+    font-size: 22px;
     text-align: center;
     margin-top: 40px;
     padding-top: 40px;
 }
 .uf_why1 h6{
     color: #333333;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     margin-top: 30px;
 }
 
 
 .uf_why1 p{
-    font-size: 14px;
+    font-size: 12px;
     color: #666666;
     text-align: justify;
     margin: 30px 0;
@@ -318,10 +318,10 @@
 
 
 .uf_why1 .tablist ul li{
-    font-size: 18px;
+    font-size: 16px;
     color: #666666;
     float: left;
-    width: 200px;
+    width: 166px;
     height: 46px;
     background-color: #f1f1f1;
     line-height: 46px;
@@ -355,14 +355,15 @@
 
 .uf_why1 .tablist ul li.cur a{
     height: 0;
-    width: 160px;
+    width: 125px;
     display: inline-block;
     /*background-color: #ffbe5a;*/
     border-bottom: 46px solid #ffbe5a;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
     color: #ffffff;
-    font-weight: 600;
+    font-weight: 500;
+    font-size: 14px;
 }
 
 .cur1{
@@ -377,13 +378,13 @@
     border: 1px solid #ffbe5a;
 }
 .uf_why1 .tabcon ul li{
-    width: 297px;
+    width: 247px;
     height: 59px;
     border: 1px solid #f1f1f1;
     line-height: 59px;
     text-align: center;
     float: left;
-    font-size: 20px;
+    font-size: 18px;
     color: #888888;
     position: relative;
 }
@@ -393,7 +394,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 297px;
+    width: 247px;
     height: 59px;
     border: 1px solid #f1f1f1;
     line-height: 59px;
@@ -419,6 +420,15 @@
     opacity: 1;
 }
 
+
+
+.tj_div_font3{
+    background: url(../images/font3.png) no-repeat;
+    width: 215px;
+    height: 60px;
+    margin-left: 18px;
+    margin-top: 10px;
+}
 
 .uf_why1 .tijiao{
     height: 60px;
@@ -880,14 +890,6 @@
     vertical-align: middle;
 }
 
-
-.tj_div_font3{
-    background: url(../images/font3.png) no-repeat;
-    width: 215px;
-    height: 60px;
-    margin-left: 18px;
-    margin-top: 10px;
-}
 
 .mlr75{
     margin: 0 75px;

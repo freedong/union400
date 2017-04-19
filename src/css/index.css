@@ -693,6 +693,13 @@ div.effect-bubba div.figcaption::after {
 .customer{
 
 }
+
+
+.customer .customer_kh{
+    background: url(../images/kh.png) no-repeat;
+    width: 1200px;
+    height: 306px;
+}
 .customer h3{
     color: #333333;
     font-size: 26px;

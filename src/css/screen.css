@@ -1,20 +1,32 @@
 @charset "utf-8";
 
 
-/*index*/
 
 
-/*导航栏*/
+
+/*公共样式*/
 .w1200{
     width: 1000px;
     margin: 0 auto;
 }
+body {
+    width: 100%;
+    min-width: 1000px;
+}
+
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
 
 
 /*公共样式 头部栏*/
-.top{
+/*.top{
     margin-top: -25px;
-}
+}*/
 div.top_height div.floatLeft span{
     font-size: 14px;
 }
@@ -47,7 +59,7 @@ div.top_height img{
 
 
 
-
+/*index*/
 
 /**/
 
@@ -101,3 +113,136 @@ div.top_height img{
     width: 322px;
     height: 150px;
 }
+
+.mlr24{
+    margin: 0px 14px;
+}
+
+
+.earth img{
+    width: 640px;
+}
+.earth .ear_div{
+     width: 350px;
+}
+
+
+.customer .customer_kh{
+    width: 1000px;
+    height: 306px;
+}
+
+
+
+
+
+
+
+
+/*unionmeet.html*/
+.mb40 {
+    margin-bottom: 40px;
+}
+.mt40 {
+    margin-top: 40px;
+}
+
+.unmt img{
+    width: 33%;
+}
+.unmt .unmt1{
+    width: 635px;
+    height: 130px;
+    margin-left: 360px;
+    margin-top: -130px;
+}
+.unmt .unmt1 p{
+    font-size: 12px;
+}
+.unmt .unmt1 h6{
+    font-size: 15px;
+    color: #333333;
+    font-weight: 500;
+}
+.unmt .unmt1 a{
+    font-size: 15px;
+    margin-left: 365px;
+}
+
+.unmt_hy h3{
+    font-size: 22px;
+}
+
+
+
+.unmt_hy ul li{
+    width: 327px;
+    height: 193px;
+}
+.unmt_hy ul li div.unmt_hy2{
+    width: 128px;
+    height: 193px;
+}
+.unmt_hy ul li div.unmt_hy1{
+    width: 185px;
+    margin-top: 10px;
+}
+.unmt_hy ul li div.unmt_hy1 h5{
+    font-size: 15px;
+}
+.unmt_hy ul li div.unmt_hy1 p{
+    font-size: 12px;
+}
+.unmt_hy ul li div.unmt_hy2.unmt_hy2_1{
+    background-position: 20px 45px;
+}
+
+
+/*侧边栏*/
+/*
+.cebianlan{
+    position: fixed;
+    top: 150px;
+    right: -55px;
+    z-index: 30;
+    width: 140px;
+    height: 215px;
+}
+.cbl{
+    display: inline-block;
+    width: 80px;
+    height: 122px;
+    background: url(../images/cb_zx1366.png) no-repeat;
+}
+
+.cbl h3{
+    font-size: 12px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: -4px;
+}
+.cbl a{
+    display: inline-block;
+    font-size: 10px;
+    color: #ffbe5a;
+    text-align: center;
+    margin-top: 64px;
+    margin-left: 16px;
+}
+.cbl .cblfoot img{
+    display: none;
+}
+.cbl .cblfoot{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.cbl .cblfoot span{
+    /!*-webkit-text-size-adjust:none;*!/
+    /!*font-size: 8px;*!/
+    color: #ffffff;
+    margin-top: -12px;
+    margin-left: -20px;
+    display: block;
+    -webkit-transform: scale(0.7);
+    width: 113px;
+}*/
