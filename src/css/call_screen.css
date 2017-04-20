@@ -10,6 +10,15 @@
 }
 
 
+.tj_div_font3{
+    background: url(../images/font3.png) no-repeat;
+    width: 215px;
+    height: 60px;
+    margin-left: 18px;
+    margin-top: 10px;
+    background-size: 80%;
+}
+
 
 .cur1{
     display: none;
@@ -21,21 +30,21 @@
 
 /*优音云客服*/
 .call_cl p.p_top{
-    font-size: 16px;
+    font-size: 14px;
     color: #666666;
     text-align: justify;
     margin-top: 50px;
 }
 
 .call_cl h3{
-    font-size: 26px;
+    font-size: 22px;
     color: #333333;
     text-align: center;
     margin-top: 30px;
 }
 
 .call_cl h5{
-    font-size: 20px;
+    font-size: 18px;
     color: #333333;
     text-align: center;
     margin-top: 27px;
@@ -49,11 +58,11 @@
 .call_cl .call_ff .tablist ul{
 }
 .call_cl .call_ff .tablist ul li{
-    width: 240px;
-    height: 91px;
-    line-height: 91px;
+    width: 200px;
+    height: 80px;
+    line-height: 80px;
     color: #666666;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
 }
 
@@ -64,18 +73,18 @@
 }
 
 .call_cl .call_ff .tabcon ul{
-    width: 956px;
-    margin-left: 2px;
+    width: 796px;
+    margin-left: 1px;
 }
 
 .call_cl .call_ff .tabcon ul li{
     float: left;
-    width: 237px;
-    height: 59px;
-    line-height: 60px;
+    width: 197px;
+    height: 51px;
+    line-height: 52px;
     text-align: center;
     border: 1px solid #e9e9e9;
-    font-size: 20px;
+    font-size: 18px;
     color: #888888;
     font-weight: bold;
     position: relative;
@@ -90,12 +99,12 @@
     text-align: center;
     visibility: hidden;
     opacity: 0;
-    width: 237px;
-    height: 60px;
-    line-height: 60px;
+    width: 199px;
+    height: 51px;
+    line-height: 51px;
     text-align: center;
     color: #fffd3c;
-    font-size: 18px;
+    font-size: 16px;
 }
 .call_cl .call_ff .tabcon ul li:hover .hm_1{
     cursor: pointer;
@@ -110,7 +119,7 @@
 }
 
 .call_cl .call_ff .call_tc ul li{
-    width: 595px;
+    width: 495px;
     height: 290px;
     background-color: #ffbe5a;
     float: left;
@@ -118,17 +127,29 @@
 
 .call_cl .call_ff .call_tc ul li h3{
     color: #ffffff;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     text-align: center;
     margin: 19px auto;
 }
-.call_cl .call_ff .call_tc ul li span{
-    display: inline-block;
+.call_cl .call_ff .call_tc ul li span.display_span{
+    display: block;
+    font-style: italic;
+    font-size: 16px!important;
+    color: #ffffff;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+/*.call_cl .call_ff .call_tc ul li span{
+    display: block;
     font-style: italic;
     font-size: 18px;
     color: #ffffff;
     margin-left: 25px;
+}*/
+
+.call_cl .call_ff .call_tc ul li a.a_ml{
+    margin-left: 364px!important;
 }
 
 .call_cl .call_ff .call_tc ul li a:hover{
@@ -136,21 +157,23 @@
 }
 
 .call_cl .call_ff .call_tc ul li a{
-    display: inline-block;
-    width: 168px;
-    height: 35px;
-    line-height: 35px;
+    display: block;
+    width: 130px;
+    height: 30px;
+    line-height: 30px;
     text-align: center;
     background-color: #ff4b5a;
     color: #ffffff;
     font-size: 16px;
-    margin-left: 109px;
-    margin-top: 9px;
+    margin-left: 365px;
+    margin-top: -27px;
 }
 .call_cl .call_ff .call_tc ul li a span{
     color: #ffffff;
-    font-size: 16px;
+    font-size: 14px;
     font-style: normal;
+    display: block;
+    margin-right: 40px;
 }
 
 .call_cl .call_ff .call_tc ul li p.p_p{
@@ -170,7 +193,7 @@
 
 
 .call_cl .call_ff .call_tc ul li table tr th,.call_cl .call_ff .call_tc ul li table tr td{
-    width: 135px;
+    width: 110px;
     height: 34px;
 }
 .call_cl .call_ff .call_tc ul li table{
@@ -178,44 +201,13 @@
 }
 
 .call_cl .call_ff .call_tc ul li.litable table tr th,.call_cl .call_ff .call_tc ul li.litable table tr td{
-    width: 180px;
+    width: 146px;
     height: 34px;
 }
 .call_cl .call_ff .call_tc ul li.litable table{
     margin-left: 25px;
 }
 
-
-
-/*
-
-.call_cl .call_ff .call_tc ul li table
-{
-    border-collapse:collapse;
-    background-color: #ffffff;
-    margin-left: 25px;
-}
-
-.call_cl .call_ff .call_tc ul li table,.call_cl .call_ff .call_tc ul li th, .call_cl .call_ff .call_tc ul li td
-{
-    border: 1px solid #e9e9e9;
-    text-align: center;
-}
-.call_cl .call_ff .call_tc ul li th, .call_cl .call_ff .call_tc ul li td{
-    width: 175px;
-    height: 34px;
-}
-.call_cl .call_ff .call_tc ul li th{
-    font-size: 16px;
-    color: #ffbe5a;
-    font-weight: 600;
-}
-
-.call_cl .call_ff .call_tc ul li td{
-    font-size: 14px;
-    color: #666666;
-}
-*/
 
 
 
@@ -232,7 +224,7 @@
     zoom: 1;
     position: absolute;
     top: 135px;
-    left: 570px;
+    left: 445px;
 }
 
 .picScroll-left .hd ul li {
@@ -255,7 +247,7 @@
     margin-bottom: 50px;
 }
 .qd_div ul.ul1 li{
-    width: 394px;
+    width: 327px;
     height: 120px;
     float: left;
     border: 1px solid #ffbe5a;
@@ -284,17 +276,18 @@
 .qd_div ul.ul1 li h3{
     font-size: 16px;
     color: #666666;
-    padding: 10px 0px;
+    padding: 10px 0px 5px;
     text-align: inherit;
     margin-top: -11px;
     font-weight: bold;
 }
 .qd_div ul.ul1 li p{
-    width: 260px;
+    width: 193px;
     height: 76px;
     font-size: 14px;
     color: #888888;
     text-align: justify;
+    line-height: 20px;
 }
 
 
@@ -330,18 +323,29 @@
 }
 
 .call_jq .jq_tijiao .tj_div1{
-    width: 955px;
-    margin-top: 10px;
+    width: 800px;
+    margin-top: 15px;
 }
 .call_jq .jq_tijiao .tj_div1 label{
     color: #ffffff;
-    font-size: 20px;
+    font-size: 16px;
     padding-left: 10px;
 }
+.call_jq .jq_tijiao .tj_div1 input.width140{
+    width: 70px;
+}
+.yzm{
+    display: inline;
+    vertical-align: middle;
+    height: 27px;
+    margin-top: -3px;
+}
+
+
 
 .call_jq .jq_tijiao .tj_div1 input{
-    width: 139px;
-    height: 32px;
+    width: 140px;
+    height: 30px;
     background-color: #ffe5bd;
     border: none;
 }
@@ -350,15 +354,15 @@
 }
 .call_jq .jq_tijiao .tj_div1 input#sbutton2{
     cursor: pointer;
-    width: 98px;
-    height: 40px;
-    line-height: 40px;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
     text-align: center;
     background-color: #ff4b5a;
     font-size: 18px;
     color: #ffffff;
     border-radius: 5px;
-    margin-left: 25px;
+    margin-left: 20px;
     padding-left: 0px;
 }
 .call_jq .jq_tijiao .tj_div1 input#sbutton2:hover{
@@ -366,28 +370,28 @@
 }
 
 
-
 /*圆圈和三角形*/
 .ani_i{
     border-radius: 10px;
     background-color: white;
-    width: 20px;
-    height: 20px;
-    line-height: 20px;
-    display: inline-block;
-    margin-left: 10px;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    display: block;
+    margin-left: 100px;
+    margin-top: -22px;
 }
 
 .ani_o{
     display: inline-block;
     width: 0px;
     height: 0px;
-    border-width: 7px 7px 7px 11px;
+    border-width: 5px 5px 5px 7px;
     border-style: solid;
     border-color: transparent transparent transparent #ff4b5a;
-    margin-left: 6px;
+    margin-left: 5px;
     vertical-align: middle;
-    margin-top: -3px;
+    margin-top: -5px;
 }
 
 .ani_i1{
@@ -459,14 +463,14 @@
 }
 
 .call_pl h3{
-    font-size: 26px;
+    font-size: 22px;
     color: #333333;
     text-align: center;
     padding-top: 40px;
 }
 
 .call_pl p.p_top{
-    font-size: 16px;
+    font-size: 14px;
     color: #666666;
     text-align: center;
     margin-top: 24px;
@@ -476,7 +480,7 @@
     padding: 30px 0px 40px 0px;
 }
 .call_pl ul li{
-    width: 298px;
+    width: 248px;
     height: 300px;
     float: left;
     border-radius: 3px;
@@ -518,7 +522,7 @@
     font-size: 14px;
     color: #666666;
     text-align: justify;
-    padding: 0px 27px;
+    padding: 0px 20px;
 }
 .call_pl ul li div.pl_div p span{
     color: #ffbe5a;
@@ -526,7 +530,7 @@
 }
 
 .call_pl ul li img{
-    margin: 28px 104px 30px 104px;
+    margin: 28px 82px 30px;
 }
 
 .call_pl ul li div.pl_div{
@@ -565,11 +569,11 @@
     background-color: #ffffff;
 }
 .call_pl ul li:hover div.pl_div{
-    -webkit-transform: translate3d(0,-150px,0);
-    transform: translate3d(0,-150px,0);
-    -ms-transform: translate3d(0,-150px,0);
-    -moz-transform: translate3d(0,-150px,0);
-    -o-transform: translate3d(0,-150px,0);
+    -webkit-transform: translate3d(0,-165px,0);
+    transform: translate3d(0,-165px,0);
+    -ms-transform: translate3d(0,-165px,0);
+    -moz-transform: translate3d(0,-165px,0);
+    -o-transform: translate3d(0,-165px,0);
 }
 .call_pl ul li div.pl_div{
     /*-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
@@ -581,23 +585,7 @@
     -o-transform: translate3d(0,10px,0);
 }
 
-.tj_div_font3{
-    background: url(../images/font3.png) no-repeat;
-    width: 215px;
-    height: 60px;
-    margin-left: 18px;
-    margin-top: 10px;
-}
 
-.call_jq .jq_tijiao .tj_div1 input.width140{
-    width: 140px;
-}
-
-.yzm{
-    display: inline;
-    vertical-align: middle;
-    height: 30px;
-}
 
 
 /*优音云客服的优势*/

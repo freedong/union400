@@ -202,8 +202,7 @@
 
 
 .mlr27{
-    margin-left: 27px;
-    margin-right: 27px;
+    margin: 0px 27px;
 }
 .f_package .ul1 .li1 h5{
     font-size: 20px;
@@ -331,6 +330,34 @@
 
 .f_package .ul1 .li1 .sec2 input.sbutton:focus{
     border: none;
+}
+
+.f_package .ul1 .li1 span.ff_span{
+    font-size: 36px;
+}
+.f_package .ul1 .li1 span.ff_span1{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.f_package .ul1 .li1 .sec2 input.width140{
+    width: 140px;
+}
+
+.li1_pl19{
+    padding-left: 19px;
+}
+.li1_pl3{
+    padding-left: 3px;
+}
+.li1_pl3_3{
+    padding-left: 3px;
+}
+.li1_pl15{
+    padding-left: 15px;
+}
+.li1_pl49{
+    padding-left: 49px;
 }
 
 
@@ -494,8 +521,24 @@
     margin-left: 25px;
     padding-left: 0px;
 }
+.f_number .tijiao .tj_div1 input#sbutton2:hover{
+    background-color: #b8162b;
+}
 
 
+.tj_div_font3{
+    background: url(../images/font3.png) no-repeat;
+    width: 215px;
+    height: 60px;
+    margin-left: 18px;
+    margin-top: 10px;
+}
+
+.yzm{
+    display: inline;
+    vertical-align: middle;
+    height: 30px;
+}
 
 
 /*优音400电话独有功能*/
@@ -1074,6 +1117,10 @@
     box-shadow: 1px 1px 1px #d74450;
     margin-left: 19px;
     padding-left: 0px;
+    cursor: pointer;
+}
+.foot_fix .fix_div1 input#sbutton1:hover{
+    background-color: #c99545;
 }
 
 

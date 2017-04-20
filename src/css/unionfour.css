@@ -469,6 +469,10 @@
     padding-left: 0px;
 }
 
+.uf_why1 .tijiao .tj_div1 input#sbutton2:hover{
+    background-color: #b8162b;
+}
+
 
 /*优音400电话通信能力更强*/
 
@@ -594,6 +598,12 @@
 .uf_tx .uf_tx1left a:hover{
     color: #daa14a;
 }
+
+.img_mlr{
+    margin-top: -155px;
+    margin-left: 595px;
+}
+
 .uf_tx .uf_tx1right{
     border: 1px solid #ffbe5a;
     height: 210px;
@@ -887,6 +897,12 @@
     height: 60px;
     margin-left: 18px;
     margin-top: 10px;
+}
+
+.yzm{
+    display: inline;
+    vertical-align: middle;
+    height: 30px;
 }
 
 .mlr75{

@@ -42,25 +42,28 @@
 /* <!--爆款套餐推荐-->*/
 
 .f_hot ul li{
-    width: 380px;
-    height: 380px;
+    width: 313px;
+    height: 317px;
     border: 1px solid #ece7e8;
     float: left;
+}
+.f_hot ul li img{
+    width: 100%;
 }
 .f_hot ul{
     margin-top: 30px;
 }
 
 .f_hot h3{
-    font-size: 26px;
+    font-size: 22px;
     color: #333333;
     text-align: center;
     margin-top: 50px;
 }
 .f_hot h5{
-    font-size: 36px;
+    font-size: 30px;
     color: #fe8900;
-    padding: 30px 0;
+    padding: 20px 0;
     text-align: center;
     font-weight: 600;
 }
@@ -70,9 +73,9 @@
 
 .f_hot div p{
     color: #888888;
-    font-size: 16px;
+    font-size: 14px;
     padding-left: 100px;
-    font-weight: bold;
+    font-weight: 500;
     line-height: 30px;
 }
 
@@ -84,15 +87,15 @@
 
 .f_hot ul li a{
     display: inline-block;
-    width: 200px;
-    height: 40px;
+    width: 140px;
+    height: 30px;
     background-color: #ed1b24;
-    line-height: 40px;
+    line-height: 30px;
     text-align: center;
     margin-top: 20px;
     margin-left: 90px;
     color: #ffffff;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .f_hot ul li a:hover{
@@ -101,10 +104,10 @@
 .f_hot ul li a i{
     display: inline-block;
     width: 40px;
-    height: 40px;
-    line-height: 40px;
+    height: 30px;
+    line-height: 30px;
     vertical-align: middle;
-    background: url(../images/gouwuche.png) 0px 8px no-repeat;
+    background: url(../images/gouwuche.png) 0px 4px no-repeat;
     /*background-position: 0px 8px;*/
 }
 
@@ -115,7 +118,7 @@
 }
 
 .f_package h3{
-    font-size: 26px;
+    font-size: 22px;
     color: #333333;
     text-align: center;
     margin-top: 40px;
@@ -123,8 +126,8 @@
 }
 
 .f_package .ul1 .li1{
-    width: 380px;
-    height: 450px;
+    width: 317px;
+    height: 380px;
     border: 1px solid #ece7e8;
     float: left;
     margin-top: 30px;
@@ -181,20 +184,21 @@
 .f_package .ul1 .li1 .mflq{
     background: url(../images/f_pjuxing.png) no-repeat;
     width: 250px;
-    height: 91px;
-    margin-top: 11px;
+    height: 71px;
+    margin-top: 10px;
     margin-left: 68px;
+    background-size: 80%;
 }
 .f_package .ul1 .li1 .mflq .mflq_a{
     display: inline-block;
-    width: 135px;
+    width: 110px;
     height: 25px;
     line-height: 25px;
     text-align: center;
-    margin-left: 58px;
-    margin-top: 54px;
+    margin-left: 43px;
+    margin-top: 41px;
     color: #ff4b5a;
-    font-size: 16px;
+    font-size: 14px;
     border-radius: 0;
     background: #f6ff00;
     background: linear-gradient(135deg, transparent 5px, #f6ff00 0);
@@ -202,26 +206,25 @@
 
 
 .mlr27{
-    margin-left: 27px;
-    margin-right: 27px;
+    margin: 0px 21px;
 }
 .f_package .ul1 .li1 h5{
-    font-size: 20px;
+    font-size: 18px;
     color: #ffbe5a;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .f_package .ul1 .li1 p{
-    font-size: 18px;
+    font-size: 15px;
     color: #888888;
-    margin: 10px 0px;
+    margin: 5px 0px;
     text-align: center;
 }
 
 .f_package .ul1 .li1 div{
     background-color: #ffbe5a;
-    height: 77px;
-    line-height: 77px;
+    height: 70px;
+    line-height: 70px;
     text-align: center;
 }
 
@@ -230,20 +233,20 @@
 }
 
 .f_package .ul1 .li1 h6{
-    font-size: 16px;
+    font-size: 14px;
     color: #666666;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 .f_package .ul1 .li1 .ul2{
-    margin-left: 20px;
-    margin-top: 10px;
+    margin-left: 15px;
+    margin-top: 5px;
 }
 .f_package .ul1 .li1 .ul2 li{
-    font-size: 16px;
+    font-size: 14px;
     color: #666666;
     float: left;
-    padding-right: 10px;
+    padding-right: 5px;
 }
 .f_package .ul1 .li1 .ul2 li i{
     font-style: normal;
@@ -252,12 +255,12 @@
 }
 
 .f_package .ul1 .li1 .ul3{
-    padding: 0 60px;
-    margin-top: 10px;
+    padding: 0 42px;
+    margin-top: 5px;
 }
 
 .f_package .ul1 .li1 .ul3 li{
-    font-size: 16px;
+    font-size: 14px;
     color: #666666;
     float: left;
     padding-left: 15px;
@@ -266,24 +269,24 @@
     font-size: 14px;
     color: #666666;
     display: inline-block;
-    width: 140px;
+    width: 125px;
     height: 35px;
     background-color: #dcdcdc;
     line-height: 35px;
     text-align: center;
     border-radius: 5px;
-    margin-top: 10px;
-    margin-left: 30px;
+    margin-top: 5px;
+    margin-left: 22px;
 }
 
 .f_package .ul1 .li1 .sec1{
-    height: 86px;
+    height: 70px;
     background-color: #ff4b5a;
-    margin-top: -10px;
+    margin-top: -6px;
 }
 
 .f_package .ul1 .li1 .sec1 p{
-    font-size: 20px;
+    font-size: 18px;
     color: #ffffff;
 }
 
@@ -293,31 +296,36 @@
 
 .f_package .ul1 .li1 .sec2 label{
     color: #ffbe5a;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .f_package .ul1 .li1 .sec2 input{
     border: none;
     background-color: #f8f5f1;
-    width: 215px;
-    height: 35px;
+    width: 180px;
+    height: 30px;
     margin-top: 20px;
+}
+
+.f_package .ul1 .li1 .sec2 input.width140{
+    width: 80px;
 }
 
 .f_package .ul1 .li1 .sec2 input:focus{
     background-color: #ffffff;
     border: 1px solid #ffbe5a;
-    width: 213px;
-    height: 33px;
+    width: 178px;
+    height: 28px;
 }
 
 .f_package .ul1 .li1 .sec2 input.comment:focus{
     background-color: #ffffff;
     border: 1px solid #ffbe5a;
-    height: 33px;
+    width: 78px;
+    height: 28px;
 }
 .f_package .ul1 .li1 .sec2 input.sbutton{
-    width: 196px;
+    width: 150px;
     height: 30px;
     background-color: #ff4b5a;
     color: #ffffff;
@@ -333,6 +341,29 @@
     border: none;
 }
 
+.f_package .ul1 .li1 span.ff_span{
+    font-size: 30px;
+}
+.f_package .ul1 .li1 span.ff_span1{
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.li1_pl19{
+    padding-left: 16px;
+}
+.li1_pl3{
+    padding-left: 2px;
+}
+.li1_pl3_3{
+    padding-left: 3px;
+}
+.li1_pl15{
+    padding-left: 15px;
+}
+.li1_pl49{
+    padding-left: 43px;
+}
 
 /*海量号码任性选*/
 .f_number{
@@ -347,7 +378,7 @@
 }
 
 .f_number p{
-    font-size: 14px;
+    font-size: 16px;
     color: #666666;
     text-align: center;
     margin: 30px 0px;
@@ -367,6 +398,10 @@
    /* border-bottom: 1px solid #ffbe5a;*/
 }
 
+.f_number .tablist ul li:last-child{
+    width: 170px;
+}
+
 .f_number .tablist ul li a span{
     position: absolute;
     top: 10px;
@@ -380,6 +415,16 @@
 
 
 
+.tj_div_font3{
+    background: url(../images/font3.png) no-repeat;
+    width: 215px;
+    height: 60px;
+    margin-left: 18px;
+    margin-top: 10px;
+    background-size: 80%;
+}
+
+
 .f_number .tablist ul li.cur a{
     height: 0;
     width: 125px;
@@ -390,6 +435,9 @@
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
     font-size: 14px;
+}
+.f_number .tablist ul li:last-child.cur a{
+    width: 130px;
 }
 
 .cur1{
@@ -465,18 +513,29 @@
 }
 
 .f_number .tijiao .tj_div1{
-    width: 960px;
-    margin-top: 10px;
+    width: 800px;
+    margin-top: 15px;
 }
 .f_number .tijiao .tj_div1 label{
     color: #ffffff;
-    font-size: 20px;
+    font-size: 16px;
     padding-left: 10px;
 }
 
+.f_number .tijiao .tj_div1 input.width140{
+    width: 70px;
+}
+
+.yzm{
+    display: inline;
+    vertical-align: middle;
+    height: 28px;
+    margin-top: -3px;
+}
+
 .f_number .tijiao .tj_div1 input{
-    width: 139px;
-    height: 32px;
+    width: 140px;
+    height: 28px;
     background-color: #ffe5bd;
     border: none;
 }
@@ -484,18 +543,21 @@
     background-color: #ffffff;
 }
 .f_number .tijiao .tj_div1 input#sbutton2{
-    width: 98px;
-    height: 40px;
-    line-height: 40px;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
     text-align: center;
     background-color: #ff4b5a;
-    font-size: 18px;
+    font-size: 16px;
     color: #ffffff;
     border-radius: 5px;
-    margin-left: 25px;
+    margin-left: 20px;
     padding-left: 0px;
 }
 
+.f_number .tijiao .tj_div1 input#sbutton2:hover{
+    background-color: #b8162b;
+}
 
 
 
@@ -506,7 +568,7 @@
 }
 
 .f_phone h3{
-    font-size: 26px;
+    font-size: 22px;
     color: #333333;
     text-align: center;
     padding-top: 40px;
@@ -516,8 +578,8 @@
     padding: 30px 0px 40px 0px;
 }
 .f_phone ul li{
-    width: 238px;
-    height: 368px;
+    width: 198px;
+    height: 308px;
     line-height: 270px;
     background-color: #ffbe5a;
     float: left;
@@ -536,11 +598,12 @@
     position: absolute;
     top: 368px;
     left: 0;
-    width: 238px;
+    width: 198px;
 }
 
 .f_phone ul li .sf p{
-    font-size: 14px;
+    line-height: 18px;
+    font-size: 12px;
     color: #555555;
     text-align: justify;
     padding: 0px 5px;
@@ -565,8 +628,8 @@
 }
 
 .f_phone ul li:hover div.sf{
-    -webkit-transform: translate3d(0,-240px,0);
-    transform: translate3d(0,-240px,0);
+    -webkit-transform: translate3d(0,-250px,0);
+    transform: translate3d(0,-250px,0);
 }
 
 .f_phone ul li:hover hr{
@@ -579,7 +642,7 @@
     margin-top:-155px;
 }
 .f_phone ul li h5{
-    font-size: 24px;
+    font-size: 20px;
     color: #ffffff;
     text-align: center;
     margin-top: -95px;
@@ -593,7 +656,7 @@
     color: white;
     background-color: white;
     border: none;
-    margin-left: 111px;
+    margin-left: 90px;
     margin-bottom: 15px;
     margin-top: -95px;
 }
@@ -601,7 +664,7 @@
 .f_phone ul li.f_pli{
     border: 1px solid #ff4b5a;
     background-color: #f8f5f1;
-    height: 366px;
+    height: 306px;
 }
 .f_phone ul li.f_pli div.f_pdiv1{
     height: 72px;
@@ -609,28 +672,28 @@
 }
 .f_phone ul li.f_pli div.f_pdiv1 p{
     color: #ffffff;
-    font-size: 16px;
+    font-size: 14px;
     padding: 10px 22px;
     text-align: center;
 }
 
 .f_phone ul li.f_pli div.f_pdiv2 p{
-    font-size: 16px;
+    font-size: 14px;
     color: #666666;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .f_phone ul li a{
     display: block;
     background-color: #ff4b5a;
-    width: 180px;
+    width: 140px;
     height: 30px;
     line-height: 30px;
     text-align: center;
     border-radius: 3px;
     color: #fffefe;
-    font-size: 16px;
+    font-size: 14px;
     margin-left: 30px;
     margin-top: 28px;
 }
@@ -642,7 +705,7 @@
 
 /*400电话功能展示*/
 .f_fun h3{
-    font-size: 26px;
+    font-size: 22px;
     color: #333333;
     text-align: center;
     padding-top: 40px;
@@ -651,8 +714,9 @@
 
 .f_fun div.f_fdiv{
     background: url(../images/f_f1.png) no-repeat;
-    width: 363px;
-    height: 600px;
+    width: 280px;
+    height: 500px;
+    background-size: 110%;
 }
 .f_fun div.f_fdiv a{
     display: inline-block;
@@ -669,13 +733,13 @@
 }
 
 .f_fun ul.f_ful1{
-    width: 837px;
+    width: 720px;
 }
 
 .f_fun ul.f_ful1 li{
-    width: 137px;
-    height: 198px;
-    line-height: 198px;
+    width: 112px;
+    height: 165px;
+    line-height: 165px;
     text-align: center;
     border: 1px solid #f3ebeb;
     float: left;
@@ -803,18 +867,19 @@
 
 
 .f_fun ul.f_ful1 li .sf1{
-    height: 198px;
+    height: 165px;
 }
 
 .f_fun ul.f_ful1 li .sf{
     position: absolute;
     top: 198px;
     left: 0;
-    width: 137px;
+    width: 112px;
 }
 
 .f_fun ul.f_ful1 li div.sf p{
-    font-size: 14px;
+    line-height: 18px;
+    font-size: 12px;
     color: #555555;
     text-align: justify;
     padding: 0px 5px;
@@ -852,7 +917,7 @@
     background-color: #ffbe5a;
 }
 .f_fun ul.f_ful1 li:hover div.sf{
-    width: 137px;
+    width: 112px;
     height: 198px;
     -webkit-transform: translate3d(0,-140px,0);
     transform: translate3d(0,-140px,0);
@@ -868,14 +933,14 @@
     background-color: #f8f5f1;
 }
 .f_open h3{
-    font-size: 26px;
+    font-size: 22px;
     color: #333333;
     text-align: center;
     padding-top: 40px;
     padding-bottom: 30px;
 }
 .f_open ul li{
-    width: 393px;
+    width: 326px;
     height: 220px;
     float: left;
     background-color: #ffbe5a;
@@ -883,13 +948,13 @@
     position: relative;
 }
 .f_open ul li img{
-    padding: 36px 154px 35px 154px;
+    padding: 36px 120px 35px 120px;
 }
 .f_open ul li h5{
-    font-size: 18px;
+    font-size: 16px;
     color: #ffffff;
     text-align: center;
-    margin-left: 100px;
+    margin-left: 30px;
 }
 
 
@@ -904,14 +969,14 @@
 }
 
 .f_open ul li div.up_div2 h6{
-    font-size: 18px;
+    font-size: 16px;
     color: #ffffff;
     text-align: center;
     font-weight: bold;
     margin: 20px 0px;
 }
 .f_open ul li div.up_div2 p{
-    font-size: 16px;
+    font-size: 14px;
     color: #ffffff;
     text-align: center;
     padding: 0px 45px;
@@ -919,7 +984,7 @@
 .f_open ul li div.up_div2 a{
     cursor: pointer;
     display: inline-block;
-    width: 200px;
+    width: 170px;
     height: 30px;
     line-height: 30px;
     border-radius: 20px;
@@ -929,7 +994,7 @@
     background-color: #76e3ff;
     box-shadow: 2px 2px 5px #c39958;
     margin-top: 30px;
-    margin-left: 100px;
+    margin-left: 84px;
 }
 
 .f_open ul li div.up_div1{
@@ -967,21 +1032,21 @@
 /*400电话办理开通流程2*/
 
 .f_open2 h3.ss_h{
-    font-size: 26px;
+    font-size: 22px;
     color: #333333;
     text-align: center;
     margin-top: 50px;
 }
 .f_open2 p.s_P{
-    font-size: 16px;
+    font-size: 14px;
     color: #666666;
     text-align: center;
     margin: 30px 0px;
 }
 
 .f_open2 ul.ul1 li{
-    width: 384px;
-    height: 150px;
+    width: 330px;
+    height: 105px;
     float: left;
     border: 1px solid #ffbe5a;
     border-radius: 2px;
@@ -990,12 +1055,16 @@
     float: left;
 }
 .f_open2 ul.ul1 li div.ss_div{
-    width: 160px;
-    height: 150px;
+    width: 142px;
+    height: 105px;
     text-align: center;
 }
 .f_open2 ul.ul1 li div.ss_div img{
-    margin-top: 30px;
+    margin-top: 20px;
+    width: 50%;
+}
+.f_open2 ul.ul1 li:first-child div.ss_div img{
+    width: 70%;
 }
 
 .f_open2 ul.ul1 li div.ss_div1{
@@ -1006,12 +1075,12 @@
 .f_open2 ul.ul1 li h3{
     font-size: 16px;
     color: #ffffff;
-    padding: 10px 0px;
+    padding: 5px 0px;
 }
 .f_open2 ul.ul1 li p{
-    width: 186px;
-    height: 106px;
-    font-size: 14px;
+    width: 150px;
+    height: 71px;
+    font-size: 12px;
     color: #ffffff;
     text-align: justify;
 }
@@ -1044,7 +1113,7 @@
 }
 
 .foot_fix .fix_div1{
-    width: 1000px;
+    width: 800px;
     margin-top: 25px;
 }
 .foot_fix .fix_div1 label{
@@ -1055,26 +1124,35 @@
 }
 
 .foot_fix .fix_div1 input{
-    width: 180px;
-    height: 32px;
+    width: 140px;
+    height: 30px;
     background-color: #ffa5ad;
     border: none;
+}
+
+.foot_fix .fix_div1 input.width140{
+    width: 70px;
 }
 .foot_fix .fix_div1 input:focus{
     background-color: #ffffff;
 }
 .foot_fix .fix_div1 input#sbutton1{
-    width: 120px;
-    height: 40px;
-    line-height: 40px;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
     text-align: center;
     background-color: #ffbe59;
-    font-size: 18px;
+    font-size: 16px;
     color: #ffffff;
     border-radius: 3px;
     box-shadow: 1px 1px 1px #d74450;
     margin-left: 19px;
     padding-left: 0px;
+    cursor: pointer;
+}
+
+.foot_fix .fix_div1 input#sbutton1:hover{
+    background-color: #c99545;
 }
 
 

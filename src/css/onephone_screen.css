@@ -17,7 +17,7 @@
 .one_j{}
 
 .one_j h5{
-    font-size: 26px;
+    font-size: 22px;
     color: #333333;
     text-align: center;
     margin-top: 40px;
@@ -29,7 +29,7 @@
     margin-top: 38px;
 }
 .one_j h3{
-    font-size: 26px;
+    font-size: 22px;
     color: #333333;
     text-align: center;
     margin-top: 20px;
@@ -40,14 +40,14 @@
     margin-left: 3px;
 }
 .one_j ul li{
-    width: 237px;
+    width: 197px;
     height: 60px;
     line-height: 60px;
     text-align: center;
     float: left;
     border: 1px solid #e9e9e9;
     color: #888888;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     position: relative;
 }
@@ -60,12 +60,12 @@
     text-align: center;
     visibility: hidden;
     opacity: 0;
-    width: 237px;
+    width: 197px;
     height: 60px;
     line-height: 60px;
     text-align: center;
     color: #fffd3c;
-    font-size: 18px;
+    font-size: 16px;
 }
 .one_j ul li:hover .hm_1{
     cursor: pointer;
@@ -86,11 +86,11 @@
 
 .one_j .j_div img{
     margin-top: 27px;
-    margin-left: 225px;
+    margin-left: 100px;
 }
 .one_j .j_div .j_p_div{
     width: 435px;
-    margin-left: 320px;
+    margin-left: 200px;
     margin-top: -62px;
 }
 
@@ -110,7 +110,7 @@
     background-color: #ff4b5a;
     border-radius: 20px;
     margin-top: -40px;
-    margin-left: 825px;
+    margin-left: 700px;
 }
 
 .one_j .j_div a:hover{
@@ -124,7 +124,7 @@
     background-color: #f3f3f3;
 }
 .one_t h3.hh{
-    font-size: 26px;
+    font-size: 22px;
     color: #333333;
     text-align: center;
     padding-top: 40px;
@@ -137,11 +137,11 @@
     float: left;
 }
 .one_t .one_tc ul li:first-child{
-    width: 580px;
+    width: 480px;
     height: 251px;
 }
 .one_t .one_tc ul li:last-child{
-    width: 580px;
+    width: 480px;
     height: 251px;
 }
 
@@ -163,7 +163,7 @@
     background-color: #ff4b5a;
     color: #ffffff;
     font-size: 14px;
-    margin-left: 386px;
+    margin-left: 286px;
     margin-top: 10px;
 }
 .one_t .one_tc ul li a:hover{
@@ -174,27 +174,27 @@
 }
 
 .one_t .one_zx .one_t_tj{
-    width: 601px;
+    width: 483px;
     height: 270px;
 }
 .one_t .one_zx .one_t_tj .bg2{
     position: relative;
-    width: 580px;
+    width: 480px;
     height: 270px;
-    background: linear-gradient(60deg,#ffffff 225px,#ffbf5c 0);
+    background: linear-gradient(60deg,#ffffff 200px,#ffbf5c 0);
     border: 1px solid #ffbf5c;
     /* 如果浏览器不支持渐变，使用图像作为背景 */
     /*background: url(gradient.jpg);*/
     /* Webkit: Safari 4-5, Chrome 1-9 */
     /*background: -webkit-gradient(60deg,#ffffff 225px,#ffbf5c 0);*/
     /* Webkit: Safari 5.1+, Chrome 10+ */
-    background: -webkit-linear-gradient(30deg,#ffffff 225px,#ffbf5c 0);
+    background: -webkit-linear-gradient(30deg,#ffffff 200px,#ffbf5c 0);
     /* Firefox 3.6+ */
-    background: -moz-linear-gradient(30deg,#ffffff 225px,#ffbf5c 0);
+    background: -moz-linear-gradient(30deg,#ffffff 200px,#ffbf5c 0);
     /* Opera 11.10+ */
-    background: -o-linear-gradient(30deg,#ffffff 225px,#ffbf5c 0);
+    background: -o-linear-gradient(30deg,#ffffff 200px,#ffbf5c 0);
     /* IE 10 */
-    background: -ms-linear-gradient(30deg,#ffffff 225px,#ffbf5c 0);
+    background: -ms-linear-gradient(30deg,#ffffff 200px,#ffbf5c 0);
     /* IE < 10 */
     /* 注意：这一行必须写在最后 */
 }
@@ -208,7 +208,9 @@
     position: absolute;
     top: 75px;
     left: 10px;
+    background-size: 80%;
 }
+
 
 /*.one_t .one_zx .one_t_tj .bg2 p{
     color: #ff4b5a;
@@ -218,28 +220,34 @@
 }*/
 
 
+.yzm{
+    display: inline;
+    vertical-align: middle;
+    margin-left: 6px;
+    height: 28px;
+}
 .one_t .one_zx .one_t_tj .t_input{
     position: absolute;
     top: 20px;
-    right: 55px;
+    right: 9px;
 }
 .one_t .one_zx .one_t_tj .t_input a{
     display: inline-block;
-    width: 200px;
+    width: 150px;
     height: 36px;
     line-height: 36px;
     text-align: center;
     background-color: #ff4b5a;
     border-radius: 5px;
-    font-size: 20px;
+    font-size: 18px;
     color: #fefefe;
-    margin-left: 90px;
+    margin-left: 125px;
     margin-top: 30px;
 }
 
 
 .one_t .one_zx .one_t_tj .t_input label{
-    font-size: 20px;
+    font-size: 18px;
     color: #fefefe;
     margin-left: 20px;
 }
@@ -272,15 +280,15 @@
 }
 .one_t .one_zx .one_t_tj .t_zx p.p_zz{
     color: #ffbe5a;
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 172px;
     margin-top: -31px;
 }
 
 
 .lingxing{
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     background-color: #ffbe5a;
     transform: rotate(45deg);
     -ms-transform: rotate(45deg);
@@ -290,28 +298,19 @@
     margin: 50px auto;
 }
 
-.yzm{
-    display: inline;
-    vertical-align: middle;
-    margin-left: 6px;
-    height: 28px;
-}
-
-.one_k ul li p.effect-bubba1_plr45{
-    padding: 0 45px
-}
-
 .one_t .one_zx .one_lx{
     position: relative;
+    top: -290px;
+    left: 70px;
     width: 588px;
-    height: 380px;
+    height: 100px;
 }
 .one_t .one_zx .one_lx .lingxing{
     position: absolute;
 }
 .one_t .one_zx .one_lx .lx1{
-    top: 110px;
-    right: 55px;
+    top: 88px;
+    right: 121px;
 }
 .one_t .one_zx .one_lx .lx3 div{
     background: url(../images/lingxing.png) -78px -163px no-repeat;
@@ -322,14 +321,14 @@
     -moz-transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
     -o-transform: rotate(-45deg);
-    margin-top: 35px;
-    margin-left: 10px;
+    margin-top: 25px;
+    margin-left: 2px;
     position: relative;
 }
 
 .one_t .one_zx .one_lx .lx2{
     top: 0px;
-    right: 165px;
+    right: 210px;
 }
 .one_t .one_zx .one_lx .lx2 div{
     background: url(../images/lingxing.png) -211px -50px no-repeat;
@@ -340,13 +339,13 @@
     -moz-transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
     -o-transform: rotate(-45deg);
-    margin-top: 20px;
-    margin-left: 25px;
+    margin-top: 5px;
+    margin-left: 14px;
     position: relative;
 }
 .one_t .one_zx .one_lx .lx3{
-    top: 110px;
-    right: 275px;
+    top: 89px;
+    right: 298px;
 }
 .one_t .one_zx .one_lx .lx1 div{
     background: url(../images/lingxing.png) -322px -110px no-repeat;
@@ -357,8 +356,8 @@
     -moz-transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
     -o-transform: rotate(-45deg);
-    margin-top: 15px;
-    margin-left: 25px;
+    margin-top: 7px;
+    margin-left: 16px;
     position: relative;
 }
 .one_t .one_zx .one_lx .lx4{
@@ -374,37 +373,76 @@
     -moz-transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
     -o-transform: rotate(-45deg);
-    margin-top: 15px;
-    margin-left: 10px;
+    margin-top: 5px;
+    margin-left: 2px;
     position: relative;
 }
 .one_t .one_zx .one_lx div h6{
     color: #ffffff;
-    font-size: 23.45px;
+    font-size: 20px;
     position: absolute;
     width: 100px;
 }
 .one_t .one_zx .one_lx .lx4 div h6{
     top: 75px;
-    left: -6px;
+    left: 0px;
 }
 .one_t .one_zx .one_lx .lx3 div h6{
     top: 65px;
-    left: 5px;
+    left: 12px;
 }
 .one_t .one_zx .one_lx .lx2 div h6{
     top: 65px;
-    left: -13px;
+    left: -7px;
 }
 .one_t .one_zx .one_lx .lx1 div h6{
     top: 68px;
-    left: -17px;
+    left: -10px;
 }
+
+
+
+.one_t .one_tc ul li table
+{
+    border-collapse:collapse;
+    background-color: #ffffff;
+    margin-left: 25px;
+}
+
+.one_t .one_tc ul li table,.one_t .one_tc ul li th, .one_t .one_tc ul li td
+{
+    border: 1px solid #e9e9e9;
+    text-align: center;
+}
+.one_t .one_tc ul li th, .one_t .one_tc ul li td{
+    width: 142px;
+    height: 34px;
+}
+.one_t .one_tc ul li th{
+    font-size: 16px;
+    color: #ffbe5a;
+    font-weight: 600;
+}
+
+.one_t .one_tc ul li td{
+    font-size: 14px;
+    color: #666666;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 /*1010号码特色优势*/
 .one_y h3{
-    font-size: 26px;
+    font-size: 22px;
     color: #333333;
     text-align: center;
     padding-top: 40px;
@@ -412,7 +450,7 @@
 }
 
 .one_y .one_y_div ul.ul1 li{
-    width: 398px;
+    width: 331px;
     height: 138px;
     float: left;
     border: 1px solid #ffbe5a;
@@ -455,12 +493,12 @@
     font-size: 16px;
     color: #333333;
     padding: 10px 0px;
-    text-align: inherit;
+    text-align: left;
     margin-top: 0px;
     font-weight: bold;
 }
 .one_y .one_y_div ul.ul1 li p{
-    width: 290px;
+    width: 230px;
     height: 76px;
     font-size: 14px;
     color: #666666;
@@ -469,18 +507,22 @@
 
 .one_y h5{
     color: #333333;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     margin-top: 40px;
 }
 
 
 .one_y ul li{
-    width: 195px;
+    width: 150px;
     height: 139px;
     float: left;
     margin-top: 25px;
     text-align: center;
+}
+
+.one_y ul li img{
+    margin-left: -22px;
 }
 
 .one_y ul li p{
@@ -506,7 +548,7 @@
     margin-top: 30px;
     margin-bottom: 40px;
     background-color: #ffbe5a;
-    margin-left: 295px;
+    margin-left: 190px;
 }
 .one_y a.a2{
     display: inline-block;
@@ -536,29 +578,21 @@
     background-color: #f3f3f3;
 }
 .one_b h3{
-    font-size: 26px;
+    font-size: 22px;
     color: #333333;
     text-align: center;
     padding-top: 40px;
 }
-.one_b_tijiao .tj_div1 input.width140{
-    width: 140px;
-}
+
 
 .one_b ul{
     padding: 30px 0px 40px 0px;
 }
 
-.tj_div_font2{
-    background: url(../images/font2.png) no-repeat;
-    width: 200px;
-    height: 60px;
-    margin-left: 15px;
-    margin-top: 15px;
-}
+
 
 .one_b ul li{
-    width: 299px;
+    width: 250px;
     height: 180px;
     float: left;
     vertical-align: middle;
@@ -586,7 +620,7 @@
 }
 
 .one_b ul li div.up_div1{
-    width: 298px;
+    width: 249px;
     height: 150px;
     /*opacity: 1;*/
     display: block;
@@ -717,18 +751,22 @@
 }
 
 .one_b_tijiao .tj_div1{
-    width: 990px;
-    margin-top: 10px;
+    width: 815px;
+    margin-top: 15px;
 }
 .one_b_tijiao .tj_div1 label{
     color: #ffffff;
-    font-size: 20px;
-    padding-left: 20px;
+    font-size: 16px;
+    padding-left: 15px;
+}
+
+.one_b_tijiao .tj_div1 input.width140{
+    width: 70px;
 }
 
 .one_b_tijiao .tj_div1 input{
-    width: 139px;
-    height: 32px;
+    width: 140px;
+    height: 30px;
     background-color: #ffe5bd;
     border: none;
 }
@@ -737,17 +775,18 @@
 }
 .one_b_tijiao .tj_div1 input#sbutton2{
     cursor: pointer;
-    width: 98px;
-    height: 40px;
-    line-height: 40px;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
     text-align: center;
     background-color: #ff4b5a;
     font-size: 18px;
     color: #ffffff;
     border-radius: 5px;
-    margin-left: 25px;
+    margin-left: 15px;
     padding-left: 0px;
 }
+
 .one_b_tijiao .tj_div1 input#sbutton2:hover{
     background-color: #e44451;
 }
@@ -755,7 +794,7 @@
 
 /*1010号码客户资质*/
 .one_k h3.h3_top{
-    font-size: 26px;
+    font-size: 22px;
     color: #333333;
     text-align: center;
     padding-top: 40px;
@@ -767,14 +806,18 @@
 }
 
 .one_k .s_h3{
-    font-size: 20px;
+    font-size: 18px;
     color: #666666;
     text-align: center;
     margin: 10px auto;
 }
 
+.one_k ul li p.effect-bubba1_plr45{
+    padding: 0 20px
+}
+
 .one_k ul li{
-    width: 386px;
+    width: 319px;
     height: 322px;
    /* background-color: #ffbe5a;*/
     background-color: #f8f8f8;
@@ -790,10 +833,19 @@
     color: #ffffff;
 }
 .one_k ul li div{
-    width: 386px;
-    height: 160px;
+    width: 319px;
+    height: 125px;
     overflow: hidden;
 }
+
+.one_k ul li div.effect-bubba img{
+    width: 100%;
+}
+
+.one_k ul li div.effect-bubba1{
+     height: 196px;
+ }
+
 .one_k ul li div img,.one_k ul li{
     transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -815,7 +867,7 @@ div.effect-bubba div.figcaption::after {
     position: absolute;
     top: 30px;
     right: 30px;
-    bottom: 190px;
+    bottom: 220px;
     left: 30px;
     content: '';
     opacity: 0;
@@ -860,12 +912,22 @@ div.effect-bubba div.figcaption::after {
     margin-bottom: 40px;
 }
 
+
+.tj_div_font2{
+    background: url(../images/font2.png) no-repeat;
+    width: 200px;
+    height: 60px;
+    margin-left: 15px;
+    margin-top: 15px;
+    background-size: 80%;
+}
+
 /*提交申请*/
 .one_s{
     background-color: #f3f3f3;
 }
 .one_s ul li{
-    width: 589px;
+    width: 489px;
     height: 159px;
     float: left;
     background-color: #ffffff;
@@ -878,27 +940,27 @@ div.effect-bubba div.figcaption::after {
     font-size: 14px;
     text-align: justify;
     padding: 0px 22px;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 .one_s ul li .one_s_bg{
     position: relative;
-    width: 589px;
+    width: 489px;
     height: 159px;
-    background: linear-gradient(330deg,transparent 390px,#ffbf5c 0);
+    background: linear-gradient(330deg,transparent 335px,#ffbf5c 0);
 
     /* 如果浏览器不支持渐变，使用图像作为背景 */
     /*background: url(gradient.jpg);*/
     /* Webkit: Safari 4-5, Chrome 1-9 */
     /*background: -webkit-gradient(60deg,#ffffff 225px,#ffbf5c 0);*/
     /* Webkit: Safari 5.1+, Chrome 10+ */
-    background: -webkit-linear-gradient(330deg,transparent 390px,#ffbf5c 0);
+    background: -webkit-linear-gradient(330deg,transparent 335px,#ffbf5c 0);
     /* Firefox 3.6+ */
-    background: -moz-linear-gradient(330deg,transparent 390px,#ffbf5c 0);
+    background: -moz-linear-gradient(330deg,transparent 335px,#ffbf5c 0);
     /* Opera 11.10+ */
-    background: -o-linear-gradient(330deg,transparent 390px,#ffbf5c 0);
+    background: -o-linear-gradient(330deg,transparent 335px,#ffbf5c 0);
     /* IE 10 */
-    background: -ms-linear-gradient(330deg,transparent 390px,#ffbf5c 0);
+    background: -ms-linear-gradient(330deg,transparent 335px,#ffbf5c 0);
     /* IE < 10 */
     /* 注意：这一行必须写在最后 */
 
@@ -913,7 +975,7 @@ div.effect-bubba div.figcaption::after {
 .one_s ul li .one_s_bg input{
     background-color: #ffbf5c;
     border: none;
-    width: 245px;
+    width: 180px;
     height: 30px;
     margin-top: 10px;
 }
@@ -921,21 +983,21 @@ div.effect-bubba div.figcaption::after {
 .one_s ul li .one_s_bg input:focus{
     border: 1px solid #ffbf5c;
     background-color: #ffffff;
-    width: 243px;
+    width: 178px;
     height: 28px;
 }
 .one_s ul li .one_s_bg input.input_1{
-    width: 150px;
+    width: 86px;
 }
 
 .one_s ul li .one_s_bg input.input_1:focus{
-    width: 148px;
+    width: 84px;
 }
 
 .one_s ul li .one_s_bg .one_s_div{
     position: absolute;
     top: 0px;
-    right: 0px;
+    right: -12px;
 }
 
 .one_s ul li .one_s_bg .one_s_div p{
@@ -943,7 +1005,7 @@ div.effect-bubba div.figcaption::after {
     color: #ffffff;
     font-weight: bold;
     text-align: center;
-    line-height: 10px;
+    line-height: 35px;
 }
 .one_s ul li .one_s_bg .one_s_div a{
     display: inline-block;
@@ -955,6 +1017,6 @@ div.effect-bubba div.figcaption::after {
     font-size: 14px;
     color: #ffffff;
     border-radius: 5px;
-    margin-top: 50px;
+    margin-top: 25px;
     margin-left: 20px;
 }

@@ -40,12 +40,12 @@
     margin: 15px 0px;
 }
 .uf_td ul li p{
-    height: 90px;
-    font-size: 12px;
+    height: 100px;
+    font-size: 14px;
     color: #666666;
     text-align: center;
     padding: 0 20px;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 .uf_td ul li a{
     display: inline-block;
@@ -71,7 +71,260 @@
 }
 
 
+/*优音热销套餐*/
+
+.uf_why2 h3{
+    font-size: 22px;
+    color: #333333;
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 40px;
+}
+
 .uf_why2 .ul1 .li1{
+    width: 317px;
+    height: 380px;
+    border: 1px solid #ece7e8;
+    float: left;
+    margin-top: 30px;
+    background-color: #ffffff;
+}
+
+
+
+.uf_why2 .ul1 .li1:hover{
+    background-color: #ffbe5a;
+}
+.uf_why2 .ul1 .li1:hover div{
+    background-color: #ffffff;
+}
+.uf_why2 .ul1 .li1:hover h5{
+    color: #ffffff;
+    font-weight: bold;
+}
+.uf_why2 .ul1 .li1:hover p,.uf_why2 .ul1 .li1:hover h6,.uf_why2 .ul1 .li1:hover .ul2 li{
+    color: #666666;
+}
+.uf_why2 .ul1 .li1:hover div span{
+    color: #ffbe5a;
+    font-weight: 600;
+}
+.uf_why2 .ul1 .li1:hover .ul2 li i{
+    color: #fe8c06;
+}
+
+.uf_why2 .ul1 .li1:hover a:first-of-type{
+    background-color: #76e3ff;
+    box-shadow: 2px 2px 2px #ba6515;
+    color: #ffffff;
+}
+.uf_why2 .ul1 .li1:hover a:last-of-type{
+    background-color: #fe8c06;
+    box-shadow: 2px 2px 2px #ba6515;
+    color: #ffffff;
+}
+.uf_why2 .ul1 .li1:hover section.mflq a.mflq_a{
+    background: #f6ff00;
+    background: linear-gradient(135deg, transparent 5px, #f6ff00 0);
+    box-shadow: none;
+    color: #ff4b5a;
+}
+
+.uf_why2 .ul1 .li1 section.mflq a.mflq_a:hover{
+    background: #d0d803;
+    background: linear-gradient(135deg, transparent 5px, #d0d803 0);
+    box-shadow: none;
+    color: #ff4b5a;
+}
+
+.uf_why2 .ul1 .li1 .mflq{
+    background: url(../images/f_pjuxing.png) no-repeat;
+    width: 250px;
+    height: 71px;
+    margin-top: 10px;
+    margin-left: 68px;
+    background-size: 80%;
+}
+.uf_why2 .ul1 .li1 .mflq .mflq_a{
+    display: inline-block;
+    width: 110px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    margin-left: 43px;
+    margin-top: 41px;
+    color: #ff4b5a;
+    font-size: 14px;
+    border-radius: 0;
+    background: #f6ff00;
+    background: linear-gradient(135deg, transparent 5px, #f6ff00 0);
+}
+
+
+.mlr27{
+    margin: 0px 21px;
+}
+.uf_why2 .ul1 .li1 h5{
+    font-size: 18px;
+    color: #ffbe5a;
+    text-align: center;
+    margin-top: 10px;
+}
+.uf_why2 .ul1 .li1 p{
+    font-size: 15px;
+    color: #888888;
+    margin: 5px 0px;
+    text-align: center;
+}
+
+.uf_why2 .ul1 .li1 div{
+    background-color: #ffbe5a;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+}
+
+.uf_why2 .ul1 .li1 div span{
+    color: #ffffff;
+}
+
+.uf_why2 .ul1 .li1 h6{
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+    margin-top: 5px;
+}
+.uf_why2 .ul1 .li1 .ul2{
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.uf_why2 .ul1 .li1 .ul2 li{
+    font-size: 14px;
+    color: #666666;
+    float: left;
+    padding-right: 5px;
+}
+.uf_why2 .ul1 .li1 .ul2 li i{
+    font-style: normal;
+    color: #ffbe5a;
+    padding-right: 5px;
+}
+
+.uf_why2 .ul1 .li1 .ul3{
+    padding: 0 42px;
+    margin-top: 5px;
+}
+
+.uf_why2 .ul1 .li1 .ul3 li{
+    font-size: 14px;
+    color: #666666;
+    float: left;
+    padding-left: 15px;
+}
+.uf_why2 .ul1 .li1 a{
+    font-size: 14px;
+    color: #666666;
+    display: inline-block;
+    width: 125px;
+    height: 35px;
+    background-color: #dcdcdc;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 22px;
+}
+
+.uf_why2 .ul1 .li1 .sec1{
+    height: 70px;
+    background-color: #ff4b5a;
+    margin-top: -6px;
+}
+
+.uf_why2 .ul1 .li1 .sec1 p{
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.uf_why2 .ul1 .li1 .sec2{
+    padding-left: 20px;
+}
+
+.uf_why2 .ul1 .li1 .sec2 label{
+    color: #ffbe5a;
+    font-size: 16px;
+}
+
+.uf_why2 .ul1 .li1 .sec2 input{
+    border: none;
+    background-color: #f8f5f1;
+    width: 180px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.uf_why2 .ul1 .li1 .sec2 input.width140{
+    width: 80px;
+}
+
+.uf_why2 .ul1 .li1 .sec2 input:focus{
+    background-color: #ffffff;
+    border: 1px solid #ffbe5a;
+    width: 178px;
+    height: 28px;
+}
+
+.uf_why2 .ul1 .li1 .sec2 input.comment:focus{
+    background-color: #ffffff;
+    border: 1px solid #ffbe5a;
+    width: 78px;
+    height: 28px;
+}
+.uf_why2 .ul1 .li1 .sec2 input.sbutton{
+    width: 150px;
+    height: 30px;
+    background-color: #ff4b5a;
+    color: #ffffff;
+    font-size: 16px;
+    margin-left: 71px;
+}
+.uf_why2 .ul1 .li1 .sec2 input.sbutton:hover{
+    background-color: #db424f;
+    cursor: pointer;
+}
+
+.uf_why2 .ul1 .li1 .sec2 input.sbutton:focus{
+    border: none;
+}
+
+.uf_why2 .ul1 .li1 span.ff_span{
+    font-size: 30px;
+}
+.uf_why2 .ul1 .li1 span.ff_span1{
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.li1_pl19{
+    padding-left: 16px;
+}
+.li1_pl3{
+    padding-left: 2px;
+}
+.li1_pl3_3{
+    padding-left: 3px;
+}
+.li1_pl15{
+    padding-left: 15px;
+}
+.li1_pl49{
+    padding-left: 43px;
+}
+
+
+
+
+/*.uf_why2 .ul1 .li1{
     width: 380px;
     height: 450px;
     border: 1px solid #ece7e8;
@@ -83,7 +336,7 @@
 
 
 .uf_why2 .ul1 .li1:hover{
-    /*cursor: pointer;*/
+    /!*cursor: pointer;*!/
     background-color: #ffbe5a;
 }
 .uf_why2 .ul1 .li1:hover div{
@@ -284,7 +537,7 @@
 
 .uf_why2 .ul1 .li1 .sec2 input.sbutton:focus{
     border: none;
-}
+}*/
 
 
 
@@ -306,7 +559,7 @@
 
 
 .uf_why1 p{
-    font-size: 12px;
+    font-size: 14px;
     color: #666666;
     text-align: justify;
     margin: 30px 0;
@@ -364,6 +617,10 @@
     color: #ffffff;
     font-weight: 500;
     font-size: 14px;
+}
+
+.uf_why1 .tablist ul li:last-child.cur a{
+    width: 129px;
 }
 
 .cur1{
@@ -428,6 +685,7 @@
     height: 60px;
     margin-left: 18px;
     margin-top: 10px;
+    background-size: 80%;
 }
 
 .uf_why1 .tijiao{
@@ -442,24 +700,28 @@
     margin-top: 20px;
     margin-left: 5px;
 }
+.uf_why1 .tijiao .tj_div1 input.width140{
+    width: 70px;
+}
+
 
 .uf_why1 .tijiao .tj_div{
     width: 185px;
 }
 
 .uf_why1 .tijiao .tj_div1{
-    width: 960px;
-    margin-top: 10px;
+    width: 800px;
+    margin-top: 15px;
 }
 .uf_why1 .tijiao .tj_div1 label{
     color: #ffffff;
-    font-size: 20px;
+    font-size: 16px;
     padding-left: 10px;
 }
 
 .uf_why1 .tijiao .tj_div1 input{
     width: 139px;
-    height: 32px;
+    height: 30px;
     background-color: #ffe5bd;
     border: none;
 }
@@ -467,16 +729,27 @@
     background-color: #ffffff;
 }
 .uf_why1 .tijiao .tj_div1 input#sbutton2{
-    width: 98px;
-    height: 40px;
-    line-height: 40px;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
     text-align: center;
     background-color: #ff4b5a;
-    font-size: 18px;
+    font-size: 16px;
     color: #ffffff;
     border-radius: 5px;
     margin-left: 25px;
     padding-left: 0px;
+}
+
+.uf_why1 .tijiao .tj_div1 input#sbutton2:hover{
+    background-color: #b8162b;
+}
+
+.yzm{
+    display: inline;
+    vertical-align: middle;
+    height: 27px;
+    margin-top: -3px;
 }
 
 
@@ -484,7 +757,7 @@
 
 
 .uf_tx h3{
-    font-size: 20px;
+    font-size: 18px;
     color: #333333;
     text-align: center;
     padding-top: 40px;
@@ -500,8 +773,8 @@
 
 
 .uf_tx ul li{
-    width: 393px;
-    height: 150px;
+    width: 326px;
+    height: 125px;
     float: left;
     margin-top: 20px;
     position: relative;
@@ -517,7 +790,7 @@
     font-size: 14px;
     color: #666666;
     text-align: justify;
-    padding: 13px 20px 0px;
+    padding: 10px 0px 0px;
 }
 
 .uf_tx ul li div{
@@ -541,8 +814,8 @@
 
 .uf_tx ul li section{
     position: absolute;
-    top: 160px;
-    left: 170px;
+    top: 142px;
+    left: 130px;
 }
 
 .uf_tx ul li section a,.uf_tx ul li{
@@ -564,29 +837,31 @@
     display: inline-block;
     width: 234px;
     color: #ffbe59;
-    font-size: 14px;
-    background: url(../images/jt.png) 140px 8px no-repeat;
+    font-size: 12px;
+    background: url(../images/jt.png) 140px 9px no-repeat;
+    background-size: 18%;
 }
 
 .uf_tx ul li section a:hover{
     color: #d9a14b;
 }
 .uf_tx .p_div2{
-    width: 234px;
+    width: 185px;
     height: 120px;
 }
 
 .uf_tx .p_div1{
-    width: 150px;
+    width: 130px;
     height: 120px;
     text-align: center;
 }
 .uf_tx .p_div1 img{
     margin-top: 10px;
+    width: 70%;
 }
 .uf_tx .uf_tx1left{
-    width: 435px;
-    height: 210px;
+    width: 400px;
+    height: 180px;
     margin: 40px 0px;
 }
 .uf_tx .uf_tx1left p{
@@ -598,12 +873,20 @@
     display: inline-block;
     font-size: 14px;
     color: #ffbe59;
-    margin-left: 375px;
+    margin-left: 319px;
     margin-top: 30px;
 }
 .uf_tx .uf_tx1left a:hover{
     color: #daa14a;
 }
+
+.img_mlr{
+    margin-top: -215px;
+    margin-left: 447px;
+    width: 130%;
+}
+
+
 .uf_tx .uf_tx1right{
     border: 1px solid #ffbe5a;
     height: 210px;
@@ -611,7 +894,7 @@
 
 .uf_tx .uf_tx1right div.div2{
     margin-top: 30px;
-    margin-left: 100px;
+    margin-left: 52px;
 }
 .uf_tx .uf_tx1right div.div2 p{
     margin-top: 10px;
@@ -626,7 +909,7 @@
 }
 .uf_tx .uf_tx1right div.div1 img{
     margin-top: 8px;
-    margin-left: 100px;
+    margin-left: 40px;
 }
 .uf_tx .uf_tx1right div p{
     font-size: 14px;
@@ -679,7 +962,7 @@
     padding-bottom: 40px;
 }
 .uf_ff h3{
-    font-size: 20px;
+    font-size: 18px;
     color: #333333;
     text-align: center;
     padding-top: 40px;
@@ -699,7 +982,7 @@
     margin-left: 10px;
 }
 .uf_ff ul.ul1 li{
-    width: 400px;
+    width: 333px;
     height: 150px;
     float: left;
     margin-top: 20px;
@@ -738,7 +1021,7 @@
 
 
 .uf_ff .p_div2{
-    width: 264px;
+    width: 209px;
     height: 101px;
     margin: 20px 0px 0px 40px;
 }
@@ -760,9 +1043,9 @@
     margin-left: 20px;*/
 }
 .uf_ff ul.ul2 li{
-    width: 125px;
-    height: 120px;
-    line-height: 120px;
+    width: 95px;
+    height: 100px;
+    line-height: 100px;
     text-align: center;
     border-right: 1px dashed #fdcda1;
     float: left;
@@ -830,7 +1113,7 @@
 
 /*优音400电话接听终端更多样*/
 .uf_jt h3{
-    font-size: 20px;
+    font-size: 18px;
     color: #333333;
     text-align: center;
     margin-top: 40px;
@@ -844,7 +1127,8 @@
 }
 
 .uf_jt img{
-    margin-left: 70px;
+    margin-left:15px;
+    width: 95%;
 }
 .uf_jt h5{
     font-size: 16px;
@@ -857,7 +1141,7 @@
     margin-bottom: 20px;
 }
 .uf_jt ul li{
-    width: 350px;
+    width: 310px;
     height: 150px;
     float:left;
 }
@@ -876,7 +1160,7 @@
 .uf_jt ul li a{
     font-size: 14px;
     color: #ff525c;
-    margin-left: 242px;
+    margin-left: 200px;
     margin-top: 10px;
     display: inline-block;
 }
@@ -892,7 +1176,7 @@
 
 
 .mlr75{
-    margin: 0 75px;
+    margin: 0 35px;
 }
 
 
@@ -903,13 +1187,13 @@
 }
 
 .uf_gq h3{
-    font-size: 20px;
+    font-size: 18px;
     color: #333333;
     text-align: center;
     padding-top: 40px;
 }
 .uf_gq .uf_gq1{
-    width: 800px;
+    width: 600px;
     height: 322px;
 }
 .uf_gq .uf_gq1 img{
@@ -925,7 +1209,7 @@
     color: #666666;
     text-align: justify;
     margin-top: -210px;
-    margin-left: 450px;
+    margin-left: 345px;
 }
 .uf_gq .uf_gq1 p.p_p span{
     color: #ffbe59;
@@ -937,20 +1221,21 @@
 .uf_gq .uf_gq2{
     width: 323px;
     height: 322px;
-    background: url(../images/uf_gq2.png) no-repeat;
+    background: url(../images/uf_gq2.png) 15px 12px no-repeat;
+    background-size: 95%;
 }
 .uf_gq .uf_gq2 a{
     display: inline-block;
     background-color: #ff525c;
     font-size: 14px;
     color: #ffffff;
-    width: 200px;
+    width: 150px;
     height: 30px;
     line-height: 30px;
     text-align: center;
     border-radius: 20px;
-    margin-top: 275px;
-    margin-left: 70px;
+    margin-top: 270px;
+    margin-left: 105px;
 }
 .uf_gq .uf_gq2 a:hover{
     background-color: #e24a52;
@@ -960,7 +1245,7 @@
 
 /*优音400电话专属服务*/
 .uf_zs h3{
-    font-size: 26px;
+    font-size: 22px;
     color: #333333;
     text-align: center;
     padding-top: 40px;
@@ -972,8 +1257,8 @@
     padding: 20px 0px 20px 0px;
 }
 .uf_zs ul li{
-    width: 398px;
-    height: 251px;
+    width: 332px;
+    height: 210px;
     float: left;
     border-left: 1px dashed #ffbe5a;
     border-radius: 3px;
@@ -987,7 +1272,7 @@
     margin: 15px 0px;
 }
 .uf_zs ul li p{
-    height: 90px;
+    height: 70px;
     font-size: 14px;
     color: #666666;
     text-align: center;

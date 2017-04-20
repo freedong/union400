@@ -651,6 +651,10 @@ p{
 .mr8{
 	margin-right: 8px;
 }
+.mlr19{
+	margin: 0 2px;
+}
+
 
 
 .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
