@@ -237,6 +237,10 @@
     margin-top: 30px;
 }
 
+.one_t .one_zx .one_t_tj .t_input a:hover{
+    background-color: #e34451;
+}
+
 
 .one_t .one_zx .one_t_tj .t_input label{
     font-size: 20px;
@@ -633,6 +637,10 @@
     margin-top: 9px;
     border-radius: 20px;
 }
+
+.one_b ul li div.up_div2 a:hover{
+    background-color: #dca44e;
+}
 .one_b ul li div.up_div2 a span{
     color: #ffffff;
     font-size: 16px;
@@ -957,4 +965,8 @@ div.effect-bubba div.figcaption::after {
     border-radius: 5px;
     margin-top: 50px;
     margin-left: 20px;
+}
+
+.one_s ul li .one_s_bg .one_s_div a:hover{
+    background-color: #e34451;
 }

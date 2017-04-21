@@ -3,13 +3,7 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>union400首页</title>
-
-    <!--<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
-    -->
-
     <meta http-equiv="x-ua-compatible" content="IE=edge">
-
-
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <!--css样式表-->
     <link type="text/css" rel="stylesheet" href="css/reset.css" />
@@ -17,7 +11,8 @@
 
     <!--屏幕自适应-->
     　
-    <link rel="stylesheet" type="text/css" media="screen and (max-device-width: 1440px)" href="css/screen.css"/>
+    <link rel="stylesheet" type="text/css" media="screen and (max-device-width: 1440px)" href="css/index_screen.css"/>
+    <link rel="stylesheet" type="text/css" media="screen and (max-device-width: 1440px)" href="css/reset_screen.css"/>
 
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
@@ -30,7 +25,7 @@
         <div class="w1200 clearFloat top_height">
             <div class="floatLeft">
                 <span>坚持实名认证</span>
-                <span class="span1">客户本地面签</span>
+                <span class="mlr50">客户本地面签</span>
                 <span>线下营业厅受理</span>
             </div>
             <div class="floatRight f14 text-ff">
@@ -226,7 +221,7 @@
                 <ul class="clearFloat ul1">
                     <li>
                         <div class="ss_div">
-                            <img src="images/service1.png" />
+                            <img src="images/service1.png" class="img-responsive" />
                         </div>
                         <div class="ss_div1">
                             <h3>线路资源稳定</h3>
@@ -236,7 +231,7 @@
                     </li>
                     <li style="margin: 0px 19px;">
                         <div class="ss_div">
-                            <img src="images/service2.png" />
+                            <img src="images/service2.png" class="img-responsive" />
                         </div>
                         <div class="ss_div1">
                             <h3>跨地域组网</h3>
@@ -246,7 +241,7 @@
                     </li>
                     <li>
                         <div class="ss_div">
-                            <img src="images/service3.png" />
+                            <img src="images/service3.png" class="img-responsive" />
                         </div>
                         <div class="ss_div1">
                             <h3>API接口定制</h3>
@@ -299,8 +294,8 @@
                 <a class="next"></a>
                 <a class="prev"></a>
             </div>
-            <div class="flexslider bd">
-                <ul class="slides">
+            <div class="flexslider flexslider1 bd">
+                <ul class="slides slides1">
                     <li style="background: url(images/benefit1.png) 50% 0 no-repeat;"></li>
                     <li style="background: url(images/benefit2.png) 50% 0 no-repeat;"></li>
                     <li style="background: url(images/benefit3.png) 50% 0 no-repeat;"></li>
@@ -463,7 +458,7 @@
             </ul>
             <div class="address" style="float: right;">
                 <p>北京信通网赢科技发展有限公司 版权所有 沪ICP备11043117号</p>
-                <div style="background: url(images/footer.png);width: 390px;height: 4px;"></div>
+                <div class="footer_hr"></div>
                 <!--<hr />-->
                 <p style="font-size: 13px;text-align: right;">Beijing Trust&telecom Technology Development Co.,Ltd.</p>
             </div>
@@ -501,22 +496,7 @@
         trigger: "click"
     });
 </script>
-<!--<script type="text/javascript">
-    $(document).ready(function() {
-        $('.flexslider').flexslider({
-            directionNav: true,
-            pauseOnAction: false
-        });
-        $('.flex-direction-nav').hide();
-        $('.flexslider').mouseover(function(){
-            $('.flex-direction-nav').show();
-        });
-        $('.flexslider').mouseout(function(){
-            $('.flex-direction-nav').hide();
-        });
 
-    });
-</script>-->
 <script type="text/javascript">
     $(function(){
         $(window).on('scroll',function(){

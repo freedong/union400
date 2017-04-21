@@ -31,7 +31,9 @@
 .mr6{
     margin-right: 6px;
 }
-
+.mr15{
+    margin-right: 15px;
+}
 .un_zj .s_h3{
     font-size: 20px;
     color: #888888;
@@ -81,10 +83,62 @@
 }
 
 .un_zj ul li div.zj_div{
-    width: 287px;
-    height: 319px;
-    background: url(../images/un_zj4.png) right no-repeat;
+    width: 289px;
+    height: 321px;
+    background-color: #ffbe59;
+    /*background: url(../images/un_zj4.png) right no-repeat;*/
 }
+
+
+
+
+.un_zj ul li div.zj_div h5{
+    font-size: 23px;
+    color: #ffffff;
+    padding: 0px 25px;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 10px;
+}
+.un_zj ul li div.zj_div img{
+    margin-top: 25px;
+    margin-left: 71px;
+}
+.un_zj ul li div.zj_div hr.zj_hr{
+    width: 200px;
+    border-top: 1px solid #ffffff;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+.un_zj ul li div.zj_div ul.ul_zj{
+    width: 175px;
+    margin-top: 20px;
+    margin-left: 45px;
+}
+.un_zj ul li div.zj_div ul.ul_zj li.li_zj{
+    width: auto;
+    height: auto;
+    border: none;
+    float: left;
+    color: #ffffff;
+    font-size: 14px;
+    margin-left: 20px;
+    box-shadow: none;
+}
+.un_zj ul li div.zj_div ul.ul_zj li.li_zj span{
+    padding-right: 5px;
+}
+
+
+.un_zj ul li div.zj_div span.zj_hm{
+    display: inline-block;
+    color: #ff525c;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 62px;
+}
+
+
 .un_zj ul li div.zj_div a{
      display: inline-block;
      width: 168px;
@@ -95,7 +149,7 @@
      color: #ffffff;
      font-size: 14px;
      border-radius: 20px;
-     margin-top: 270px;
+     margin-top: 10px;
      margin-left: 60px;
  }
 
@@ -329,5 +383,42 @@
     -moz-margin-after: 1em;
     -moz-margin-start: 0px;
     -moz-margin-end: 0px;*/
+}
+
+
+
+
+
+
+.zj_jzwj{
+    background-color: #ffe151;
+    height: 252px;
+}
+.zj_jzwj .zj_jzwj{
+    width: 880px;
+    margin-left: 30px;
+}
+.zj_jzwj .zj_jzwj h3{
+    color: #ffffff;
+    font-size: 36px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+.zj_jzwj .zj_jzwj p{
+    color: #ffffff;
+    font-size: 20px;
+    margin: 30px 0px;
+    font-weight: bold;
+    line-height: 35px;
+}
+.zj_jzwj .zj_jzwj span{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.zj_jzwj img{
+    margin-top: 40px;
+    margin-right: 60px;
 }
 

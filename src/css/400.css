@@ -1,5 +1,11 @@
 @charset "utf-8";
 
+
+.top_height{
+    margin-top: -24px!important;
+}
+
+
 /*轮播图样式*/
 .banner_slide{
     height: 350px;
@@ -314,6 +320,7 @@
     background-color: #ffffff;
     border: 1px solid #ffbe5a;
     height: 33px;
+    width: 138px;
 }
 .f_package .ul1 .li1 .sec2 input.sbutton{
     width: 196px;
@@ -696,6 +703,29 @@
     width: 363px;
     height: 600px;
 }
+
+
+.f_fun div.f_fdiv img{
+    margin-top: 250px;
+    margin-left: 80px;
+}
+.f_fun div.f_fdiv h6{
+    font-size: 38px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 135px;
+    padding: 0px 60px;
+    line-height: 50px;
+}
+
+.f_fun div.f_fdiv span{
+    display: block;
+    color: #fff100;
+    font-size: 20px;
+    margin-top: -40px;
+    margin-left: 148px;
+    font-weight: bold;
+}
 .f_fun div.f_fdiv a{
     display: inline-block;
     width: 220px;
@@ -705,9 +735,12 @@
     font-size: 16px;
     line-height: 36px;
     text-align: center;
-    margin-top: 540px;
-    margin-left: 70px;
+    margin-top: 30px;
+    margin-left: 75px;
     border-radius: 3px;
+}
+.f_fun div.f_fdiv a:hover{
+    background-color: #d6404c;
 }
 
 .f_fun ul.f_ful1{
@@ -1091,7 +1124,7 @@
 }
 .foot_fix .fix_div1 label{
     color: #ffffff;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
     padding-left: 10px;
 }
@@ -1102,6 +1135,11 @@
     background-color: #ffa5ad;
     border: none;
 }
+
+.foot_fix .fix_div1 input.width140{
+    width: 90px;
+}
+
 .foot_fix .fix_div1 input:focus{
     background-color: #ffffff;
 }

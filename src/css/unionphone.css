@@ -769,7 +769,7 @@
     font-size: 18px;
     color: #ffffff;
     border-radius: 5px;
-    margin-left: 25px;
+    margin-left: 20px;
     padding-left: 0px;
 }
 
@@ -800,6 +800,7 @@
 .up_un h5{
     color: #ffbe59;
     font-size: 18px;
+    font-weight: bold;
 }
 
 .up_un .up_un1 .div1{
@@ -887,6 +888,30 @@
     text-align: justify;
     margin: 20px 0px;
 }
+.up_pc .img_sf .img_sf_div{
+    width: 484px;
+    height: 255px;
+    background: url("../images/up_pc_1.png") no-repeat;
+ }
+
+.up_pc .img_sf .img_sf_div a{
+    display: inline-block;
+    width: 219px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #ffbe59;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #ffffff;
+    margin-left: 135px;
+    margin-top: 210px;
+    font-weight: 500;
+}
+.up_pc .img_sf .img_sf_div a:hover{
+    background-color: #e2a950;
+}
+
 
 
 /*产品对比*/

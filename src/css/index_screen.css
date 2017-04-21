@@ -97,7 +97,22 @@
 }
 
 
+.flexslider.flexslider1 {
+    position: relative;
+    height:276px;
+    overflow: hidden;
+    /* background: url(../images/loading.gif) 50% no-repeat;*/
+}
+
 .bd ul.slides li{
+    height: 276px;
+}
+
+.slide div.flexslider ul.slides.slides1 li {
+    height: 276px;
+}
+
+.bd ul.slides.slides1 li{
     height: 276px;
 }
 
@@ -255,13 +270,13 @@
 
 /*解决方案*/
 .solution .s_h{
-    font-size: 26px;
+    font-size: 22px;
     color: #333333;
     text-align: center;
     margin-top: 40px;
 }
 .solution h5{
-    font-size: 16px;
+    font-size: 14px;
     color: #666666;
     text-align: center;
     margin: 30px auto;
@@ -269,15 +284,15 @@
 
 
 .solution .s_h3{
-    font-size: 20px;
+    font-size: 18px;
     color: #666666;
     text-align: center;
-    margin: 20px auto;
+    margin: 10px auto;
 }
 
 .solution ul li{
-    width: 232px;
-    height: 370px;
+    width: 192px;
+    height: 309px;
     /*background-color: #ffbe5a;*/
     float: left;
     position: relative;
@@ -287,8 +302,8 @@
 
 .solution ul li img.shizijia{
     position: absolute;
-    top: -55px;
-    left: 92px;
+    top: -72px;
+    left: 72px;
     -webkit-transform: translate3d(0,0px,0)/*translate3d(0,-80px,0)*/;
     transform: translate3d(0,0px,0)/*translate3d(0,-80px,0)*/;
 }
@@ -321,10 +336,10 @@
 div.effect-bubba div.figcaption::before,
 div.effect-bubba div.figcaption::after {
     position: absolute;
-    top: 30px;
-    right: 30px;
-    bottom: 240px;
-    left: 30px;
+    top: 20px;
+    right: 20px;
+    bottom: 200px;
+    left: 20px;
     content: '';
     opacity: 0;
     -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
@@ -371,7 +386,8 @@ div.effect-bubba div.figcaption::after {
     color: #888888;
     text-align: justify;
     padding: 0 20px;
-    height: 96px;
+    height: 90px;
+    line-height: 18px;
 }
 
 .solution ul li a{
@@ -379,12 +395,12 @@ div.effect-bubba div.figcaption::after {
     font-size: 14px;
     color: #666666;
     display: inline-block;
-    width: 120px;
-    height: 30px;
+    width: 90px;
+    height: 25px;
     text-align: center;
-    line-height: 30px;
+    line-height: 25px;
     border-radius: 5px;
-    margin: 10px auto auto 56px;
+    margin: 10px auto auto 51px;
 }
 
 /*产品优势*/
@@ -394,14 +410,14 @@ div.effect-bubba div.figcaption::after {
     margin-top: 42px;
 }
 .product .p_h{
-    font-size: 26px;
+    font-size: 22px;
     color: #333333;
     text-align: center;
     padding-top: 44px;
     padding-bottom: 21px;
 }
 .product h5{
-    font-size: 16px;
+    font-size: 14px;
     color: #666666;
     text-align: center;
 }
@@ -411,7 +427,7 @@ div.effect-bubba div.figcaption::after {
     color: #666666;
 }
 .product ul li{
-    width: 591px;
+    width: 491px;
     height: 140px;
     float: left;
     margin-top: 20px;
@@ -477,7 +493,7 @@ div.effect-bubba div.figcaption::after {
     float: left;
 }
 .product .p_div2{
-    width: 462px;
+    width: 363px;
     height: 101px;
     margin: 20px 20px 0px 20px;
 }
@@ -485,7 +501,7 @@ div.effect-bubba div.figcaption::after {
 .product .p_div1{
     width: 68px;
     height: 101px;
-    margin-top: 36px;
+    margin-top: 45px;
     margin-left: 20px;
 }
 
@@ -496,20 +512,20 @@ div.effect-bubba div.figcaption::after {
 }
 
 .services .ss_h{
-    font-size: 26px;
+    font-size: 22px;
     color: #333333;
     text-align: center;
     margin-top: 40px;
 }
 .services .s_P{
-    font-size: 16px;
+    font-size: 14px;
     color: #666666;
     text-align: center;
 }
 
 .services ul.ul1 li{
-    width: 387px;
-    height: 150px;
+    width: 320px;
+    height: 125px;
     float: left;
    /* background-color: #ffbe5a;*/
 }
@@ -539,32 +555,33 @@ div.effect-bubba div.figcaption::after {
     float: left;
 }
 .services ul.ul1 li div.ss_div{
-    width: 160px;
-    height: 150px;
+    width: 133px;
+    height: 125px;
     overflow: hidden;
 }
 
 .services ul.ul1 li div.ss_div1{
-    padding: 0 20px;
+    padding: 0 15px;
 }
 
 .services ul.ul1 li h3{
     font-size: 18px;
     color: #666666;
-    padding: 10px 0px;
+    padding: 5px 0px;
 }
 .services ul.ul1 li p{
-    width: 186px;
+    width: 157px;
     height: 106px;
     font-size: 14px;
     color: #888888;
     text-align: justify;
+    line-height: 18px;
 }
 
 .services ul.ul2 li{
     float: left;
     margin: 30px 20px 0px 20px;
-    width: 260px;
+    width: 210px;
     height: 145px;
     line-height: 145px;
     text-align: center;
@@ -580,7 +597,7 @@ div.effect-bubba div.figcaption::after {
     text-align:center;
     border-radius: 50%;
     background: #fff2de url(../images/service_tuoyuan1.png) center no-repeat;
-    margin-left: 80px;
+    margin-left: 56px;
 }
 
 .services ul.ul2 .ul2_div:hover{
@@ -589,7 +606,7 @@ div.effect-bubba div.figcaption::after {
     background: #ffbe5a url(../images/service_tuoyuan1_1.png) center no-repeat;
 }
 .services ul.ul2 li p{
-    font-size: 15.73px;
+    font-size: 14px;
     color: #666666;
     padding-top: 20px;
 }
@@ -597,13 +614,13 @@ div.effect-bubba div.figcaption::after {
 
 /*创新领袖*/
 .leaders h3{
-    font-size: 26px;
+    font-size: 22px;
     color: #333333;
     text-align: center;
     margin: 40px auto 30px auto;
 }
 .leaders ul li{
-    width: 382px;
+    width: 315px;
     height: 180px;
     float: left;
     /*background-color: #37bd7c;*/
@@ -611,36 +628,36 @@ div.effect-bubba div.figcaption::after {
 }
 
 .leaders ul li div.leaders1{
-    width: 380px;
+    width: 316px;
     height: 100px;
-    background: url("../images/leaders1.png") 150px 15px no-repeat;
+    background: url("../images/leaders1.png") 115px 15px no-repeat;
 }
 .leaders ul li div.leaders2{
-    width: 380px;
+    width: 316px;
     height: 100px;
-    background: url("../images/leaders2.png") 150px 15px no-repeat;
+    background: url("../images/leaders2.png") 120px 15px no-repeat;
 }
 .leaders ul li div.leaders3{
-    width: 380px;
+    width: 316px;
     height: 100px;
-    background: url("../images/leaders3.png") 150px 15px no-repeat;
+    background: url("../images/leaders3.png") 120px 15px no-repeat;
 }
 
 
 .leaders ul li:hover div.leaders1{
-    width: 380px;
+    width: 316px;
     height: 100px;
-    background: url("../images/leaders1a.png") 150px 15px no-repeat;
+    background: url("../images/leaders1a.png") 115px 15px no-repeat;
 }
 .leaders ul li:hover div.leaders2{
-    width: 380px;
+    width: 316px;
     height: 100px;
-    background: url("../images/leaders2a.png") 150px 15px no-repeat;
+    background: url("../images/leaders2a.png") 120px 15px no-repeat;
 }
 .leaders ul li:hover div.leaders3{
-    width: 380px;
+    width: 316px;
     height: 100px;
-    background: url("../images/leaders3a.png") 150px 15px no-repeat;
+    background: url("../images/leaders3a.png") 120px 15px no-repeat;
 }
 
 
@@ -664,16 +681,16 @@ div.effect-bubba div.figcaption::after {
 /*覆盖全球*/
 .earth{
     background-color: #f3f3f3;
-    height: 526px;
+    height: 445px;
     margin-top: 38px;
 }
 .earth .ear_div{
     width: 350px;
-    margin-top: 100px;
+    margin-top: 70px;
 }
 .earth  img{
-    width: 850px;
-    margin-top: 54px;
+    width: 650px;
+    margin-top: 40px;
 }
 .earth ul li{
     float: left;
@@ -701,7 +718,7 @@ div.effect-bubba div.figcaption::after {
 
 .customer .customer_kh{
     background: url(../images/kh.png) 0px 20px no-repeat;
-    width: 1200px;
+    width: 1000px;
     height: 326px;
 }
 .customer h3{

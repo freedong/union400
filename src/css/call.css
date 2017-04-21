@@ -649,6 +649,9 @@
     border-radius: 3px;
     box-shadow: 2px 2px 2px #ba6515;
 }
+.call_ad div.f_fdiv a:hover{
+    background-color: #e68e08;
+}
 
 .call_ad ul.f_ful1{
     width: 900px;
@@ -827,7 +830,7 @@
 }
 
 .call_ser ul li a{
-    display: inline-block;
+    display: block;
     width: 143px;
     height: 30px;
     line-height: 30px;
@@ -837,7 +840,7 @@
     border-radius: 3px;
     font-size: 14px;
     color: #ffffff;
-    margin-top: 102px;
+    margin-top: -27px;
     margin-left: 232px;
 }
 
@@ -850,10 +853,17 @@
     height: 140px;
     background: url(../images/ser_4.png) 1px 0px no-repeat;
 }
+.call_ser ul li .bg_div span{
+    display: block;
+    color: #ff4b5a;
+    font-size: 14px;
+    margin-top: 102px;
+    margin-left: 40px;
+}
 .call_ser .p_div2{
     width: 264px;
     height: 101px;
-    margin: 30px 0px 0px 20px;
+    margin: 20px 0px 0px 20px;
 }
 
 /*.call_ser .p_div1{
@@ -869,19 +879,19 @@
 }
 
 .call_ser .p_div1.p_div1_1{
-    background-position: -355px -75px;
+    background-position: -355px -85px;
 }
 .call_ser .p_div1.p_div1_2{
-    background-position: -770px -75px;
+    background-position: -770px -85px;
 }
 .call_ser .p_div1.p_div1_3{
-    background-position: -1150px -75px;
+    background-position: -1150px -85px;
 }
 .call_ser .p_div1.p_div1_5{
-    background-position: -770px -230px;
+    background-position: -770px -240px;
 }
 .call_ser .p_div1.p_div1_6{
-    background-position: -1155px -230px;
+    background-position: -1155px -240px;
 }
 
 
@@ -896,19 +906,19 @@
 }
 
 .call_ser ul li:hover .p_div1.p_div1_1{
-    background-position: 24px 47px;
+    background-position: 24px 37px;
 }
 .call_ser ul li:hover .p_div1.p_div1_2{
-    background-position: -391px 47px;
+    background-position: -391px 37px;
 }
 .call_ser ul li:hover .p_div1.p_div1_3{
-    background-position: -771px 47px;
+    background-position: -771px 37px;
 }
 .call_ser ul li:hover .p_div1.p_div1_5{
-    background-position: -391px -108px;
+    background-position: -391px -118px;
 }
 .call_ser ul li:hover .p_div1.p_div1_6{
-    background-position: -773px -108px;
+    background-position: -773px -118px;
 }
 
 
