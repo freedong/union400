@@ -569,11 +569,11 @@
     background-color: #ffffff;
 }
 .call_pl ul li:hover div.pl_div{
-    -webkit-transform: translate3d(0,-165px,0);
-    transform: translate3d(0,-165px,0);
-    -ms-transform: translate3d(0,-165px,0);
-    -moz-transform: translate3d(0,-165px,0);
-    -o-transform: translate3d(0,-165px,0);
+    -webkit-transform: translate3d(0,-168px,0);
+    transform: translate3d(0,-168px,0);
+    -ms-transform: translate3d(0,-168px,0);
+    -moz-transform: translate3d(0,-168px,0);
+    -o-transform: translate3d(0,-168px,0);
 }
 .call_pl ul li div.pl_div{
     /*-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
@@ -591,7 +591,7 @@
 /*优音云客服的优势*/
 
 .call_ad h3{
-    font-size: 26px;
+    font-size: 22px;
     color: #333333;
     text-align: center;
     padding-top: 40px;
@@ -610,7 +610,7 @@
     text-align: center;
     font-weight: bold;
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 .call_ad div.f_fdiv p{
@@ -620,7 +620,7 @@
     padding: 0 27px;
 }
 .call_ad div.f_fdiv img{
-    padding: 0 95px;
+    padding: 5px 72px;
 }
 
 .call_ad div.f_fdiv a{
@@ -632,7 +632,7 @@
     font-size: 16px;
     line-height: 31px;
     text-align: center;
-    margin-left: 85px;
+    margin-left: 63px;
     margin-top: 5px;
     border-radius: 3px;
     box-shadow: 2px 2px 2px #ba6515;
@@ -696,7 +696,7 @@
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 223px;
+    width: 187px;
     height: 139px;
     /*动画元素transform-style*/
     -webkit-transform-style: preserve-3d;
@@ -786,7 +786,7 @@
     padding-bottom: 40px;
 }
 .call_ser h3{
-    font-size: 26px;
+    font-size: 22px;
     color: #333333;
     text-align: center;
     padding-top: 40px;
@@ -816,6 +816,21 @@
 }
 
 .call_ser ul li a{
+    display: block;
+    width: 100px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    background-color: #fe8900;
+    box-shadow: 2px 2px 2px #bb8b42;
+    border-radius: 3px;
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: -27px;
+    margin-left: 210px;
+}
+
+/*.call_ser ul li a{
     display: inline-block;
     width: 143px;
     height: 30px;
@@ -828,21 +843,30 @@
     color: #ffffff;
     margin-top: 102px;
     margin-left: 232px;
-}
+}*/
 
 .call_ser ul li a:hover{
     background-color: #e47e07;
 }
 
 .bg_div{
-    width: 392px;
+    width: 327px;
     height: 140px;
-    background: url(../images/ser_4.png) 1px 0px no-repeat;
+    background: url(../images/ser_4.png) -15px 0px no-repeat;
 }
+
+.call_ser ul li .bg_div span{
+    display: block;
+    color: #ff4b5a;
+    font-size: 14px;
+    margin-top: 102px;
+    margin-left: 25px;
+}
+
 .call_ser .p_div2{
     width: 212px;
     height: 101px;
-    margin: 30px 0px 0px 20px;
+    margin: 20px 0px 0px 10px;
 }
 
 /*.call_ser .p_div1{
@@ -858,19 +882,19 @@
 }
 
 .call_ser .p_div1.p_div1_1{
-    background-position: -355px -75px;
+    background-position: -360px -85px;
 }
 .call_ser .p_div1.p_div1_2{
-    background-position: -770px -75px;
+    background-position: -775px -85px;
 }
 .call_ser .p_div1.p_div1_3{
-    background-position: -1150px -75px;
+    background-position: -1155px -85px;
 }
 .call_ser .p_div1.p_div1_5{
-    background-position: -770px -230px;
+    background-position: -775px -240px;
 }
 .call_ser .p_div1.p_div1_6{
-    background-position: -1155px -230px;
+    background-position: -1160px -240px;
 }
 
 
@@ -885,19 +909,19 @@
 }
 
 .call_ser ul li:hover .p_div1.p_div1_1{
-    background-position: 24px 47px;
+    background-position: 19px 37px;
 }
 .call_ser ul li:hover .p_div1.p_div1_2{
-    background-position: -391px 47px;
+    background-position: -396px 37px;
 }
 .call_ser ul li:hover .p_div1.p_div1_3{
-    background-position: -771px 47px;
+    background-position: -776px 37px;
 }
 .call_ser ul li:hover .p_div1.p_div1_5{
-    background-position: -391px -108px;
+    background-position: -396px -118px;
 }
 .call_ser ul li:hover .p_div1.p_div1_6{
-    background-position: -773px -108px;
+    background-position: -778px -118px;
 }
 
 
@@ -911,7 +935,7 @@
 .call_kt{}
 
 .call_kt h3.ss_h{
-    font-size: 26px;
+    font-size: 22px;
     color: #333333;
     text-align: center;
     margin-top: 40px;

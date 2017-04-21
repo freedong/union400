@@ -952,6 +952,28 @@
 }
 
 
+.uf_tx .uf_tx1right div.div3 .div3_juan{
+    width: 330px;
+    height: 160px;
+    background: url("../images/uf_tx1right_2.png") 30px 10px no-repeat;
+}
+
+
+.uf_tx .uf_tx1right div.div3 .div3_juan h4{
+    font-size: 22px;
+    color: #fff98d;
+    position: absolute;
+    top: 75px;
+    left: 85px;
+}
+.uf_tx .uf_tx1right div.div3 .div3_juan span{
+    font-size: 14px;
+    color: #ffffff;
+    position: absolute;
+    top: 108px;
+    left: 60px;
+}
+
 
 
 /*优音400电话功能更丰富*/
@@ -979,7 +1001,7 @@
     font-size: 16px;
     color: #666666;
     font-weight: 600;
-    margin-left: 10px;
+    margin-left: 6px;
 }
 .uf_ff ul.ul1 li{
     width: 333px;
@@ -997,11 +1019,20 @@
     font-size: 14px;
     color: #666666;
     text-align: justify;
-    padding: 6px 10px 0px;
+    padding: 3px 5px 0px;
+    line-height: 22px;
 }
 
 .uf_ff ul.ul1 li div{
     float: left;
+}
+
+.uf_ff ul.ul1 li div .p_div1_mt5{
+    margin-top: -5px;
+}
+
+.uf_ff ul.ul1 li div img{
+    width: 120%;
 }
 
 .uf_ff ul.ul1 li a{
@@ -1023,7 +1054,7 @@
 .uf_ff .p_div2{
     width: 209px;
     height: 101px;
-    margin: 20px 0px 0px 40px;
+    margin: 10px 0px 0px 30px;
 }
 
 .uf_ff .p_div1{
@@ -1042,9 +1073,13 @@
     /*margin-top: 20px;
     margin-left: 20px;*/
 }
+.uf_ff ul.ul2{
+    margin-top: 10px!important;
+}
+
 .uf_ff ul.ul2 li{
-    width: 95px;
-    height: 100px;
+    width: 96px;
+    height: 90px;
     line-height: 100px;
     text-align: center;
     border-right: 1px dashed #fdcda1;
@@ -1221,8 +1256,7 @@
 .uf_gq .uf_gq2{
     width: 323px;
     height: 322px;
-    background: url(../images/uf_gq2.png) 15px 12px no-repeat;
-    background-size: 95%;
+    background: url(../images/uf_gq2.png) no-repeat;
 }
 .uf_gq .uf_gq2 a{
     display: inline-block;
@@ -1234,13 +1268,19 @@
     line-height: 30px;
     text-align: center;
     border-radius: 20px;
-    margin-top: 270px;
-    margin-left: 105px;
+    margin-top: 10px;
+    margin-left: 90px;
 }
 .uf_gq .uf_gq2 a:hover{
     background-color: #e24a52;
 }
-
+.uf_gq .uf_gq2 span{
+    display: inline-block;
+    font-size: 14px;
+    color: #ffbe59;
+    margin-top: 240px;
+    margin-left: 80px;
+}
 
 
 /*优音400电话专属服务*/

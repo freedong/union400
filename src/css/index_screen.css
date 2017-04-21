@@ -487,6 +487,7 @@ div.effect-bubba div.figcaption::after {
     color: #888888;
     padding-top: 16px;
     text-align: justify;
+    margin-top: -10px;
 }
 
 .product ul li div{
@@ -495,13 +496,13 @@ div.effect-bubba div.figcaption::after {
 .product .p_div2{
     width: 363px;
     height: 101px;
-    margin: 20px 20px 0px 20px;
+    margin: 10px 20px 0px 20px;
 }
 
 .product .p_div1{
     width: 68px;
     height: 101px;
-    margin-top: 45px;
+    margin-top: 38px;
     margin-left: 20px;
 }
 

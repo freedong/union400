@@ -882,10 +882,10 @@
     background-position: -355px -85px;
 }
 .call_ser .p_div1.p_div1_2{
-    background-position: -770px -85px;
+    background-position: -770px -80px;
 }
 .call_ser .p_div1.p_div1_3{
-    background-position: -1150px -85px;
+    background-position: -1150px -80px;
 }
 .call_ser .p_div1.p_div1_5{
     background-position: -770px -240px;
@@ -906,13 +906,13 @@
 }
 
 .call_ser ul li:hover .p_div1.p_div1_1{
-    background-position: 24px 37px;
+    background-position: 24px 42px;
 }
 .call_ser ul li:hover .p_div1.p_div1_2{
-    background-position: -391px 37px;
+    background-position: -391px 42px;
 }
 .call_ser ul li:hover .p_div1.p_div1_3{
-    background-position: -771px 37px;
+    background-position: -771px 42px;
 }
 .call_ser ul li:hover .p_div1.p_div1_5{
     background-position: -391px -118px;

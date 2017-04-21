@@ -722,7 +722,7 @@
     margin-bottom: 30px;
 }
 
-.f_fun div.f_fdiv{
+/*.f_fun div.f_fdiv{
     background: url(../images/f_f1.png) no-repeat;
     width: 280px;
     height: 500px;
@@ -740,10 +740,62 @@
     margin-top: 540px;
     margin-left: 70px;
     border-radius: 3px;
+}*/
+
+
+
+
+
+
+
+.f_fun div.f_fdiv{
+    background: url(../images/f_f1.png) no-repeat;
+    width: 314px;
+    height: 500px;
+    background-size: 100%;
+}
+
+
+.f_fun div.f_fdiv img{
+    margin-top: 198px;
+    margin-left: 60px;
+}
+.f_fun div.f_fdiv h6{
+    font-size: 34px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 100px;
+    padding: 0px 42px;
+    line-height: 50px;
+}
+
+.f_fun div.f_fdiv span{
+    display: block;
+    color: #fff100;
+    font-size: 20px;
+    margin-top: -40px;
+    margin-left: 115px;
+    font-weight: bold;
+}
+.f_fun div.f_fdiv a{
+    display: inline-block;
+    width: 165px;
+    height: 36px;
+    background-color: #ff4b5a;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 36px;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 75px;
+    border-radius: 3px;
+}
+.f_fun div.f_fdiv a:hover{
+    background-color: #d6404c;
 }
 
 .f_fun ul.f_ful1{
-    width: 720px;
+    width: 686px;
 }
 
 .f_fun ul.f_ful1 li{
@@ -758,120 +810,120 @@
 }
 
 .f_fun ul.f_ful1 li div.sf1 p{
-    padding-top: 130px;
+    padding-top: 110px;
 }
 
 .f_fun ul.f_ful1 li .sf1.sf1_div{
-     background: url("../images/q1.png") 50px 64px no-repeat;
+     background: url("../images/q1.png") 37px 34px no-repeat;
  }
 .f_fun ul.f_ful1 li .sf1.sf1_div1{
-    background: url("../images/q2.png") 50px 64px no-repeat;
+    background: url("../images/q2.png") 36px 34px no-repeat;
 }
 .f_fun ul.f_ful1 li .sf1.sf1_div2{
-    background: url("../images/q3.png") 50px 64px no-repeat;
+    background: url("../images/q3.png") 34px 34px no-repeat;
 }
 .f_fun ul.f_ful1 li .sf1.sf1_div3{
-    background: url("../images/q4.png") 50px 64px no-repeat;
+    background: url("../images/q4.png") 35px 34px no-repeat;
 }
 .f_fun ul.f_ful1 li .sf1.sf1_div4{
-    background: url("../images/q5.png") 50px 64px no-repeat;
+    background: url("../images/q5.png") 36px 34px no-repeat;
 }
 .f_fun ul.f_ful1 li .sf1.sf1_div5{
-    background: url("../images/q6.png") 50px 64px no-repeat;
+    background: url("../images/q6.png") 36px 34px no-repeat;
 }
 .f_fun ul.f_ful1 li .sf1.sf1_div6{
-    background: url("../images/q7.png") 50px 64px no-repeat;
+    background: url("../images/q7.png") 35px 34px no-repeat;
 }
 .f_fun ul.f_ful1 li .sf1.sf1_div7{
-    background: url("../images/q8.png") 50px 64px no-repeat;
+    background: url("../images/q8.png") 40px 34px no-repeat;
 }
 .f_fun ul.f_ful1 li .sf1.sf1_div8{
-    background: url("../images/q9.png") 50px 64px no-repeat;
+    background: url("../images/q9.png") 35px 34px no-repeat;
 }
 .f_fun ul.f_ful1 li .sf1.sf1_div9{
-    background: url("../images/q10.png") 50px 64px no-repeat;
+    background: url("../images/q10.png") 35px 34px no-repeat;
 }
 .f_fun ul.f_ful1 li .sf1.sf1_div10{
-    background: url("../images/q11.png") 50px 64px no-repeat;
+    background: url("../images/q11.png") 36px 34px no-repeat;
 }
 .f_fun ul.f_ful1 li .sf1.sf1_div11{
-    background: url("../images/q12.png") 50px 64px no-repeat;
+    background: url("../images/q12.png") 40px 34px no-repeat;
 }
 .f_fun ul.f_ful1 li .sf1.sf1_div12{
-    background: url("../images/q13.png") 50px 64px no-repeat;
+    background: url("../images/q13.png") 40px 34px no-repeat;
 }
 .f_fun ul.f_ful1 li .sf1.sf1_div13{
-    background: url("../images/q14.png") 50px 64px no-repeat;
+    background: url("../images/q14.png") 34px 43px no-repeat;
 }
 .f_fun ul.f_ful1 li .sf1.sf1_div14{
-    background: url("../images/q15.png") 50px 64px no-repeat;
+    background: url("../images/q15.png") 40px 40px no-repeat;
 }
 .f_fun ul.f_ful1 li .sf1.sf1_div15{
-    background: url("../images/q16.png") 50px 64px no-repeat;
+    background: url("../images/q16.png") 40px 38px no-repeat;
 }
 .f_fun ul.f_ful1 li .sf1.sf1_div16{
-    background: url("../images/q17.png") 50px 64px no-repeat;
+    background: url("../images/q17.png") 40px 40px no-repeat;
 }
 .f_fun ul.f_ful1 li .sf1.sf1_div17{
-    background: url("../images/q18.png") 50px 64px no-repeat;
+    background: url("../images/q18.png") 40px 38px no-repeat;
 }
 
 
 
 
 .f_fun ul.f_ful1 li:hover .sf1.sf1_div{
-    background: url("../images/q1a.png") 50px 64px no-repeat;
+    background: url("../images/q1a.png") 37px 34px no-repeat;
 }
 .f_fun ul.f_ful1 li:hover .sf1.sf1_div1{
-    background: url("../images/q2a.png") 50px 64px no-repeat;
+    background: url("../images/q2a.png") 36px 34px no-repeat;
 }
 .f_fun ul.f_ful1 li:hover .sf1.sf1_div2{
-    background: url("../images/q3a.png") 50px 64px no-repeat;
+    background: url("../images/q3a.png") 34px 34px no-repeat;
 }
 .f_fun ul.f_ful1 li:hover .sf1.sf1_div3{
-    background: url("../images/q4a.png") 50px 64px no-repeat;
+    background: url("../images/q4a.png") 35px 34px no-repeat;
 }
 .f_fun ul.f_ful1 li:hover .sf1.sf1_div4{
-    background: url("../images/q5a.png") 50px 64px no-repeat;
+    background: url("../images/q5a.png") 36px 34px no-repeat;
 }
 .f_fun ul.f_ful1 li:hover .sf1.sf1_div5{
-    background: url("../images/q6a.png") 50px 64px no-repeat;
+    background: url("../images/q6a.png") 36px 34px no-repeat;
 }
 .f_fun ul.f_ful1 li:hover .sf1.sf1_div6{
-    background: url("../images/q7a.png") 50px 64px no-repeat;
+    background: url("../images/q7a.png") 35px 34px no-repeat;
 }
 .f_fun ul.f_ful1 li:hover .sf1.sf1_div7{
-    background: url("../images/q8a.png") 50px 64px no-repeat;
+    background: url("../images/q8a.png") 40px 34px no-repeat;
 }
 .f_fun ul.f_ful1 li:hover .sf1.sf1_div8{
-    background: url("../images/q9a.png") 50px 64px no-repeat;
+    background: url("../images/q9a.png") 35px 34px no-repeat;
 }
 .f_fun ul.f_ful1 li:hover .sf1.sf1_div9{
-    background: url("../images/q10a.png") 50px 64px no-repeat;
+    background: url("../images/q10a.png") 35px 34px no-repeat;
 }
 .f_fun ul.f_ful1 li:hover .sf1.sf1_div10{
-    background: url("../images/q11a.png") 50px 64px no-repeat;
+    background: url("../images/q11a.png") 36px 34px no-repeat;
 }
 .f_fun ul.f_ful1 li:hover .sf1.sf1_div11{
-    background: url("../images/q12a.png") 50px 64px no-repeat;
+    background: url("../images/q12a.png") 40px 34px no-repeat;
 }
 .f_fun ul.f_ful1 li:hover .sf1.sf1_div12{
-    background: url("../images/q13a.png") 50px 64px no-repeat;
+    background: url("../images/q13a.png") 40px 34px no-repeat;
 }
 .f_fun ul.f_ful1 li:hover .sf1.sf1_div13{
-    background: url("../images/q14a.png") 50px 64px no-repeat;
+    background: url("../images/q14a.png") 34px 43px no-repeat;
 }
 .f_fun ul.f_ful1 li:hover .sf1.sf1_div14{
-    background: url("../images/q15a.png") 50px 64px no-repeat;
+    background: url("../images/q15a.png") 40px 40px no-repeat;
 }
 .f_fun ul.f_ful1 li:hover .sf1.sf1_div15{
-    background: url("../images/q16a.png") 50px 64px no-repeat;
+    background: url("../images/q16a.png") 40px 38px no-repeat;
 }
 .f_fun ul.f_ful1 li:hover .sf1.sf1_div16{
-    background: url("../images/q17a.png") 50px 64px no-repeat;
+    background: url("../images/q17a.png") 40px 40px no-repeat;
 }
 .f_fun ul.f_ful1 li:hover .sf1.sf1_div17{
-    background: url("../images/q18a.png") 50px 64px no-repeat;
+    background: url("../images/q18a.png") 40px 38px no-repeat;
 }
 
 
@@ -882,7 +934,7 @@
 
 .f_fun ul.f_ful1 li .sf{
     position: absolute;
-    top: 198px;
+    top: 158px;
     left: 0;
     width: 112px;
 }
@@ -908,11 +960,11 @@
 }
 
 .f_fun ul.f_ful1 li:hover .sf1{
-    -webkit-transform: translate3d(0,-55px,0)/*translate3d(0,-80px,0)*/;
-    transform: translate3d(0,-55px,0)/*translate3d(0,-80px,0)*/;
-    -ms-transform: translate3d(0,-55px,0);
-    -moz-transform: translate3d(0,-55px,0);
-    -o-transform: translate3d(0,-55px,0);
+    -webkit-transform: translate3d(0,-25px,0)/*translate3d(0,-80px,0)*/;
+    transform: translate3d(0,-25px,0)/*translate3d(0,-80px,0)*/;
+    -ms-transform: translate3d(0,-25px,0);
+    -moz-transform: translate3d(0,-25px,0);
+    -o-transform: translate3d(0,-25px,0);
 }
 .f_fun ul.f_ful1 li div.sf{
     /*-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
@@ -929,11 +981,11 @@
 .f_fun ul.f_ful1 li:hover div.sf{
     width: 112px;
     height: 198px;
-    -webkit-transform: translate3d(0,-140px,0);
-    transform: translate3d(0,-140px,0);
-    -ms-transform: translate3d(0,-140px,0);
-    -moz-transform: translate3d(0,-140px,0);
-    -o-transform: translate3d(0,-140px,0);
+    -webkit-transform: translate3d(0,-100px,0);
+    transform: translate3d(0,-100px,0);
+    -ms-transform: translate3d(0,-100px,0);
+    -moz-transform: translate3d(0,-100px,0);
+    -o-transform: translate3d(0,-100px,0);
 }
 
 
