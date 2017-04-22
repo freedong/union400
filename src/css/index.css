@@ -80,7 +80,12 @@
 }*/
 
 
-
+.flexslider.flexslider1 {
+    position: relative;
+    height:276px;
+    overflow: hidden;
+    /* background: url(../images/loading.gif) 50% no-repeat;*/
+}
 
 .flexslider {
     position: relative;
@@ -94,6 +99,10 @@
 }
 .slide div.flexslider ul.slides li {
     height: 350px;
+}
+
+.slide div.flexslider ul.slides.slides1 li{
+    height: 276px;
 }
 
 
@@ -664,7 +673,7 @@ div.effect-bubba div.figcaption::after {
 /*覆盖全球*/
 .earth{
     background-color: #f3f3f3;
-    height: 526px;
+    height: 555px;
     margin-top: 38px;
 }
 .earth .ear_div{
