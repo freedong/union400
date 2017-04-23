@@ -343,6 +343,9 @@ div.effect-bubba div.figcaption::after {
     content: '';
     opacity: 0;
     -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    -mos-transition: opacity 0.35s, -webkit-transform 0.35s;
+    -ms-transition: opacity 0.35s, -webkit-transform 0.35s;
+    -o-transition: opacity 0.35s, -webkit-transform 0.35s;
     transition: opacity 0.35s, transform 0.35s;
 }
 
@@ -350,6 +353,9 @@ div.effect-bubba div.figcaption::before {
     border-top: 1px solid #fff;
     border-bottom: 1px solid #fff;
     -webkit-transform: scale(0,1);
+    -moz-transform: scale(0,1);
+    -ms-transform: scale(0,1);
+    -o-transform: scale(0,1);
     transform: scale(0,1);
 }
 
@@ -357,6 +363,9 @@ div.effect-bubba div.figcaption::after {
     border-right: 1px solid #fff;
     border-left: 1px solid #fff;
     -webkit-transform: scale(1,0);
+    -moz-transform: scale(1,0);
+    -o-transform: scale(1,0);
+    -ms-transform: scale(1,0);
     transform: scale(1,0);
 }
 
@@ -364,6 +373,9 @@ div.effect-bubba div.figcaption::after {
 .solution ul li:hover div.figcaption::after {
     opacity: 1;
     -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
     transform: scale(1);
 }
 
@@ -435,7 +447,6 @@ div.effect-bubba div.figcaption::after {
 }
 
 .product ul li:hover{
-    cursor: pointer;
     background-color: #ffffff;
     box-shadow: 2px 2px 10px #dadada;
 }
@@ -532,7 +543,6 @@ div.effect-bubba div.figcaption::after {
 }
 
 .services ul.ul1 li:hover{
-    cursor: pointer;
     background-color: #ffbe5a;
 }
 .services ul.ul1 li .ss_div img{
@@ -663,7 +673,6 @@ div.effect-bubba div.figcaption::after {
 
 
 .leaders ul li:hover{
-    cursor: pointer;
     background-color: #ffbe5a;
 }
 .leaders ul li:hover p{

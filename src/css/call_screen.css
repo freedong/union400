@@ -399,7 +399,7 @@
     background-color: white;
     width: 18px;
     height: 18px;
-    line-height: 18px;
+    line-height: 17px;
     display: inline-block;
     margin-left: 10px;
 }
@@ -701,14 +701,27 @@
     /*动画元素transform-style*/
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+
     -webkit-transition: .8s ease-in-out ;
     -moz-transition:  .8s ease-in-out ;
+    -ms-transition:  .8s ease-in-out ;
+    -o-transition:  .8s ease-in-out ;
+    transition:  .8s ease-in-out ;
     /*动画元素背后设置为hidden*/
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
 
     -webkit-transform: rotateY(0deg);
     -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    transform: rotateY(0deg);
     z-index: 2;
 }
 
@@ -722,13 +735,20 @@
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
     -webkit-transition: .8s ease-in-out ;
-    -moz-transition:  .8s ease-in-out ;
+    -ms-transition:  .8s ease-in-out ;
+    transition:  .8s ease-in-out ;
     /*动画元素背后设置为hidden*/
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
     background: #ffbe5a;
     -webkit-transform: rotateY(180deg);
     -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
     z-index: 1;
 }
 
@@ -826,7 +846,7 @@
     border-radius: 3px;
     font-size: 14px;
     color: #ffffff;
-    margin-top: -27px;
+    margin-top: -25px;
     margin-left: 210px;
 }
 
@@ -882,7 +902,7 @@
 }
 
 .call_ser .p_div1.p_div1_1{
-    background-position: -360px -85px;
+    background-position: -360px -80px;
 }
 .call_ser .p_div1.p_div1_2{
     background-position: -775px -85px;
@@ -909,7 +929,7 @@
 }
 
 .call_ser ul li:hover .p_div1.p_div1_1{
-    background-position: 19px 37px;
+    background-position: 19px 42px;
 }
 .call_ser ul li:hover .p_div1.p_div1_2{
     background-position: -396px 37px;

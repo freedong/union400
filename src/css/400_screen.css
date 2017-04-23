@@ -180,6 +180,11 @@
 .f_package .ul1 .li1:hover section.mflq a.mflq_a{
     background: #f6ff00;
     background: linear-gradient(135deg, transparent 5px, #f6ff00 0);
+    background: -moz-linear-gradient(135deg, transparent 5px, #f6ff00 0);
+    background: -o-linear-gradient(135deg, transparent 5px, #f6ff00 0);
+    background: -webkit-linear-gradient(-45deg, transparent 5px, #f6ff00 0);
+    background: -ms-linear-gradient(-45deg, transparent 5px, #f6ff00 0);
+
     box-shadow: none;
     color: #ff4b5a;
 }
@@ -187,6 +192,11 @@
 .f_package .ul1 .li1 section.mflq a.mflq_a:hover{
     background: #d0d803;
     background: linear-gradient(135deg, transparent 5px, #d0d803 0);
+    background: -moz-linear-gradient(135deg, transparent 5px, #f6ff00 0);
+    background: -o-linear-gradient(135deg, transparent 5px, #f6ff00 0);
+    background: -webkit-linear-gradient(-45deg, transparent 5px, #f6ff00 0);
+    background: -ms-linear-gradient(-45deg, transparent 5px, #f6ff00 0);
+
     box-shadow: none;
     color: #ff4b5a;
 }
@@ -212,6 +222,11 @@
     border-radius: 0;
     background: #f6ff00;
     background: linear-gradient(135deg, transparent 5px, #f6ff00 0);
+    background: -moz-linear-gradient(135deg, transparent 5px, #f6ff00 0);
+    background: -o-linear-gradient(135deg, transparent 5px, #f6ff00 0);
+    background: -webkit-linear-gradient(-45deg, transparent 5px, #f6ff00 0);
+    background: -ms-linear-gradient(-45deg, transparent 5px, #f6ff00 0);
+
 }
 
 
@@ -339,7 +354,7 @@
     height: 30px;
     background-color: #ff4b5a;
     color: #ffffff;
-    font-size: 16px;
+    font-size: 17px;
     margin-left: 71px;
 }
 .f_package .ul1 .li1 .sec2 input.sbutton:hover{
@@ -667,6 +682,7 @@
     background-color: white;
     border: none;
     margin-left: 90px;
+    margin-left: 0px\0;
     margin-bottom: 15px;
     margin-top: -95px;
 }
